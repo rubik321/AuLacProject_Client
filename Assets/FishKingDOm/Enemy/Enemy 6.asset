@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102b7991e3e35fc44976f682b875aefe, type: 3}
+  m_Name: Enemy 6
+  m_EditorClassIdentifier: 
+  skeAsset: {fileID: 11400000, guid: 395f34f43afc9c24896c214e4e51af0e, type: 2}
+  icon: {fileID: 21300000, guid: f146797c53bfd417ea7f9b620d050571, type: 3}
+  baseData:
+    CharacterType: 1
+    CardType: 0
+    Origin: 0
+    SkillType: 1
+    MoveAction:
+      type: 1
+      delay_time: 1
+    AttackAction:
+      type: 1
+      TargetType: 0
+      hitdame_delay_time: 1
+      completed_delay_time: 2
+      effectDelay: 0.1
+      attackCount: 4
+    SkillAction:
+      type: 1
+      TargetType: 1
+      hitdame_delay_time: 1.4
+      completed_delay_time: 2.2
+      effectDelay: 0.4
+      attackCount: 1
+    Index: 2006
+    Star: 0
+    Slot: 0
+    Class: 0
+    Name: Huangjijun
+    ATK: 90
+    Def: 0
+    CritRate: 0
+    MaxHP: 100
+    CurHP: 100
+    AP: 0
+    ScaleData: {x: -0.3, y: 0.3}
+  listEffect:
+  - effectID: 0
+    sketetonEffect: {fileID: 11400000, guid: ed20d573c59840941bc6eb20fe6995a9, type: 2}
+    particalEffect: {fileID: 1620636520166436, guid: bbf3ef14c7aa6b543ad116b899a6d380, type: 3}
+    hitDameEffect: {fileID: 1620636520166436, guid: bbf3ef14c7aa6b543ad116b899a6d380, type: 3}
+    delayEffect: 0.3
+  - effectID: 1
+    sketetonEffect: {fileID: 11400000, guid: 42138e7e3b858694eaaf3ba40ef30be8, type: 2}
+    particalEffect: {fileID: 8653890845508024994, guid: 16839abe487c0bb4d9448a72a0d0bedf, type: 3}
+    hitDameEffect: {fileID: 1620636520166436, guid: bbf3ef14c7aa6b543ad116b899a6d380, type: 3}
+    delayEffect: 0
+  delay: 0

@@ -1,0 +1,5043 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6679241441468530545
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13802, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedDependencies:
+  - key: Required by Scripts
+    value: []
+    icon: class/MonoScript
+    size: 0
+  - key: AI Module
+    value:
+    - NavMeshAgent
+    - NavMeshData
+    - NavMeshObstacle
+    - NavMeshProjectSettings
+    - NavMeshSettings
+    icon: package/com.unity.modules.ai
+    size: 0
+  - key: NavMeshAgent
+    value: []
+    icon: class/NavMeshAgent
+    size: 0
+  - key: NavMeshData
+    value: []
+    icon: class/NavMeshData
+    size: 0
+  - key: NavMeshObstacle
+    value: []
+    icon: class/NavMeshObstacle
+    size: 0
+  - key: NavMeshProjectSettings
+    value: []
+    icon: class/NavMeshProjectSettings
+    size: 0
+  - key: NavMeshSettings
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/NavMeshSettings
+    size: 0
+  - key: Assets/Scenes/Campaign.unity
+    value: []
+    icon: class/SceneAsset
+    size: 0
+  - key: Assets/Scenes/Login.unity
+    value: []
+    icon: class/SceneAsset
+    size: 0
+  - key: Assets/Scenes/Splash.unity
+    value: []
+    icon: class/SceneAsset
+    size: 0
+  - key: Assets/Scenes/WorldMapScenes.unity
+    value: []
+    icon: class/SceneAsset
+    size: 0
+  - key: AndroidJNI Module
+    value: []
+    icon: package/com.unity.modules.androidjni
+    size: 0
+  - key: Animation Module
+    value:
+    - Animation
+    - AnimationClip
+    - Animator
+    - AnimatorController
+    - AnimatorOverrideController
+    - Avatar
+    - AvatarMask
+    - Motion
+    - RuntimeAnimatorController
+    - Required by Director Module
+    icon: package/com.unity.modules.animation
+    size: 0
+  - key: Animation
+    value:
+    - Assets/Scenes/Splash.unity
+    icon: class/Animation
+    size: 0
+  - key: AnimationClip
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/AnimationClip
+    size: 0
+  - key: Animator
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Animator
+    size: 0
+  - key: AnimatorController
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/AnimatorController
+    size: 0
+  - key: AnimatorOverrideController
+    value: []
+    icon: class/AnimatorOverrideController
+    size: 0
+  - key: Avatar
+    value: []
+    icon: class/Avatar
+    size: 0
+  - key: AvatarMask
+    value: []
+    icon: class/AvatarMask
+    size: 0
+  - key: Motion
+    value: []
+    icon: class/Motion
+    size: 0
+  - key: RuntimeAnimatorController
+    value: []
+    icon: class/RuntimeAnimatorController
+    size: 0
+  - key: Required by Director Module
+    value: []
+    icon: package/com.unity.modules.director
+    size: 0
+  - key: AssetBundle Module
+    value:
+    - AssetBundle
+    - Required by UnityWebRequestAssetBundle Module
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.assetbundle
+    size: 0
+  - key: AssetBundle
+    value: []
+    icon: class/AssetBundle
+    size: 0
+  - key: Required by UnityWebRequestAssetBundle Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequestassetbundle
+    size: 0
+  - key: Required by UnityWebRequestWWW Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequestwww
+    size: 0
+  - key: Audio Module
+    value:
+    - AudioBehaviour
+    - AudioClip
+    - AudioListener
+    - AudioManager
+    - AudioMixer
+    - AudioMixerGroup
+    - AudioResource
+    - AudioSource
+    - SampleClip
+    - Required by Director Module
+    - Required by UnityWebRequestAudio Module
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.audio
+    size: 0
+  - key: AudioBehaviour
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/AudioBehaviour
+    size: 0
+  - key: AudioClip
+    value:
+    - Assets/Scenes/Splash.unity
+    icon: class/AudioClip
+    size: 0
+  - key: AudioListener
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/AudioListener
+    size: 0
+  - key: AudioManager
+    value: []
+    icon: class/AudioManager
+    size: 0
+  - key: AudioMixer
+    value: []
+    icon: class/AudioMixer
+    size: 0
+  - key: AudioMixerGroup
+    value: []
+    icon: class/AudioMixerGroup
+    size: 0
+  - key: AudioResource
+    value:
+    - Assets/Scenes/Splash.unity
+    icon: class/AudioResource
+    size: 0
+  - key: AudioSource
+    value:
+    - Assets/Scenes/Splash.unity
+    icon: class/AudioSource
+    size: 0
+  - key: SampleClip
+    value: []
+    icon: class/SampleClip
+    size: 0
+  - key: Required by UnityWebRequestAudio Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequestaudio
+    size: 0
+  - key: Core Module
+    value:
+    - Behaviour
+    - BuildSettings
+    - Camera
+    - Component
+    - ComputeShader
+    - Cubemap
+    - CubemapArray
+    - DelayedCallManager
+    - EditorExtension
+    - Flare
+    - FlareLayer
+    - GameManager
+    - GameObject
+    - GlobalGameManager
+    - GraphicsSettings
+    - InputManager
+    - LevelGameManager
+    - Light
+    - LightProbes
+    - LightingSettings
+    - LightmapSettings
+    - LineRenderer
+    - LowerResBlitTexture
+    - Material
+    - Mesh
+    - MeshFilter
+    - MeshRenderer
+    - MonoBehaviour
+    - MonoManager
+    - MonoScript
+    - NamedObject
+    - Object
+    - PlayerSettings
+    - PreloadData
+    - Projector
+    - QualitySettings
+    - RectTransform
+    - ReflectionProbe
+    - RenderSettings
+    - RenderTexture
+    - Renderer
+    - ResourceManager
+    - RuntimeInitializeOnLoadManager
+    - Shader
+    - ShaderNameRegistry
+    - SkinnedMeshRenderer
+    - SortingGroup
+    - Sprite
+    - SpriteAtlas
+    - SpriteRenderer
+    - TagManager
+    - TextAsset
+    - Texture
+    - Texture2D
+    - Texture2DArray
+    - Texture3D
+    - TimeManager
+    - TrailRenderer
+    - Transform
+    - Required by AI Module
+    - Required by AndroidJNI Module
+    - Required by Animation Module
+    - Required by AssetBundle Module
+    - Required by Audio Module
+    - Required by Director Module
+    - Required by GraphicsStateCollectionSerializer Module
+    - Required by Grid Module
+    - Required by HierarchyCore Module
+    - Required by HotReload Module
+    - Required by IMGUI Module
+    - Required by ImageConversion Module
+    - Required by InputForUI Module
+    - Required by InputLegacy Module
+    - Required by JSONSerialize Module
+    - Required by ParticleSystem Module
+    - Required by PerformanceReporting Module
+    - Required by Physics Module
+    - Required by Physics2D Module
+    - Required by Properties Module
+    - Required by RuntimeInitializeOnLoadManagerInitializer Module
+    - Required by SpriteMask Module
+    - Required by SpriteShape Module
+    - Required by TLS Module
+    - Required by Terrain Module
+    - Required by TerrainPhysics Module
+    - Required by TextCoreFontEngine Module
+    - Required by TextCoreTextEngine Module
+    - Required by TextRendering Module
+    - Required by Tilemap Module
+    - Required by UI Module
+    - Required by UIElements Module
+    - Required by UnityAnalytics Module
+    - Required by UnityAnalyticsCommon Module
+    - Required by UnityConnect Module
+    - Required by UnityWebRequest Module
+    - Required by UnityWebRequestAssetBundle Module
+    - Required by UnityWebRequestAudio Module
+    - Required by UnityWebRequestTexture Module
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.core
+    size: 0
+  - key: Behaviour
+    value: []
+    icon: class/Behaviour
+    size: 0
+  - key: BuildSettings
+    value: []
+    icon: class/BuildSettings
+    size: 0
+  - key: Camera
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Camera
+    size: 0
+  - key: Component
+    value: []
+    icon: class/Component
+    size: 0
+  - key: ComputeShader
+    value: []
+    icon: class/ComputeShader
+    size: 0
+  - key: Cubemap
+    value: []
+    icon: class/Cubemap
+    size: 0
+  - key: CubemapArray
+    value: []
+    icon: class/CubemapArray
+    size: 0
+  - key: DelayedCallManager
+    value: []
+    icon: class/DelayedCallManager
+    size: 0
+  - key: EditorExtension
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/EditorExtension
+    size: 0
+  - key: Flare
+    value: []
+    icon: class/Flare
+    size: 0
+  - key: FlareLayer
+    value:
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/FlareLayer
+    size: 0
+  - key: GameManager
+    value: []
+    icon: class/GameManager
+    size: 0
+  - key: GameObject
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/GameObject
+    size: 0
+  - key: GlobalGameManager
+    value: []
+    icon: class/GlobalGameManager
+    size: 0
+  - key: GraphicsSettings
+    value: []
+    icon: class/GraphicsSettings
+    size: 0
+  - key: InputManager
+    value: []
+    icon: class/InputManager
+    size: 0
+  - key: LevelGameManager
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/LevelGameManager
+    size: 0
+  - key: Light
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Light
+    size: 0
+  - key: LightProbes
+    value: []
+    icon: class/LightProbes
+    size: 0
+  - key: LightingSettings
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/LightingSettings
+    size: 0
+  - key: LightmapSettings
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/LightmapSettings
+    size: 0
+  - key: LineRenderer
+    value: []
+    icon: class/LineRenderer
+    size: 0
+  - key: LowerResBlitTexture
+    value: []
+    icon: class/LowerResBlitTexture
+    size: 0
+  - key: Material
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Material
+    size: 0
+  - key: Mesh
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Mesh
+    size: 0
+  - key: MeshFilter
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/MeshFilter
+    size: 0
+  - key: MeshRenderer
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/MeshRenderer
+    size: 0
+  - key: MonoBehaviour
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/MonoBehaviour
+    size: 0
+  - key: MonoManager
+    value: []
+    icon: class/MonoManager
+    size: 0
+  - key: MonoScript
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/MonoScript
+    size: 0
+  - key: NamedObject
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/NamedObject
+    size: 0
+  - key: Object
+    value: []
+    icon: class/Object
+    size: 0
+  - key: PlayerSettings
+    value: []
+    icon: class/PlayerSettings
+    size: 0
+  - key: PreloadData
+    value: []
+    icon: class/PreloadData
+    size: 0
+  - key: Projector
+    value:
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Projector
+    size: 0
+  - key: QualitySettings
+    value: []
+    icon: class/QualitySettings
+    size: 0
+  - key: RectTransform
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/RectTransform
+    size: 0
+  - key: ReflectionProbe
+    value: []
+    icon: class/ReflectionProbe
+    size: 0
+  - key: RenderSettings
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/RenderSettings
+    size: 0
+  - key: RenderTexture
+    value: []
+    icon: class/RenderTexture
+    size: 0
+  - key: Renderer
+    value: []
+    icon: class/Renderer
+    size: 0
+  - key: ResourceManager
+    value: []
+    icon: class/ResourceManager
+    size: 0
+  - key: RuntimeInitializeOnLoadManager
+    value: []
+    icon: class/RuntimeInitializeOnLoadManager
+    size: 0
+  - key: Shader
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Shader
+    size: 0
+  - key: ShaderNameRegistry
+    value: []
+    icon: class/ShaderNameRegistry
+    size: 0
+  - key: SkinnedMeshRenderer
+    value:
+    - Assets/Scenes/Splash.unity
+    icon: class/SkinnedMeshRenderer
+    size: 0
+  - key: SortingGroup
+    value:
+    - Assets/Scenes/Campaign.unity
+    icon: class/SortingGroup
+    size: 0
+  - key: Sprite
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Sprite
+    size: 0
+  - key: SpriteAtlas
+    value: []
+    icon: class/SpriteAtlas
+    size: 0
+  - key: SpriteRenderer
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/SpriteRenderer
+    size: 0
+  - key: TagManager
+    value: []
+    icon: class/TagManager
+    size: 0
+  - key: TextAsset
+    value: []
+    icon: class/TextAsset
+    size: 0
+  - key: Texture
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Texture
+    size: 0
+  - key: Texture2D
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Texture2D
+    size: 0
+  - key: Texture2DArray
+    value: []
+    icon: class/Texture2DArray
+    size: 0
+  - key: Texture3D
+    value: []
+    icon: class/Texture3D
+    size: 0
+  - key: TimeManager
+    value: []
+    icon: class/TimeManager
+    size: 0
+  - key: TrailRenderer
+    value:
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/TrailRenderer
+    size: 0
+  - key: Transform
+    value: []
+    icon: class/Transform
+    size: 0
+  - key: Required by AI Module
+    value: []
+    icon: package/com.unity.modules.ai
+    size: 0
+  - key: Required by AndroidJNI Module
+    value: []
+    icon: package/com.unity.modules.androidjni
+    size: 0
+  - key: Required by Animation Module
+    value: []
+    icon: package/com.unity.modules.animation
+    size: 0
+  - key: Required by AssetBundle Module
+    value: []
+    icon: package/com.unity.modules.assetbundle
+    size: 0
+  - key: Required by Audio Module
+    value: []
+    icon: package/com.unity.modules.audio
+    size: 0
+  - key: Required by GraphicsStateCollectionSerializer Module
+    value: []
+    icon: package/com.unity.modules.graphicsstatecollectionserializer
+    size: 0
+  - key: Required by Grid Module
+    value: []
+    icon: package/com.unity.modules.grid
+    size: 0
+  - key: Required by HierarchyCore Module
+    value: []
+    icon: package/com.unity.modules.hierarchycore
+    size: 0
+  - key: Required by HotReload Module
+    value: []
+    icon: package/com.unity.modules.hotreload
+    size: 0
+  - key: Required by IMGUI Module
+    value: []
+    icon: package/com.unity.modules.imgui
+    size: 0
+  - key: Required by ImageConversion Module
+    value: []
+    icon: package/com.unity.modules.imageconversion
+    size: 0
+  - key: Required by InputForUI Module
+    value: []
+    icon: package/com.unity.modules.inputforui
+    size: 0
+  - key: Required by InputLegacy Module
+    value: []
+    icon: package/com.unity.modules.inputlegacy
+    size: 0
+  - key: Required by JSONSerialize Module
+    value: []
+    icon: package/com.unity.modules.jsonserialize
+    size: 0
+  - key: Required by ParticleSystem Module
+    value: []
+    icon: package/com.unity.modules.particlesystem
+    size: 0
+  - key: Required by PerformanceReporting Module
+    value: []
+    icon: package/com.unity.modules.performancereporting
+    size: 0
+  - key: Required by Physics Module
+    value: []
+    icon: package/com.unity.modules.physics
+    size: 0
+  - key: Required by Physics2D Module
+    value: []
+    icon: package/com.unity.modules.physics2d
+    size: 0
+  - key: Required by Properties Module
+    value: []
+    icon: package/com.unity.modules.properties
+    size: 0
+  - key: Required by RuntimeInitializeOnLoadManagerInitializer Module
+    value: []
+    icon: package/com.unity.modules.runtimeinitializeonloadmanagerinitializer
+    size: 0
+  - key: Required by SpriteMask Module
+    value: []
+    icon: package/com.unity.modules.spritemask
+    size: 0
+  - key: Required by SpriteShape Module
+    value: []
+    icon: package/com.unity.modules.spriteshape
+    size: 0
+  - key: Required by TLS Module
+    value: []
+    icon: package/com.unity.modules.tls
+    size: 0
+  - key: Required by Terrain Module
+    value: []
+    icon: package/com.unity.modules.terrain
+    size: 0
+  - key: Required by TerrainPhysics Module
+    value: []
+    icon: package/com.unity.modules.terrainphysics
+    size: 0
+  - key: Required by TextCoreFontEngine Module
+    value: []
+    icon: package/com.unity.modules.textcorefontengine
+    size: 0
+  - key: Required by TextCoreTextEngine Module
+    value: []
+    icon: package/com.unity.modules.textcoretextengine
+    size: 0
+  - key: Required by TextRendering Module
+    value: []
+    icon: package/com.unity.modules.textrendering
+    size: 0
+  - key: Required by Tilemap Module
+    value: []
+    icon: package/com.unity.modules.tilemap
+    size: 0
+  - key: Required by UI Module
+    value: []
+    icon: package/com.unity.modules.ui
+    size: 0
+  - key: Required by UIElements Module
+    value: []
+    icon: package/com.unity.modules.uielements
+    size: 0
+  - key: Required by UnityAnalytics Module
+    value: []
+    icon: package/com.unity.modules.unityanalytics
+    size: 0
+  - key: Required by UnityAnalyticsCommon Module
+    value: []
+    icon: package/com.unity.modules.unityanalyticscommon
+    size: 0
+  - key: Required by UnityConnect Module
+    value: []
+    icon: package/com.unity.modules.unityconnect
+    size: 0
+  - key: Required by UnityWebRequest Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequest
+    size: 0
+  - key: Required by UnityWebRequestTexture Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequesttexture
+    size: 0
+  - key: Director Module
+    value:
+    - PlayableDirector
+    icon: package/com.unity.modules.director
+    size: 0
+  - key: PlayableDirector
+    value: []
+    icon: class/PlayableDirector
+    size: 0
+  - key: GraphicsStateCollectionSerializer Module
+    value:
+    - GraphicsStateCollectionSerializer is always required
+    icon: package/com.unity.modules.graphicsstatecollectionserializer
+    size: 0
+  - key: GraphicsStateCollectionSerializer is always required
+    value: []
+    icon: class/DefaultAsset
+    size: 0
+  - key: Grid Module
+    value:
+    - GridLayout
+    - Required by Tilemap Module
+    icon: package/com.unity.modules.grid
+    size: 0
+  - key: GridLayout
+    value: []
+    icon: class/GridLayout
+    size: 0
+  - key: HierarchyCore Module
+    value:
+    - Required by UIElements Module
+    icon: package/com.unity.modules.hierarchycore
+    size: 0
+  - key: HotReload Module
+    value:
+    - Required by AssetBundle Module
+    icon: package/com.unity.modules.hotreload
+    size: 0
+  - key: IMGUI Module
+    value:
+    - Required by InputForUI Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.imgui
+    size: 0
+  - key: ImageConversion Module
+    value:
+    - Required by UnityWebRequestTexture Module
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.imageconversion
+    size: 0
+  - key: InputForUI Module
+    value:
+    - Required by UIElements Module
+    icon: package/com.unity.modules.inputforui
+    size: 0
+  - key: InputLegacy Module
+    value:
+    - Required by IMGUI Module
+    - Required by InputForUI Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.inputlegacy
+    size: 0
+  - key: JSONSerialize Module
+    value:
+    - Required by GraphicsStateCollectionSerializer Module
+    - Required by PerformanceReporting Module
+    - Required by RuntimeInitializeOnLoadManagerInitializer Module
+    - Required by UIElements Module
+    - Required by UnityAnalytics Module
+    icon: package/com.unity.modules.jsonserialize
+    size: 0
+  - key: ParticleSystem Module
+    value:
+    - ParticleSystem
+    - ParticleSystemRenderer
+    icon: package/com.unity.modules.particlesystem
+    size: 0
+  - key: ParticleSystem
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/ParticleSystem
+    size: 0
+  - key: ParticleSystemRenderer
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/ParticleSystemRenderer
+    size: 0
+  - key: PerformanceReporting Module
+    value:
+    - Required by Analytics Performance Reporting (See Analytics Services Window)
+    - Required by UnityAnalytics Module
+    icon: package/com.unity.modules.performancereporting
+    size: 0
+  - key: Required by Analytics Performance Reporting (See Analytics Services Window)
+    value: []
+    icon: class/PlayerSettings
+    size: 0
+  - key: Physics Module
+    value:
+    - BoxCollider
+    - CapsuleCollider
+    - CharacterController
+    - Collider
+    - HingeJoint
+    - Joint
+    - MeshCollider
+    - PhysicsManager
+    - Rigidbody
+    - SphereCollider
+    - Required by TerrainPhysics Module
+    icon: package/com.unity.modules.physics
+    size: 0
+  - key: BoxCollider
+    value:
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/BoxCollider
+    size: 0
+  - key: CapsuleCollider
+    value:
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/CapsuleCollider
+    size: 0
+  - key: CharacterController
+    value: []
+    icon: class/CharacterController
+    size: 0
+  - key: Collider
+    value: []
+    icon: class/Collider
+    size: 0
+  - key: HingeJoint
+    value: []
+    icon: class/HingeJoint
+    size: 0
+  - key: Joint
+    value: []
+    icon: class/Joint
+    size: 0
+  - key: MeshCollider
+    value:
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/MeshCollider
+    size: 0
+  - key: PhysicsManager
+    value: []
+    icon: class/PhysicsManager
+    size: 0
+  - key: Rigidbody
+    value:
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Rigidbody
+    size: 0
+  - key: SphereCollider
+    value:
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/SphereCollider
+    size: 0
+  - key: Physics2D Module
+    value:
+    - AnchoredJoint2D
+    - BoxCollider2D
+    - CapsuleCollider2D
+    - CircleCollider2D
+    - Collider2D
+    - CompositeCollider2D
+    - HingeJoint2D
+    - Joint2D
+    - Physics2DSettings
+    - PolygonCollider2D
+    - Rigidbody2D
+    - Required by Tilemap Module
+    icon: package/com.unity.modules.physics2d
+    size: 0
+  - key: AnchoredJoint2D
+    value: []
+    icon: class/AnchoredJoint2D
+    size: 0
+  - key: BoxCollider2D
+    value:
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/BoxCollider2D
+    size: 0
+  - key: CapsuleCollider2D
+    value: []
+    icon: class/CapsuleCollider2D
+    size: 0
+  - key: CircleCollider2D
+    value: []
+    icon: class/CircleCollider2D
+    size: 0
+  - key: Collider2D
+    value: []
+    icon: class/Collider2D
+    size: 0
+  - key: CompositeCollider2D
+    value: []
+    icon: class/CompositeCollider2D
+    size: 0
+  - key: HingeJoint2D
+    value: []
+    icon: class/HingeJoint2D
+    size: 0
+  - key: Joint2D
+    value: []
+    icon: class/Joint2D
+    size: 0
+  - key: Physics2DSettings
+    value: []
+    icon: class/Physics2DSettings
+    size: 0
+  - key: PolygonCollider2D
+    value: []
+    icon: class/PolygonCollider2D
+    size: 0
+  - key: Rigidbody2D
+    value: []
+    icon: class/Rigidbody2D
+    size: 0
+  - key: Properties Module
+    value:
+    - Required by UIElements Module
+    icon: package/com.unity.modules.properties
+    size: 0
+  - key: RuntimeInitializeOnLoadManagerInitializer Module
+    value:
+    - RuntimeInitializeOnLoadManagerInitializer is always required
+    icon: package/com.unity.modules.runtimeinitializeonloadmanagerinitializer
+    size: 0
+  - key: RuntimeInitializeOnLoadManagerInitializer is always required
+    value: []
+    icon: class/DefaultAsset
+    size: 0
+  - key: SharedInternals Module
+    value:
+    - Required by AI Module
+    - Required by AndroidJNI Module
+    - Required by Animation Module
+    - Required by AssetBundle Module
+    - Required by Audio Module
+    - Required by Core Module
+    - Required by Director Module
+    - Required by GraphicsStateCollectionSerializer Module
+    - Required by Grid Module
+    - Required by HierarchyCore Module
+    - Required by HotReload Module
+    - Required by IMGUI Module
+    - Required by ImageConversion Module
+    - Required by InputForUI Module
+    - Required by InputLegacy Module
+    - Required by JSONSerialize Module
+    - Required by ParticleSystem Module
+    - Required by PerformanceReporting Module
+    - Required by Physics Module
+    - Required by Physics2D Module
+    - Required by Properties Module
+    - Required by RuntimeInitializeOnLoadManagerInitializer Module
+    - Required by SpriteMask Module
+    - Required by SpriteShape Module
+    - Required by TLS Module
+    - Required by Terrain Module
+    - Required by TerrainPhysics Module
+    - Required by TextCoreFontEngine Module
+    - Required by TextCoreTextEngine Module
+    - Required by TextRendering Module
+    - Required by Tilemap Module
+    - Required by UI Module
+    - Required by UIElements Module
+    - Required by UnityAnalytics Module
+    - Required by UnityAnalyticsCommon Module
+    - Required by UnityConnect Module
+    - Required by UnityWebRequest Module
+    - Required by UnityWebRequestAssetBundle Module
+    - Required by UnityWebRequestAudio Module
+    - Required by UnityWebRequestTexture Module
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.sharedinternals
+    size: 0
+  - key: Required by Core Module
+    value: []
+    icon: package/com.unity.modules.core
+    size: 0
+  - key: SpriteMask Module
+    value:
+    - SpriteMask
+    icon: package/com.unity.modules.spritemask
+    size: 0
+  - key: SpriteMask
+    value: []
+    icon: class/SpriteMask
+    size: 0
+  - key: SpriteShape Module
+    value:
+    - Required by SpriteMask Module
+    icon: package/com.unity.modules.spriteshape
+    size: 0
+  - key: TLS Module
+    value:
+    - Required by UnityAnalytics Module
+    - Required by UnityWebRequest Module
+    icon: package/com.unity.modules.tls
+    size: 0
+  - key: Terrain Module
+    value:
+    - Terrain
+    - TerrainData
+    - Required by TerrainPhysics Module
+    icon: package/com.unity.modules.terrain
+    size: 0
+  - key: Terrain
+    value: []
+    icon: class/Terrain
+    size: 0
+  - key: TerrainData
+    value: []
+    icon: class/TerrainData
+    size: 0
+  - key: TerrainPhysics Module
+    value:
+    - TerrainCollider
+    icon: package/com.unity.modules.terrainphysics
+    size: 0
+  - key: TerrainCollider
+    value: []
+    icon: class/TerrainCollider
+    size: 0
+  - key: TextCoreFontEngine Module
+    value:
+    - Required by TextCoreTextEngine Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.textcorefontengine
+    size: 0
+  - key: TextCoreTextEngine Module
+    value:
+    - Required by IMGUI Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.textcoretextengine
+    size: 0
+  - key: TextRendering Module
+    value:
+    - Font
+    - TextMesh
+    - Required by IMGUI Module
+    - Required by TextCoreFontEngine Module
+    - Required by TextCoreTextEngine Module
+    - Required by UI Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.textrendering
+    size: 0
+  - key: Font
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Font
+    size: 0
+  - key: TextMesh
+    value: []
+    icon: class/TextMesh
+    size: 0
+  - key: Tilemap Module
+    value:
+    - Tilemap
+    - TilemapRenderer
+    - Required by SpriteMask Module
+    icon: package/com.unity.modules.tilemap
+    size: 0
+  - key: Tilemap
+    value: []
+    icon: class/Tilemap
+    size: 0
+  - key: TilemapRenderer
+    value: []
+    icon: class/TilemapRenderer
+    size: 0
+  - key: UI Module
+    value:
+    - Canvas
+    - CanvasGroup
+    - CanvasRenderer
+    - Required by UIElements Module
+    icon: package/com.unity.modules.ui
+    size: 0
+  - key: Canvas
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/Canvas
+    size: 0
+  - key: CanvasGroup
+    value:
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/CanvasGroup
+    size: 0
+  - key: CanvasRenderer
+    value:
+    - Assets/Scenes/Campaign.unity
+    - Assets/Scenes/Login.unity
+    - Assets/Scenes/Splash.unity
+    - Assets/Scenes/WorldMapScenes.unity
+    icon: class/CanvasRenderer
+    size: 0
+  - key: UIElements Module
+    value:
+    - UIRenderer
+    icon: package/com.unity.modules.uielements
+    size: 0
+  - key: UIRenderer
+    value: []
+    icon: class/UIRenderer
+    size: 0
+  - key: UnityAnalytics Module
+    value:
+    - Required by Analytics Performance Reporting (See Analytics Services Window)
+    - Required by PerformanceReporting Module
+    - Required by UnityAnalytics (See Services Window)
+    icon: package/com.unity.modules.unityanalytics
+    size: 0
+  - key: Required by UnityAnalytics (See Services Window)
+    value: []
+    icon: class/PlayerSettings
+    size: 0
+  - key: UnityAnalyticsCommon Module
+    value:
+    - Required by UnityAnalytics Module
+    icon: package/com.unity.modules.unityanalyticscommon
+    size: 0
+  - key: UnityConnect Module
+    value:
+    - UnityConnectSettings
+    - Required by PerformanceReporting Module
+    - Required by UnityAnalytics (See Services Window)
+    - Required by UnityAnalytics Module
+    icon: package/com.unity.modules.unityconnect
+    size: 0
+  - key: UnityConnectSettings
+    value:
+    - Required by UnityAnalytics
+    icon: class/UnityConnectSettings
+    size: 0
+  - key: Required by UnityAnalytics
+    value: []
+    icon: class/Required by UnityAnalytics
+    size: 0
+  - key: UnityWebRequest Module
+    value:
+    - Required by UnityAnalytics Module
+    - Required by UnityWebRequestAssetBundle Module
+    - Required by UnityWebRequestAudio Module
+    - Required by UnityWebRequestTexture Module
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.unitywebrequest
+    size: 0
+  - key: UnityWebRequestAssetBundle Module
+    value:
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.unitywebrequestassetbundle
+    size: 0
+  - key: UnityWebRequestAudio Module
+    value:
+    - Required by UnityWebRequestWWW Module
+    icon: package/com.unity.modules.unitywebrequestaudio
+    size: 0
+  - key: UnityWebRequestTexture Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequesttexture
+    size: 0
+  - key: UnityWebRequestWWW Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequestwww
+    size: 0
+  modules:
+  - AI Module
+  - AndroidJNI Module
+  - Animation Module
+  - AssetBundle Module
+  - Audio Module
+  - Core Module
+  - Director Module
+  - GraphicsStateCollectionSerializer Module
+  - Grid Module
+  - HierarchyCore Module
+  - HotReload Module
+  - IMGUI Module
+  - ImageConversion Module
+  - InputForUI Module
+  - InputLegacy Module
+  - JSONSerialize Module
+  - ParticleSystem Module
+  - PerformanceReporting Module
+  - Physics Module
+  - Physics2D Module
+  - Properties Module
+  - RuntimeInitializeOnLoadManagerInitializer Module
+  - SharedInternals Module
+  - SpriteMask Module
+  - SpriteShape Module
+  - TLS Module
+  - Terrain Module
+  - TerrainPhysics Module
+  - TextCoreFontEngine Module
+  - TextCoreTextEngine Module
+  - TextRendering Module
+  - Tilemap Module
+  - UI Module
+  - UIElements Module
+  - UnityAnalytics Module
+  - UnityAnalyticsCommon Module
+  - UnityConnect Module
+  - UnityWebRequest Module
+  - UnityWebRequestAssetBundle Module
+  - UnityWebRequestAudio Module
+  - UnityWebRequestTexture Module
+  - UnityWebRequestWWW Module
+  serializedSizes: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  totalSize: 0
+--- !u!114 &-5795460107135720952
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13803, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetRequirements:
+    minSdkVersion: 24
+    glesMinVersion: 196608
+    openGLRequireES31AEP: 0
+    vulkanMinVersion: 4194304
+    targetArchitectures: 2
+  outputPath: D:/UnityBuild/2D_GPS/1.0.34/1.0.34.apk
+  buildOptions: 524296
+  buildApkPerCpuArchitecture: 0
+  buildAppBundle: 0
+  splitMode: 0
+  targetArchitectures: 2
+  versionCode: 37
+  packageName: com.Rubik.GPSBase
+  safeProductName: Myrk_ Echoes of the Forgotten
+  batchMode: 0
+  stagingArea: Temp/StagingArea
+  patchPackage: 0
+  gradleProjectPath: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle
+--- !u!1521398425 &-4259970211936849604
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!641289076 &-1459487731050753153
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Build_2025-11-Nov-13-46-46
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638984402832073660
+    buildGUID: b5ea56c8bba94d7ab28882a416e37f6e
+    platformName: Android
+    platformGroupName: Android
+    subtarget: 0
+    options: 524296
+    assetBundleOptions: 0
+    outputPath: D:/UnityBuild/2D_GPS/1.0.34/1.0.34.apk
+    crc: 0
+    totalSize: 875048894
+    totalTimeTicks: 1200845627
+    totalErrors: 3
+    totalWarnings: 14
+    buildType: 1
+    buildResult: 1
+    multiProcessEnabled: 0
+  m_Files:
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+    role: unity3d
+    id: 0
+    totalSize: 95512409
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/resources.resource
+    role: resource
+    id: 1
+    totalSize: 22976
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json
+    role: json
+    id: 2
+    totalSize: 7218
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/ScriptingAssemblies.json
+    role: json
+    id: 3
+    totalSize: 5620
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+    role: resource
+    id: 4
+    totalSize: 14295200
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+    role: config
+    id: 5
+    totalSize: 161
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/UnityServicesProjectConfiguration.json
+    role: json
+    id: 6
+    totalSize: 1774
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/catalog.bin
+    role: bin
+    id: 7
+    totalSize: 6104
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/catalog.hash
+    role: hash
+    id: 8
+    totalSize: 32
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/settings.json
+    role: json
+    id: 9
+    totalSize: 3628
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/AddressablesLink/link.xml
+    role: xml
+    id: 10
+    totalSize: 26886
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/UnityLevelPlayBannerListener.java
+    role: java
+    id: 11
+    totalSize: 362
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/UnityLevelPlayRewardedVideoListener.java
+    role: java
+    id: 12
+    totalSize: 498
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/RewardedAd.java
+    role: java
+    id: 13
+    totalSize: 4389
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/common.aar
+    role: aar
+    id: 14
+    totalSize: 12536
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/IUnityBannerAdListener.java
+    role: java
+    id: 15
+    totalSize: 439
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/besthttp/proxy/ProxyFinder.java
+    role: java
+    id: 16
+    totalSize: 979
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/UnitySegmentListener.java
+    role: java
+    id: 17
+    totalSize: 129
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/UnityImpressionDataListener.java
+    role: java
+    id: 18
+    totalSize: 188
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/InterstitialAd.java
+    role: java
+    id: 19
+    totalSize: 4388
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/AndroidBridgeConstants.java
+    role: java
+    id: 20
+    totalSize: 2637
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/IronSource.androidlib/AndroidManifest.xml
+    role: xml
+    id: 21
+    totalSize: 552
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/IronSource.androidlib/libs/IronSource-bridge.jar
+    role: jar
+    id: 22
+    totalSize: 261
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/IronSource.androidlib/project.properties
+    role: properties
+    id: 23
+    totalSize: 41
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/BannerAd.java
+    role: java
+    id: 24
+    totalSize: 14407
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/IUnityRewardedAdListener.java
+    role: java
+    id: 25
+    totalSize: 420
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/LevelPlayRewardedVideoWrapper.java
+    role: java
+    id: 26
+    totalSize: 7169
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/GooglePlayGamesManifest.androidlib/AndroidManifest.xml
+    role: xml
+    id: 27
+    totalSize: 1612
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/GooglePlayGamesManifest.androidlib/project.properties
+    role: properties
+    id: 28
+    totalSize: 41
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/IUnityLevelPlayInitListener.java
+    role: java
+    id: 29
+    totalSize: 284
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/AndroidBridge.java
+    role: java
+    id: 30
+    totalSize: 33338
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/UnityInitializationListener.java
+    role: java
+    id: 31
+    totalSize: 140
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libsqlite3.so
+    role: so
+    id: 32
+    totalSize: 1327456
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/UnityLevelPlayInterstitialListener.java
+    role: java
+    id: 33
+    totalSize: 404
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/BannerUtils.java
+    role: java
+    id: 34
+    totalSize: 547
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/IUnityInterstitialAdListener.java
+    role: java
+    id: 35
+    totalSize: 384
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/LevelPlayUtils.java
+    role: java
+    id: 36
+    totalSize: 3264
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/LevelPlayBridge.java
+    role: java
+    id: 37
+    totalSize: 6750
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/UnityLevelPlayRewardedVideoManualListener.java
+    role: java
+    id: 38
+    totalSize: 190
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/AndroidBridgeUtilities.java
+    role: java
+    id: 39
+    totalSize: 3764
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/ironsource/unity/androidbridge/LevelPlayInterstitialWrapper.java
+    role: java
+    id: 40
+    totalSize: 4159
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/lib_burst_generated.so
+    role: so
+    id: 41
+    totalSize: 5184
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+    role: dat
+    id: 42
+    totalSize: 15199904
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+    role: dat
+    id: 43
+    totalSize: 337563
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/System.Data.dll-resources.dat
+    role: dat
+    id: 44
+    totalSize: 93718
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/System.Drawing.dll-resources.dat
+    role: dat
+    id: 45
+    totalSize: 25453
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+    role: so
+    id: 46
+    totalSize: 53338368
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AFUnityUtils.h
+    role: h
+    id: 47
+    totalSize: 1048
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/analytics.json
+    role: json
+    id: 48
+    totalSize: 1304
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppsFlyer.cpp
+    role: cpp
+    id: 49
+    totalSize: 673945
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppsFlyerAttribution.h
+    role: h
+    id: 50
+    totalSize: 1206
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppsFlyeriOSWrapper.h
+    role: h
+    id: 51
+    totalSize: 2739
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppsFlyer_CodeGen.c
+    role: c
+    id: 52
+    totalSize: 55131
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp-firstpass.cpp
+    role: cpp
+    id: 53
+    totalSize: 762874
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp-firstpass_CodeGen.c
+    role: c
+    id: 54
+    totalSize: 71224
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+    role: cpp
+    id: 55
+    totalSize: 1401350
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+    role: c
+    id: 56
+    totalSize: 2874567
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__1.cpp
+    role: cpp
+    id: 57
+    totalSize: 1124402
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__10.cpp
+    role: cpp
+    id: 58
+    totalSize: 1054150
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__11.cpp
+    role: cpp
+    id: 59
+    totalSize: 1049758
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__12.cpp
+    role: cpp
+    id: 60
+    totalSize: 1025440
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__13.cpp
+    role: cpp
+    id: 61
+    totalSize: 1277435
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__14.cpp
+    role: cpp
+    id: 62
+    totalSize: 1226539
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__15.cpp
+    role: cpp
+    id: 63
+    totalSize: 1043750
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__16.cpp
+    role: cpp
+    id: 64
+    totalSize: 877965
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__17.cpp
+    role: cpp
+    id: 65
+    totalSize: 1270514
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__18.cpp
+    role: cpp
+    id: 66
+    totalSize: 1188076
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__19.cpp
+    role: cpp
+    id: 67
+    totalSize: 1162112
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__2.cpp
+    role: cpp
+    id: 68
+    totalSize: 1187331
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__20.cpp
+    role: cpp
+    id: 69
+    totalSize: 1130945
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__21.cpp
+    role: cpp
+    id: 70
+    totalSize: 1546097
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__22.cpp
+    role: cpp
+    id: 71
+    totalSize: 1306829
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__23.cpp
+    role: cpp
+    id: 72
+    totalSize: 1657603
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__24.cpp
+    role: cpp
+    id: 73
+    totalSize: 1627834
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__25.cpp
+    role: cpp
+    id: 74
+    totalSize: 1535643
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__26.cpp
+    role: cpp
+    id: 75
+    totalSize: 1404676
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__27.cpp
+    role: cpp
+    id: 76
+    totalSize: 1502944
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__28.cpp
+    role: cpp
+    id: 77
+    totalSize: 1650305
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__29.cpp
+    role: cpp
+    id: 78
+    totalSize: 1419560
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__3.cpp
+    role: cpp
+    id: 79
+    totalSize: 1357954
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__30.cpp
+    role: cpp
+    id: 80
+    totalSize: 1488474
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__31.cpp
+    role: cpp
+    id: 81
+    totalSize: 1683683
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__32.cpp
+    role: cpp
+    id: 82
+    totalSize: 1467896
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__33.cpp
+    role: cpp
+    id: 83
+    totalSize: 1366462
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__34.cpp
+    role: cpp
+    id: 84
+    totalSize: 1451680
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__35.cpp
+    role: cpp
+    id: 85
+    totalSize: 1514506
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__36.cpp
+    role: cpp
+    id: 86
+    totalSize: 684096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__4.cpp
+    role: cpp
+    id: 87
+    totalSize: 1294560
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__5.cpp
+    role: cpp
+    id: 88
+    totalSize: 1364287
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__6.cpp
+    role: cpp
+    id: 89
+    totalSize: 1421882
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__7.cpp
+    role: cpp
+    id: 90
+    totalSize: 1329240
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__8.cpp
+    role: cpp
+    id: 91
+    totalSize: 1368256
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp__9.cpp
+    role: cpp
+    id: 92
+    totalSize: 1379824
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BannerLevelPlayCallbacksWrapper.h
+    role: h
+    id: 93
+    totalSize: 1056
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP.cpp
+    role: cpp
+    id: 94
+    totalSize: 1574963
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP_CodeGen.c
+    role: c
+    id: 95
+    totalSize: 3736037
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__1.cpp
+    role: cpp
+    id: 96
+    totalSize: 1552197
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__10.cpp
+    role: cpp
+    id: 97
+    totalSize: 1716278
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__11.cpp
+    role: cpp
+    id: 98
+    totalSize: 2107647
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__12.cpp
+    role: cpp
+    id: 99
+    totalSize: 978910
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__13.cpp
+    role: cpp
+    id: 100
+    totalSize: 1022777
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__14.cpp
+    role: cpp
+    id: 101
+    totalSize: 1209163
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__15.cpp
+    role: cpp
+    id: 102
+    totalSize: 872220
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__16.cpp
+    role: cpp
+    id: 103
+    totalSize: 1316834
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__17.cpp
+    role: cpp
+    id: 104
+    totalSize: 1287049
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__18.cpp
+    role: cpp
+    id: 105
+    totalSize: 1224547
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__19.cpp
+    role: cpp
+    id: 106
+    totalSize: 1224889
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__2.cpp
+    role: cpp
+    id: 107
+    totalSize: 1727975
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__20.cpp
+    role: cpp
+    id: 108
+    totalSize: 1431018
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__21.cpp
+    role: cpp
+    id: 109
+    totalSize: 1222187
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__22.cpp
+    role: cpp
+    id: 110
+    totalSize: 1304142
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__23.cpp
+    role: cpp
+    id: 111
+    totalSize: 852159
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__24.cpp
+    role: cpp
+    id: 112
+    totalSize: 1237802
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__25.cpp
+    role: cpp
+    id: 113
+    totalSize: 962367
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__26.cpp
+    role: cpp
+    id: 114
+    totalSize: 936724
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__27.cpp
+    role: cpp
+    id: 115
+    totalSize: 875843
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__28.cpp
+    role: cpp
+    id: 116
+    totalSize: 768769
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__29.cpp
+    role: cpp
+    id: 117
+    totalSize: 1240056
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__3.cpp
+    role: cpp
+    id: 118
+    totalSize: 699669
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__30.cpp
+    role: cpp
+    id: 119
+    totalSize: 812981
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__31.cpp
+    role: cpp
+    id: 120
+    totalSize: 714878
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__32.cpp
+    role: cpp
+    id: 121
+    totalSize: 1671743
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__33.cpp
+    role: cpp
+    id: 122
+    totalSize: 1870039
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__34.cpp
+    role: cpp
+    id: 123
+    totalSize: 1311484
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__35.cpp
+    role: cpp
+    id: 124
+    totalSize: 1588542
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__36.cpp
+    role: cpp
+    id: 125
+    totalSize: 1551012
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__37.cpp
+    role: cpp
+    id: 126
+    totalSize: 1620800
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__38.cpp
+    role: cpp
+    id: 127
+    totalSize: 1631978
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__39.cpp
+    role: cpp
+    id: 128
+    totalSize: 1624320
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__4.cpp
+    role: cpp
+    id: 129
+    totalSize: 1192635
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__40.cpp
+    role: cpp
+    id: 130
+    totalSize: 1511091
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__41.cpp
+    role: cpp
+    id: 131
+    totalSize: 1628034
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__42.cpp
+    role: cpp
+    id: 132
+    totalSize: 1092157
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__43.cpp
+    role: cpp
+    id: 133
+    totalSize: 966234
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__44.cpp
+    role: cpp
+    id: 134
+    totalSize: 1365538
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__45.cpp
+    role: cpp
+    id: 135
+    totalSize: 1044642
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__46.cpp
+    role: cpp
+    id: 136
+    totalSize: 392101
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__47.cpp
+    role: cpp
+    id: 137
+    totalSize: 1542358
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__48.cpp
+    role: cpp
+    id: 138
+    totalSize: 1456091
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__49.cpp
+    role: cpp
+    id: 139
+    totalSize: 1643282
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__5.cpp
+    role: cpp
+    id: 140
+    totalSize: 1535844
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__50.cpp
+    role: cpp
+    id: 141
+    totalSize: 959853
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__6.cpp
+    role: cpp
+    id: 142
+    totalSize: 1348991
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__7.cpp
+    role: cpp
+    id: 143
+    totalSize: 2312247
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__8.cpp
+    role: cpp
+    id: 144
+    totalSize: 1809079
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BestHTTP__9.cpp
+    role: cpp
+    id: 145
+    totalSize: 1894091
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/CW.Common.cpp
+    role: cpp
+    id: 146
+    totalSize: 581048
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/CW.Common_CodeGen.c
+    role: c
+    id: 147
+    totalSize: 58013
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DamageNumbersPro.cpp
+    role: cpp
+    id: 148
+    totalSize: 1096191
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DamageNumbersPro_CodeGen.c
+    role: c
+    id: 149
+    totalSize: 44787
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DamageNumbersPro__1.cpp
+    role: cpp
+    id: 150
+    totalSize: 86341
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTween.cpp
+    role: cpp
+    id: 151
+    totalSize: 1292607
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTweenPro.cpp
+    role: cpp
+    id: 152
+    totalSize: 207341
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTweenPro_CodeGen.c
+    role: c
+    id: 153
+    totalSize: 7662
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTween_CodeGen.c
+    role: c
+    id: 154
+    totalSize: 140368
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTween__1.cpp
+    role: cpp
+    id: 155
+    totalSize: 885989
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Dustyroom.Generator.Demo.Runtime.cpp
+    role: cpp
+    id: 156
+    totalSize: 11403
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Dustyroom.Generator.Demo.Runtime_CodeGen.c
+    role: c
+    id: 157
+    totalSize: 949
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods.cpp
+    role: cpp
+    id: 158
+    totalSize: 1937381
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__1.cpp
+    role: cpp
+    id: 159
+    totalSize: 1977936
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__2.cpp
+    role: cpp
+    id: 160
+    totalSize: 1864038
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__3.cpp
+    role: cpp
+    id: 161
+    totalSize: 1978322
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__4.cpp
+    role: cpp
+    id: 162
+    totalSize: 135093
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics.cpp
+    role: cpp
+    id: 163
+    totalSize: 1757558
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__1.cpp
+    role: cpp
+    id: 164
+    totalSize: 2206893
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__10.cpp
+    role: cpp
+    id: 165
+    totalSize: 1347466
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__11.cpp
+    role: cpp
+    id: 166
+    totalSize: 535567
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__2.cpp
+    role: cpp
+    id: 167
+    totalSize: 1769579
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__3.cpp
+    role: cpp
+    id: 168
+    totalSize: 2024537
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__4.cpp
+    role: cpp
+    id: 169
+    totalSize: 2187038
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__5.cpp
+    role: cpp
+    id: 170
+    totalSize: 1847393
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__6.cpp
+    role: cpp
+    id: 171
+    totalSize: 1667753
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__7.cpp
+    role: cpp
+    id: 172
+    totalSize: 1466638
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__8.cpp
+    role: cpp
+    id: 173
+    totalSize: 1950927
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__9.cpp
+    role: cpp
+    id: 174
+    totalSize: 2196604
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Google.Play.Games.cpp
+    role: cpp
+    id: 175
+    totalSize: 1743935
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Google.Play.Games_CodeGen.c
+    role: c
+    id: 176
+    totalSize: 173112
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Google.Play.Games__1.cpp
+    role: cpp
+    id: 177
+    totalSize: 261706
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues.cpp
+    role: cpp
+    id: 178
+    totalSize: 2409819
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
+    role: cpp
+    id: 179
+    totalSize: 2434239
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+    role: cpp
+    id: 180
+    totalSize: 2057168
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues3.cpp
+    role: cpp
+    id: 181
+    totalSize: 2043004
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues4.cpp
+    role: cpp
+    id: 182
+    totalSize: 1952932
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues5.cpp
+    role: cpp
+    id: 183
+    totalSize: 1875263
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues6.cpp
+    role: cpp
+    id: 184
+    totalSize: 50050
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+    role: cpp
+    id: 185
+    totalSize: 3182566
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+    role: cpp
+    id: 186
+    totalSize: 3248380
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues2.cpp
+    role: cpp
+    id: 187
+    totalSize: 2924370
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues3.cpp
+    role: cpp
+    id: 188
+    totalSize: 1041324
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.c
+    role: c
+    id: 189
+    totalSize: 1080462
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.c
+    role: c
+    id: 190
+    totalSize: 1699887
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCodeRegistration.cpp
+    role: cpp
+    id: 191
+    totalSize: 17160
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericAdjustorThunkTable.c
+    role: c
+    id: 192
+    totalSize: 164895
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericClassTable.c
+    role: c
+    id: 193
+    totalSize: 1982062
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+    role: c
+    id: 194
+    totalSize: 5077089
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+    role: c
+    id: 195
+    totalSize: 720713
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodPointerTable.c
+    role: c
+    id: 196
+    totalSize: 1800865
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodTable.c
+    role: c
+    id: 197
+    totalSize: 192450
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInteropDataTable.cpp
+    role: cpp
+    id: 198
+    totalSize: 750530
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInvokerTable.cpp
+    role: cpp
+    id: 199
+    totalSize: 7099877
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+    role: c
+    id: 200
+    totalSize: 901
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+    role: c
+    id: 201
+    totalSize: 9155298
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp
+    role: cpp
+    id: 202
+    totalSize: 7175
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+    role: c
+    id: 203
+    totalSize: 1420673
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppToEditorData.json
+    role: json
+    id: 204
+    totalSize: 5584
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+    role: c
+    id: 205
+    totalSize: 18563743
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp
+    role: cpp
+    id: 206
+    totalSize: 590500
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/InterstitialLevelPlayCallbacksWrapper.h
+    role: h
+    id: 207
+    totalSize: 1172
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/iOSBridge.h
+    role: h
+    id: 208
+    totalSize: 972
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanCommon.cpp
+    role: cpp
+    id: 209
+    totalSize: 21336
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanCommon_CodeGen.c
+    role: c
+    id: 210
+    totalSize: 1207
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanLocalization.cpp
+    role: cpp
+    id: 211
+    totalSize: 525413
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanLocalization.TMP.cpp
+    role: cpp
+    id: 212
+    totalSize: 158382
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanLocalization.TMP_CodeGen.c
+    role: c
+    id: 213
+    totalSize: 4847
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanLocalizationEditor.cpp
+    role: cpp
+    id: 214
+    totalSize: 11403
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanLocalizationEditor_CodeGen.c
+    role: c
+    id: 215
+    totalSize: 919
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LeanLocalization_CodeGen.c
+    role: c
+    id: 216
+    totalSize: 27105
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LoadingScreen.Misc.cpp
+    role: cpp
+    id: 217
+    totalSize: 235593
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LoadingScreen.Misc_CodeGen.c
+    role: c
+    id: 218
+    totalSize: 6220
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMBannerAdView.h
+    role: h
+    id: 219
+    totalSize: 1305
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMBannerAdViewCallbacksWrapper.h
+    role: h
+    id: 220
+    totalSize: 1986
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMBannerPosition.h
+    role: h
+    id: 221
+    totalSize: 595
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMInitializer.h
+    role: h
+    id: 222
+    totalSize: 682
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMInterstitialAd.h
+    role: h
+    id: 223
+    totalSize: 954
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMInterstitialAdCallbacksWrapper.h
+    role: h
+    id: 224
+    totalSize: 1812
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMRewardedAd.h
+    role: h
+    id: 225
+    totalSize: 886
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMRewardedAdCallbacksWrapper.h
+    role: h
+    id: 226
+    totalSize: 2199
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LPMUtilities.h
+    role: h
+    id: 227
+    totalSize: 611
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LucidSight.Runtime.ColyseusSDK.cpp
+    role: cpp
+    id: 228
+    totalSize: 1606878
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LucidSight.Runtime.ColyseusSDK_CodeGen.c
+    role: c
+    id: 229
+    totalSize: 336784
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LucidSight.Runtime.ColyseusSDK__1.cpp
+    role: cpp
+    id: 230
+    totalSize: 1513435
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LucidSight.Runtime.ColyseusSDK__2.cpp
+    role: cpp
+    id: 231
+    totalSize: 507319
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LucidSightTools.cpp
+    role: cpp
+    id: 232
+    totalSize: 47467
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/LucidSightTools_CodeGen.c
+    role: c
+    id: 233
+    totalSize: 1847
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security.cpp
+    role: cpp
+    id: 234
+    totalSize: 1108414
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_CodeGen.c
+    role: c
+    id: 235
+    totalSize: 84303
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security__1.cpp
+    role: cpp
+    id: 236
+    totalSize: 777866
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib.cpp
+    role: cpp
+    id: 237
+    totalSize: 1092886
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_CodeGen.c
+    role: c
+    id: 238
+    totalSize: 2664494
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__1.cpp
+    role: cpp
+    id: 239
+    totalSize: 1352001
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__10.cpp
+    role: cpp
+    id: 240
+    totalSize: 1170661
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__11.cpp
+    role: cpp
+    id: 241
+    totalSize: 1205062
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__12.cpp
+    role: cpp
+    id: 242
+    totalSize: 1058567
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__13.cpp
+    role: cpp
+    id: 243
+    totalSize: 1195684
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__14.cpp
+    role: cpp
+    id: 244
+    totalSize: 1246477
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__15.cpp
+    role: cpp
+    id: 245
+    totalSize: 1460727
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__16.cpp
+    role: cpp
+    id: 246
+    totalSize: 1412293
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__17.cpp
+    role: cpp
+    id: 247
+    totalSize: 1428879
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__18.cpp
+    role: cpp
+    id: 248
+    totalSize: 1492413
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__19.cpp
+    role: cpp
+    id: 249
+    totalSize: 1342682
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__2.cpp
+    role: cpp
+    id: 250
+    totalSize: 1546269
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__20.cpp
+    role: cpp
+    id: 251
+    totalSize: 1278014
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__21.cpp
+    role: cpp
+    id: 252
+    totalSize: 1014358
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__22.cpp
+    role: cpp
+    id: 253
+    totalSize: 1210596
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__23.cpp
+    role: cpp
+    id: 254
+    totalSize: 1566904
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__24.cpp
+    role: cpp
+    id: 255
+    totalSize: 390526
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__3.cpp
+    role: cpp
+    id: 256
+    totalSize: 1401615
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__4.cpp
+    role: cpp
+    id: 257
+    totalSize: 1351872
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__5.cpp
+    role: cpp
+    id: 258
+    totalSize: 1619977
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__6.cpp
+    role: cpp
+    id: 259
+    totalSize: 1463282
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__7.cpp
+    role: cpp
+    id: 260
+    totalSize: 1252936
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__8.cpp
+    role: cpp
+    id: 261
+    totalSize: 1460326
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__9.cpp
+    role: cpp
+    id: 262
+    totalSize: 1489591
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json.cpp
+    role: cpp
+    id: 263
+    totalSize: 1236662
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json_CodeGen.c
+    role: c
+    id: 264
+    totalSize: 479364
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__1.cpp
+    role: cpp
+    id: 265
+    totalSize: 1834069
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__2.cpp
+    role: cpp
+    id: 266
+    totalSize: 1586849
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__3.cpp
+    role: cpp
+    id: 267
+    totalSize: 1540411
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__4.cpp
+    role: cpp
+    id: 268
+    totalSize: 972115
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.chooser.cpp
+    role: cpp
+    id: 269
+    totalSize: 141660
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.chooser_CodeGen.c
+    role: c
+    id: 270
+    totalSize: 2639
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.colliderbutton.cpp
+    role: cpp
+    id: 271
+    totalSize: 211772
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.colliderbutton_CodeGen.c
+    role: c
+    id: 272
+    totalSize: 10691
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.displayobject.cpp
+    role: cpp
+    id: 273
+    totalSize: 41411
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.displayobject_CodeGen.c
+    role: c
+    id: 274
+    totalSize: 1736
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.events.cpp
+    role: cpp
+    id: 275
+    totalSize: 19553
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.events_CodeGen.c
+    role: c
+    id: 276
+    totalSize: 1236
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.singleton.cpp
+    role: cpp
+    id: 277
+    totalSize: 15264
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.singleton_CodeGen.c
+    role: c
+    id: 278
+    totalSize: 1947
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.spline.cpp
+    role: cpp
+    id: 279
+    totalSize: 277361
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.spline_CodeGen.c
+    role: c
+    id: 280
+    totalSize: 10326
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.statemachine.cpp
+    role: cpp
+    id: 281
+    totalSize: 73805
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.statemachine_CodeGen.c
+    role: c
+    id: 282
+    totalSize: 5273
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.tween.cpp
+    role: cpp
+    id: 283
+    totalSize: 723414
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.tween_CodeGen.c
+    role: c
+    id: 284
+    totalSize: 60916
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Pixelplacement.Surge.Utilities.cpp
+    role: cpp
+    id: 285
+    totalSize: 67496
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.utilities.editor.cpp
+    role: cpp
+    id: 286
+    totalSize: 11403
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/pixelplacement.surge.utilities.editor_CodeGen.c
+    role: c
+    id: 287
+    totalSize: 964
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Pixelplacement.Surge.Utilities_CodeGen.c
+    role: c
+    id: 288
+    totalSize: 4246
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Purchasing.Common.cpp
+    role: cpp
+    id: 289
+    totalSize: 109838
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Purchasing.Common_CodeGen.c
+    role: c
+    id: 290
+    totalSize: 5703
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/RewardedVideoLevelPlayCallbacksWrapper.h
+    role: h
+    id: 291
+    totalSize: 1391
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.OdinInspector.Attributes.cpp
+    role: cpp
+    id: 292
+    totalSize: 300006
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.OdinInspector.Attributes_CodeGen.c
+    role: c
+    id: 293
+    totalSize: 58808
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.OdinInspector.CompatibilityLayer.cpp
+    role: cpp
+    id: 294
+    totalSize: 42992
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.OdinInspector.CompatibilityLayer_CodeGen.c
+    role: c
+    id: 295
+    totalSize: 2296
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Serialization.Config.cpp
+    role: cpp
+    id: 296
+    totalSize: 58694
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Serialization.Config_CodeGen.c
+    role: c
+    id: 297
+    totalSize: 4149
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Serialization.cpp
+    role: cpp
+    id: 298
+    totalSize: 1135749
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Serialization_CodeGen.c
+    role: c
+    id: 299
+    totalSize: 445656
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Serialization__1.cpp
+    role: cpp
+    id: 300
+    totalSize: 1352711
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Serialization__2.cpp
+    role: cpp
+    id: 301
+    totalSize: 1514278
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Serialization__3.cpp
+    role: cpp
+    id: 302
+    totalSize: 829672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Utilities.cpp
+    role: cpp
+    id: 303
+    totalSize: 1276263
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Utilities_CodeGen.c
+    role: c
+    id: 304
+    totalSize: 304337
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Sirenix.Utilities__1.cpp
+    role: cpp
+    id: 305
+    totalSize: 55523
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-csharp.cpp
+    role: cpp
+    id: 306
+    totalSize: 945121
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-csharp_CodeGen.c
+    role: c
+    id: 307
+    totalSize: 224410
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-csharp__1.cpp
+    role: cpp
+    id: 308
+    totalSize: 1143513
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-csharp__2.cpp
+    role: cpp
+    id: 309
+    totalSize: 1282523
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-csharp__3.cpp
+    role: cpp
+    id: 310
+    totalSize: 346694
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-unity-examples.cpp
+    role: cpp
+    id: 311
+    totalSize: 1424140
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-unity-examples_CodeGen.c
+    role: c
+    id: 312
+    totalSize: 123393
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-unity-examples__1.cpp
+    role: cpp
+    id: 313
+    totalSize: 1137828
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-unity.cpp
+    role: cpp
+    id: 314
+    totalSize: 1616478
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-unity_CodeGen.c
+    role: c
+    id: 315
+    totalSize: 177810
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-unity__1.cpp
+    role: cpp
+    id: 316
+    totalSize: 1489905
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/spine-unity__2.cpp
+    role: cpp
+    id: 317
+    totalSize: 764822
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration.cpp
+    role: cpp
+    id: 318
+    totalSize: 36990
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration_CodeGen.c
+    role: c
+    id: 319
+    totalSize: 6285
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core.cpp
+    role: cpp
+    id: 320
+    totalSize: 1679277
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core_CodeGen.c
+    role: c
+    id: 321
+    totalSize: 868846
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__1.cpp
+    role: cpp
+    id: 322
+    totalSize: 1664058
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__2.cpp
+    role: cpp
+    id: 323
+    totalSize: 1706076
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__3.cpp
+    role: cpp
+    id: 324
+    totalSize: 1584886
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__4.cpp
+    role: cpp
+    id: 325
+    totalSize: 560631
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.cpp
+    role: cpp
+    id: 326
+    totalSize: 1728425
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data.cpp
+    role: cpp
+    id: 327
+    totalSize: 1244392
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data_CodeGen.c
+    role: c
+    id: 328
+    totalSize: 647326
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__1.cpp
+    role: cpp
+    id: 329
+    totalSize: 1470977
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__2.cpp
+    role: cpp
+    id: 330
+    totalSize: 1441133
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__3.cpp
+    role: cpp
+    id: 331
+    totalSize: 1154146
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__4.cpp
+    role: cpp
+    id: 332
+    totalSize: 1310060
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__5.cpp
+    role: cpp
+    id: 333
+    totalSize: 1169723
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__6.cpp
+    role: cpp
+    id: 334
+    totalSize: 1027666
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__7.cpp
+    role: cpp
+    id: 335
+    totalSize: 1465357
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__8.cpp
+    role: cpp
+    id: 336
+    totalSize: 1173572
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__9.cpp
+    role: cpp
+    id: 337
+    totalSize: 787142
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Drawing.cpp
+    role: cpp
+    id: 338
+    totalSize: 231327
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Drawing_CodeGen.c
+    role: c
+    id: 339
+    totalSize: 19845
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.IO.Compression.cpp
+    role: cpp
+    id: 340
+    totalSize: 395081
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.IO.Compression_CodeGen.c
+    role: c
+    id: 341
+    totalSize: 20042
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Numerics.cpp
+    role: cpp
+    id: 342
+    totalSize: 739672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Numerics_CodeGen.c
+    role: c
+    id: 343
+    totalSize: 29825
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Runtime.Serialization.cpp
+    role: cpp
+    id: 344
+    totalSize: 7472
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Runtime.Serialization_CodeGen.c
+    role: c
+    id: 345
+    totalSize: 2648
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.cpp
+    role: cpp
+    id: 346
+    totalSize: 962034
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.Linq.cpp
+    role: cpp
+    id: 347
+    totalSize: 540840
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.Linq_CodeGen.c
+    role: c
+    id: 348
+    totalSize: 44154
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml_CodeGen.c
+    role: c
+    id: 349
+    totalSize: 1177452
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__1.cpp
+    role: cpp
+    id: 350
+    totalSize: 1148784
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__10.cpp
+    role: cpp
+    id: 351
+    totalSize: 1372425
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__11.cpp
+    role: cpp
+    id: 352
+    totalSize: 1435783
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__12.cpp
+    role: cpp
+    id: 353
+    totalSize: 1421703
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__13.cpp
+    role: cpp
+    id: 354
+    totalSize: 1366512
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__14.cpp
+    role: cpp
+    id: 355
+    totalSize: 1406542
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__15.cpp
+    role: cpp
+    id: 356
+    totalSize: 1733815
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__16.cpp
+    role: cpp
+    id: 357
+    totalSize: 1032605
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__2.cpp
+    role: cpp
+    id: 358
+    totalSize: 1003765
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__3.cpp
+    role: cpp
+    id: 359
+    totalSize: 903870
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__4.cpp
+    role: cpp
+    id: 360
+    totalSize: 1290012
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__5.cpp
+    role: cpp
+    id: 361
+    totalSize: 1118568
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__6.cpp
+    role: cpp
+    id: 362
+    totalSize: 1294709
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__7.cpp
+    role: cpp
+    id: 363
+    totalSize: 1327309
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__8.cpp
+    role: cpp
+    id: 364
+    totalSize: 1364421
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__9.cpp
+    role: cpp
+    id: 365
+    totalSize: 1521068
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_CodeGen.c
+    role: c
+    id: 366
+    totalSize: 1177361
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__1.cpp
+    role: cpp
+    id: 367
+    totalSize: 810282
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__10.cpp
+    role: cpp
+    id: 368
+    totalSize: 1513554
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__11.cpp
+    role: cpp
+    id: 369
+    totalSize: 1613567
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__12.cpp
+    role: cpp
+    id: 370
+    totalSize: 1918091
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__13.cpp
+    role: cpp
+    id: 371
+    totalSize: 145424
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__2.cpp
+    role: cpp
+    id: 372
+    totalSize: 1372190
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__3.cpp
+    role: cpp
+    id: 373
+    totalSize: 823669
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__4.cpp
+    role: cpp
+    id: 374
+    totalSize: 1321267
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__5.cpp
+    role: cpp
+    id: 375
+    totalSize: 1595253
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__6.cpp
+    role: cpp
+    id: 376
+    totalSize: 1420397
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__7.cpp
+    role: cpp
+    id: 377
+    totalSize: 1428993
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__8.cpp
+    role: cpp
+    id: 378
+    totalSize: 1341624
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__9.cpp
+    role: cpp
+    id: 379
+    totalSize: 1319417
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Addressables.cpp
+    role: cpp
+    id: 380
+    totalSize: 1847849
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Addressables_CodeGen.c
+    role: c
+    id: 381
+    totalSize: 154184
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Addressables__1.cpp
+    role: cpp
+    id: 382
+    totalSize: 276402
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.cpp
+    role: cpp
+    id: 383
+    totalSize: 291691
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_CodeGen.c
+    role: c
+    id: 384
+    totalSize: 17936
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine.cpp
+    role: cpp
+    id: 385
+    totalSize: 1177652
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine_CodeGen.c
+    role: c
+    id: 386
+    totalSize: 422121
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine__1.cpp
+    role: cpp
+    id: 387
+    totalSize: 1247415
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine__2.cpp
+    role: cpp
+    id: 388
+    totalSize: 1456768
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine__3.cpp
+    role: cpp
+    id: 389
+    totalSize: 1250166
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine__4.cpp
+    role: cpp
+    id: 390
+    totalSize: 1185376
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine__5.cpp
+    role: cpp
+    id: 391
+    totalSize: 1280912
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Cinemachine__6.cpp
+    role: cpp
+    id: 392
+    totalSize: 560616
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.LevelPlay.cpp
+    role: cpp
+    id: 393
+    totalSize: 1674024
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.LevelPlay_CodeGen.c
+    role: c
+    id: 394
+    totalSize: 228977
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.LevelPlay__1.cpp
+    role: cpp
+    id: 395
+    totalSize: 901179
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics.cpp
+    role: cpp
+    id: 396
+    totalSize: 493954
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_CodeGen.c
+    role: c
+    id: 397
+    totalSize: 41609
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Profiling.Core.cpp
+    role: cpp
+    id: 398
+    totalSize: 2772
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Profiling.Core_CodeGen.c
+    role: c
+    id: 399
+    totalSize: 1181
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.ResourceManager.cpp
+    role: cpp
+    id: 400
+    totalSize: 1759485
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.ResourceManager_CodeGen.c
+    role: c
+    id: 401
+    totalSize: 240782
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.ResourceManager__1.cpp
+    role: cpp
+    id: 402
+    totalSize: 116579
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Authentication.cpp
+    role: cpp
+    id: 403
+    totalSize: 668914
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Authentication.PlayerAccounts.cpp
+    role: cpp
+    id: 404
+    totalSize: 282906
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Authentication.PlayerAccounts_CodeGen.c
+    role: c
+    id: 405
+    totalSize: 22158
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Authentication_CodeGen.c
+    role: c
+    id: 406
+    totalSize: 55960
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Configuration.cpp
+    role: cpp
+    id: 407
+    totalSize: 95387
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Configuration_CodeGen.c
+    role: c
+    id: 408
+    totalSize: 5256
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.cpp
+    role: cpp
+    id: 409
+    totalSize: 101842
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Device.cpp
+    role: cpp
+    id: 410
+    totalSize: 52749
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Device_CodeGen.c
+    role: c
+    id: 411
+    totalSize: 4192
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Environments.Internal.cpp
+    role: cpp
+    id: 412
+    totalSize: 2638
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Environments.Internal_CodeGen.c
+    role: c
+    id: 413
+    totalSize: 1019
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Internal.cpp
+    role: cpp
+    id: 414
+    totalSize: 534467
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Internal_CodeGen.c
+    role: c
+    id: 415
+    totalSize: 49784
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Registration.cpp
+    role: cpp
+    id: 416
+    totalSize: 215311
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Registration_CodeGen.c
+    role: c
+    id: 417
+    totalSize: 12383
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Scheduler.cpp
+    role: cpp
+    id: 418
+    totalSize: 90314
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Scheduler_CodeGen.c
+    role: c
+    id: 419
+    totalSize: 10375
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Telemetry.cpp
+    role: cpp
+    id: 420
+    totalSize: 13357
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Telemetry_CodeGen.c
+    role: c
+    id: 421
+    totalSize: 2381
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Threading.cpp
+    role: cpp
+    id: 422
+    totalSize: 1841
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Threading_CodeGen.c
+    role: c
+    id: 423
+    totalSize: 681
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core_CodeGen.c
+    role: c
+    id: 424
+    totalSize: 6964
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Splines.cpp
+    role: cpp
+    id: 425
+    totalSize: 717929
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Splines_CodeGen.c
+    role: c
+    id: 426
+    totalSize: 92066
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro.cpp
+    role: cpp
+    id: 427
+    totalSize: 783393
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_CodeGen.c
+    role: c
+    id: 428
+    totalSize: 385226
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__1.cpp
+    role: cpp
+    id: 429
+    totalSize: 795365
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__2.cpp
+    role: cpp
+    id: 430
+    totalSize: 1209813
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__3.cpp
+    role: cpp
+    id: 431
+    totalSize: 1577950
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__4.cpp
+    role: cpp
+    id: 432
+    totalSize: 1183847
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__5.cpp
+    role: cpp
+    id: 433
+    totalSize: 1528958
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__6.cpp
+    role: cpp
+    id: 434
+    totalSize: 738912
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__7.cpp
+    role: cpp
+    id: 435
+    totalSize: 1385447
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__8.cpp
+    role: cpp
+    id: 436
+    totalSize: 441923
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Timeline.cpp
+    role: cpp
+    id: 437
+    totalSize: 1436262
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Timeline_CodeGen.c
+    role: c
+    id: 438
+    totalSize: 112100
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.VisualScripting.Core.cpp
+    role: cpp
+    id: 439
+    totalSize: 1866815
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.VisualScripting.Core_CodeGen.c
+    role: c
+    id: 440
+    totalSize: 275102
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.VisualScripting.Core__1.cpp
+    role: cpp
+    id: 441
+    totalSize: 1159421
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AIModule.cpp
+    role: cpp
+    id: 442
+    totalSize: 200744
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AIModule_CodeGen.c
+    role: c
+    id: 443
+    totalSize: 21957
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule.cpp
+    role: cpp
+    id: 444
+    totalSize: 1121970
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
+    role: c
+    id: 445
+    totalSize: 123783
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule.cpp
+    role: cpp
+    id: 446
+    totalSize: 1047528
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+    role: c
+    id: 447
+    totalSize: 129142
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AssetBundleModule.cpp
+    role: cpp
+    id: 448
+    totalSize: 130069
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AssetBundleModule_CodeGen.c
+    role: c
+    id: 449
+    totalSize: 8285
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule.cpp
+    role: cpp
+    id: 450
+    totalSize: 491910
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
+    role: c
+    id: 451
+    totalSize: 49725
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule.cpp
+    role: cpp
+    id: 452
+    totalSize: 2352733
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
+    role: c
+    id: 453
+    totalSize: 1124185
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__1.cpp
+    role: cpp
+    id: 454
+    totalSize: 2006935
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__2.cpp
+    role: cpp
+    id: 455
+    totalSize: 1156978
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__3.cpp
+    role: cpp
+    id: 456
+    totalSize: 2062362
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__4.cpp
+    role: cpp
+    id: 457
+    totalSize: 1774094
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.cpp
+    role: cpp
+    id: 458
+    totalSize: 577
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.DirectorModule.cpp
+    role: cpp
+    id: 459
+    totalSize: 109234
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.DirectorModule_CodeGen.c
+    role: c
+    id: 460
+    totalSize: 8844
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.GameCenterModule.cpp
+    role: cpp
+    id: 461
+    totalSize: 46136
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.GameCenterModule_CodeGen.c
+    role: c
+    id: 462
+    totalSize: 4313
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.GridModule.cpp
+    role: cpp
+    id: 463
+    totalSize: 2267
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.GridModule_CodeGen.c
+    role: c
+    id: 464
+    totalSize: 640
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.HierarchyCoreModule.cpp
+    role: cpp
+    id: 465
+    totalSize: 671656
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.HierarchyCoreModule_CodeGen.c
+    role: c
+    id: 466
+    totalSize: 66535
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ImageConversionModule.cpp
+    role: cpp
+    id: 467
+    totalSize: 40766
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ImageConversionModule_CodeGen.c
+    role: c
+    id: 468
+    totalSize: 1552
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule.cpp
+    role: cpp
+    id: 469
+    totalSize: 1324768
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
+    role: c
+    id: 470
+    totalSize: 134856
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule__1.cpp
+    role: cpp
+    id: 471
+    totalSize: 715089
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputForUIModule.cpp
+    role: cpp
+    id: 472
+    totalSize: 661900
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputForUIModule_CodeGen.c
+    role: c
+    id: 473
+    totalSize: 65843
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule.cpp
+    role: cpp
+    id: 474
+    totalSize: 236265
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
+    role: c
+    id: 475
+    totalSize: 24477
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule.cpp
+    role: cpp
+    id: 476
+    totalSize: 35074
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_CodeGen.c
+    role: c
+    id: 477
+    totalSize: 2203
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule.cpp
+    role: cpp
+    id: 478
+    totalSize: 958335
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
+    role: c
+    id: 479
+    totalSize: 106242
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule.cpp
+    role: cpp
+    id: 480
+    totalSize: 378089
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
+    role: c
+    id: 481
+    totalSize: 33824
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule.cpp
+    role: cpp
+    id: 482
+    totalSize: 476765
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
+    role: c
+    id: 483
+    totalSize: 46848
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule.cpp
+    role: cpp
+    id: 484
+    totalSize: 1841663
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c
+    role: c
+    id: 485
+    totalSize: 256935
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleCore.cpp
+    role: cpp
+    id: 486
+    totalSize: 577
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleCore_CodeGen.c
+    role: c
+    id: 487
+    totalSize: 587
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleMacosStub.cpp
+    role: cpp
+    id: 488
+    totalSize: 16690
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleMacosStub_CodeGen.c
+    role: c
+    id: 489
+    totalSize: 2395
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleStub.cpp
+    role: cpp
+    id: 490
+    totalSize: 16690
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleStub_CodeGen.c
+    role: c
+    id: 491
+    totalSize: 2380
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.cpp
+    role: cpp
+    id: 492
+    totalSize: 506474
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Security.cpp
+    role: cpp
+    id: 493
+    totalSize: 478078
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.SecurityCore.cpp
+    role: cpp
+    id: 494
+    totalSize: 20141
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.SecurityCore_CodeGen.c
+    role: c
+    id: 495
+    totalSize: 6226
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Security_CodeGen.c
+    role: c
+    id: 496
+    totalSize: 24930
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Stores.cpp
+    role: cpp
+    id: 497
+    totalSize: 1962802
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Stores_CodeGen.c
+    role: c
+    id: 498
+    totalSize: 171118
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Stores__1.cpp
+    role: cpp
+    id: 499
+    totalSize: 574662
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTCore.cpp
+    role: cpp
+    id: 500
+    totalSize: 16120
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTCore_CodeGen.c
+    role: c
+    id: 501
+    totalSize: 2441
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTStub.cpp
+    role: cpp
+    id: 502
+    totalSize: 5555
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTStub_CodeGen.c
+    role: c
+    id: 503
+    totalSize: 658
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing_CodeGen.c
+    role: c
+    id: 504
+    totalSize: 47093
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule.cpp
+    role: cpp
+    id: 505
+    totalSize: 83039
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
+    role: c
+    id: 506
+    totalSize: 12192
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteMaskModule.cpp
+    role: cpp
+    id: 507
+    totalSize: 16374
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteMaskModule_CodeGen.c
+    role: c
+    id: 508
+    totalSize: 2549
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteShapeModule.cpp
+    role: cpp
+    id: 509
+    totalSize: 1835
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c
+    role: c
+    id: 510
+    totalSize: 378
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule.cpp
+    role: cpp
+    id: 511
+    totalSize: 187560
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c
+    role: c
+    id: 512
+    totalSize: 8252
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainPhysicsModule.cpp
+    role: cpp
+    id: 513
+    totalSize: 2603
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainPhysicsModule_CodeGen.c
+    role: c
+    id: 514
+    totalSize: 672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule.cpp
+    role: cpp
+    id: 515
+    totalSize: 472002
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c
+    role: c
+    id: 516
+    totalSize: 60314
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule.cpp
+    role: cpp
+    id: 517
+    totalSize: 1551897
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c
+    role: c
+    id: 518
+    totalSize: 156767
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__1.cpp
+    role: cpp
+    id: 519
+    totalSize: 1664706
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__2.cpp
+    role: cpp
+    id: 520
+    totalSize: 1327463
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__3.cpp
+    role: cpp
+    id: 521
+    totalSize: 162502
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule.cpp
+    role: cpp
+    id: 522
+    totalSize: 295172
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
+    role: c
+    id: 523
+    totalSize: 21968
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TilemapModule.cpp
+    role: cpp
+    id: 524
+    totalSize: 146020
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c
+    role: c
+    id: 525
+    totalSize: 11642
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI.cpp
+    role: cpp
+    id: 526
+    totalSize: 1462633
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule.cpp
+    role: cpp
+    id: 527
+    totalSize: 1971308
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c
+    role: c
+    id: 528
+    totalSize: 2306974
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__1.cpp
+    role: cpp
+    id: 529
+    totalSize: 1704920
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__10.cpp
+    role: cpp
+    id: 530
+    totalSize: 2039488
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__11.cpp
+    role: cpp
+    id: 531
+    totalSize: 2065781
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__12.cpp
+    role: cpp
+    id: 532
+    totalSize: 1567128
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__13.cpp
+    role: cpp
+    id: 533
+    totalSize: 2191797
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__14.cpp
+    role: cpp
+    id: 534
+    totalSize: 1753802
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__15.cpp
+    role: cpp
+    id: 535
+    totalSize: 1351349
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__16.cpp
+    role: cpp
+    id: 536
+    totalSize: 1336424
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__17.cpp
+    role: cpp
+    id: 537
+    totalSize: 1580169
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__18.cpp
+    role: cpp
+    id: 538
+    totalSize: 1174671
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__19.cpp
+    role: cpp
+    id: 539
+    totalSize: 778877
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__2.cpp
+    role: cpp
+    id: 540
+    totalSize: 1910990
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__3.cpp
+    role: cpp
+    id: 541
+    totalSize: 1747476
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__4.cpp
+    role: cpp
+    id: 542
+    totalSize: 1522157
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__5.cpp
+    role: cpp
+    id: 543
+    totalSize: 1619946
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__6.cpp
+    role: cpp
+    id: 544
+    totalSize: 1718799
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__7.cpp
+    role: cpp
+    id: 545
+    totalSize: 1787235
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__8.cpp
+    role: cpp
+    id: 546
+    totalSize: 1503637
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__9.cpp
+    role: cpp
+    id: 547
+    totalSize: 1868538
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule.cpp
+    role: cpp
+    id: 548
+    totalSize: 408570
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_CodeGen.c
+    role: c
+    id: 549
+    totalSize: 36775
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_CodeGen.c
+    role: c
+    id: 550
+    totalSize: 345061
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__1.cpp
+    role: cpp
+    id: 551
+    totalSize: 1196880
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__2.cpp
+    role: cpp
+    id: 552
+    totalSize: 1274238
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__3.cpp
+    role: cpp
+    id: 553
+    totalSize: 1312697
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsCommonModule.cpp
+    role: cpp
+    id: 554
+    totalSize: 331184
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsCommonModule_CodeGen.c
+    role: c
+    id: 555
+    totalSize: 13825
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp
+    role: cpp
+    id: 556
+    totalSize: 158530
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c
+    role: c
+    id: 557
+    totalSize: 8387
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestAssetBundleModule.cpp
+    role: cpp
+    id: 558
+    totalSize: 74420
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestAssetBundleModule_CodeGen.c
+    role: c
+    id: 559
+    totalSize: 5436
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
+    role: cpp
+    id: 560
+    totalSize: 472757
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
+    role: c
+    id: 561
+    totalSize: 33005
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
+    role: cpp
+    id: 562
+    totalSize: 46111
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
+    role: c
+    id: 563
+    totalSize: 4054
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestWWWModule.cpp
+    role: cpp
+    id: 564
+    totalSize: 55000
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestWWWModule_CodeGen.c
+    role: c
+    id: 565
+    totalSize: 2276
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine_CodeGen.c
+    role: c
+    id: 566
+    totalSize: 324
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated.cpp
+    role: cpp
+    id: 567
+    totalSize: 2981
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated_CodeGen.c
+    role: c
+    id: 568
+    totalSize: 798
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/analytics.json
+    role: json
+    id: 569
+    totalSize: 2766
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppsFlyer.dll
+    role: dll
+    id: 570
+    totalSize: 50688
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppsFlyer.pdb
+    role: pdb
+    id: 571
+    totalSize: 31800
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp-firstpass.dll
+    role: dll
+    id: 572
+    totalSize: 59392
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp-firstpass.pdb
+    role: pdb
+    id: 573
+    totalSize: 42364
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+    role: dll
+    id: 574
+    totalSize: 2587136
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+    role: pdb
+    id: 575
+    totalSize: 1036204
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BestHTTP.dll
+    role: dll
+    id: 576
+    totalSize: 3683328
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BestHTTP.pdb
+    role: pdb
+    id: 577
+    totalSize: 1710180
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/CW.Common.dll
+    role: dll
+    id: 578
+    totalSize: 77824
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/CW.Common.pdb
+    role: pdb
+    id: 579
+    totalSize: 32144
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/DamageNumbersPro.dll
+    role: dll
+    id: 580
+    totalSize: 68608
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/DamageNumbersPro.pdb
+    role: pdb
+    id: 581
+    totalSize: 39924
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/DOTween.dll
+    role: dll
+    id: 582
+    totalSize: 121856
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/DOTweenPro.dll
+    role: dll
+    id: 583
+    totalSize: 15360
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Dustyroom.Generator.Demo.Runtime.dll
+    role: dll
+    id: 584
+    totalSize: 4096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Dustyroom.Generator.Demo.Runtime.pdb
+    role: pdb
+    id: 585
+    totalSize: 16052
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Google.Play.Games.dll
+    role: dll
+    id: 586
+    totalSize: 119808
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Google.Play.Games.pdb
+    role: pdb
+    id: 587
+    totalSize: 59016
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanCommon.dll
+    role: dll
+    id: 588
+    totalSize: 5632
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanCommon.pdb
+    role: pdb
+    id: 589
+    totalSize: 16684
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanLocalization.dll
+    role: dll
+    id: 590
+    totalSize: 32256
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanLocalization.pdb
+    role: pdb
+    id: 591
+    totalSize: 28288
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanLocalization.TMP.dll
+    role: dll
+    id: 592
+    totalSize: 10240
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanLocalization.TMP.pdb
+    role: pdb
+    id: 593
+    totalSize: 18416
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanLocalizationEditor.dll
+    role: dll
+    id: 594
+    totalSize: 4096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LeanLocalizationEditor.pdb
+    role: pdb
+    id: 595
+    totalSize: 16192
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LoadingScreen.Misc.dll
+    role: dll
+    id: 596
+    totalSize: 14336
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LoadingScreen.Misc.pdb
+    role: pdb
+    id: 597
+    totalSize: 21100
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LucidSight.Runtime.ColyseusSDK.dll
+    role: dll
+    id: 598
+    totalSize: 221184
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LucidSight.Runtime.ColyseusSDK.pdb
+    role: pdb
+    id: 599
+    totalSize: 108820
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/LucidSightTools.dll
+    role: dll
+    id: 600
+    totalSize: 6656
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll
+    role: dll
+    id: 601
+    totalSize: 117248
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll
+    role: dll
+    id: 602
+    totalSize: 2309120
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.dll
+    role: dll
+    id: 603
+    totalSize: 391168
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.pdb
+    role: pdb
+    id: 604
+    totalSize: 158424
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.chooser.dll
+    role: dll
+    id: 605
+    totalSize: 10752
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.chooser.pdb
+    role: pdb
+    id: 606
+    totalSize: 18132
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.colliderbutton.dll
+    role: dll
+    id: 607
+    totalSize: 15360
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.colliderbutton.pdb
+    role: pdb
+    id: 608
+    totalSize: 20108
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.displayobject.dll
+    role: dll
+    id: 609
+    totalSize: 6144
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.displayobject.pdb
+    role: pdb
+    id: 610
+    totalSize: 16984
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.events.dll
+    role: dll
+    id: 611
+    totalSize: 4608
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.events.pdb
+    role: pdb
+    id: 612
+    totalSize: 16344
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.singleton.dll
+    role: dll
+    id: 613
+    totalSize: 5632
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.singleton.pdb
+    role: pdb
+    id: 614
+    totalSize: 16664
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.spline.dll
+    role: dll
+    id: 615
+    totalSize: 18944
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.spline.pdb
+    role: pdb
+    id: 616
+    totalSize: 22680
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.statemachine.dll
+    role: dll
+    id: 617
+    totalSize: 9216
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.statemachine.pdb
+    role: pdb
+    id: 618
+    totalSize: 18000
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.tween.dll
+    role: dll
+    id: 619
+    totalSize: 51712
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.tween.pdb
+    role: pdb
+    id: 620
+    totalSize: 36004
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Pixelplacement.Surge.Utilities.dll
+    role: dll
+    id: 621
+    totalSize: 7680
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.utilities.editor.dll
+    role: dll
+    id: 622
+    totalSize: 4096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/pixelplacement.surge.utilities.editor.pdb
+    role: pdb
+    id: 623
+    totalSize: 16052
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Pixelplacement.Surge.Utilities.pdb
+    role: pdb
+    id: 624
+    totalSize: 17720
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Purchasing.Common.dll
+    role: dll
+    id: 625
+    totalSize: 9728
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Purchasing.Common.pdb
+    role: pdb
+    id: 626
+    totalSize: 17908
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Sirenix.OdinInspector.Attributes.dll
+    role: dll
+    id: 627
+    totalSize: 37376
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Sirenix.OdinInspector.CompatibilityLayer.dll
+    role: dll
+    id: 628
+    totalSize: 5632
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Sirenix.OdinInspector.CompatibilityLayer.pdb
+    role: pdb
+    id: 629
+    totalSize: 16764
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Sirenix.Serialization.Config.dll
+    role: dll
+    id: 630
+    totalSize: 19456
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Sirenix.Serialization.dll
+    role: dll
+    id: 631
+    totalSize: 313856
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Sirenix.Utilities.dll
+    role: dll
+    id: 632
+    totalSize: 141824
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/spine-csharp.dll
+    role: dll
+    id: 633
+    totalSize: 207360
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/spine-csharp.pdb
+    role: pdb
+    id: 634
+    totalSize: 135764
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/spine-unity-examples.dll
+    role: dll
+    id: 635
+    totalSize: 138752
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/spine-unity-examples.pdb
+    role: pdb
+    id: 636
+    totalSize: 67768
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/spine-unity.dll
+    role: dll
+    id: 637
+    totalSize: 189952
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/spine-unity.pdb
+    role: pdb
+    id: 638
+    totalSize: 99360
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll
+    role: dll
+    id: 639
+    totalSize: 6144
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll
+    role: dll
+    id: 640
+    totalSize: 416768
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Data.dll
+    role: dll
+    id: 641
+    totalSize: 644608
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll
+    role: dll
+    id: 642
+    totalSize: 968192
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Drawing.dll
+    role: dll
+    id: 643
+    totalSize: 47616
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.IO.Compression.dll
+    role: dll
+    id: 644
+    totalSize: 19456
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Numerics.dll
+    role: dll
+    id: 645
+    totalSize: 38400
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Runtime.Serialization.dll
+    role: dll
+    id: 646
+    totalSize: 6144
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll
+    role: dll
+    id: 647
+    totalSize: 1052672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.Linq.dll
+    role: dll
+    id: 648
+    totalSize: 36352
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Addressables.dll
+    role: dll
+    id: 649
+    totalSize: 115200
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Addressables.pdb
+    role: pdb
+    id: 650
+    totalSize: 55672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.dll
+    role: dll
+    id: 651
+    totalSize: 22528
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.pdb
+    role: pdb
+    id: 652
+    totalSize: 25792
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Cinemachine.dll
+    role: dll
+    id: 653
+    totalSize: 473088
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Cinemachine.pdb
+    role: pdb
+    id: 654
+    totalSize: 188784
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.LevelPlay.dll
+    role: dll
+    id: 655
+    totalSize: 162816
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.LevelPlay.pdb
+    role: pdb
+    id: 656
+    totalSize: 64920
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll
+    role: dll
+    id: 657
+    totalSize: 22528
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb
+    role: pdb
+    id: 658
+    totalSize: 22428
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Profiling.Core.dll
+    role: dll
+    id: 659
+    totalSize: 4096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Profiling.Core.pdb
+    role: pdb
+    id: 660
+    totalSize: 15656
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.ResourceManager.dll
+    role: dll
+    id: 661
+    totalSize: 138752
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.ResourceManager.pdb
+    role: pdb
+    id: 662
+    totalSize: 68912
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Authentication.dll
+    role: dll
+    id: 663
+    totalSize: 49152
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Authentication.pdb
+    role: pdb
+    id: 664
+    totalSize: 34924
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Authentication.PlayerAccounts.dll
+    role: dll
+    id: 665
+    totalSize: 22016
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Authentication.PlayerAccounts.pdb
+    role: pdb
+    id: 666
+    totalSize: 22040
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.dll
+    role: dll
+    id: 667
+    totalSize: 9216
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.pdb
+    role: pdb
+    id: 668
+    totalSize: 17560
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.dll
+    role: dll
+    id: 669
+    totalSize: 6656
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.pdb
+    role: pdb
+    id: 670
+    totalSize: 16732
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.dll
+    role: dll
+    id: 671
+    totalSize: 9216
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.dll
+    role: dll
+    id: 672
+    totalSize: 3584
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.pdb
+    role: pdb
+    id: 673
+    totalSize: 15492
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.dll
+    role: dll
+    id: 674
+    totalSize: 35328
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.pdb
+    role: pdb
+    id: 675
+    totalSize: 26560
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.pdb
+    role: pdb
+    id: 676
+    totalSize: 17284
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.dll
+    role: dll
+    id: 677
+    totalSize: 14336
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.pdb
+    role: pdb
+    id: 678
+    totalSize: 18496
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.dll
+    role: dll
+    id: 679
+    totalSize: 10240
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.pdb
+    role: pdb
+    id: 680
+    totalSize: 17920
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.dll
+    role: dll
+    id: 681
+    totalSize: 4608
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.pdb
+    role: pdb
+    id: 682
+    totalSize: 16052
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.dll
+    role: dll
+    id: 683
+    totalSize: 3584
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.pdb
+    role: pdb
+    id: 684
+    totalSize: 15232
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Splines.dll
+    role: dll
+    id: 685
+    totalSize: 45568
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Splines.pdb
+    role: pdb
+    id: 686
+    totalSize: 32380
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll
+    role: dll
+    id: 687
+    totalSize: 444928
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb
+    role: pdb
+    id: 688
+    totalSize: 184736
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Timeline.dll
+    role: dll
+    id: 689
+    totalSize: 80384
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Timeline.pdb
+    role: pdb
+    id: 690
+    totalSize: 47900
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Core.dll
+    role: dll
+    id: 691
+    totalSize: 159744
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Core.pdb
+    role: pdb
+    id: 692
+    totalSize: 83800
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.dll
+    role: dll
+    id: 693
+    totalSize: 22016
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.pdb
+    role: pdb
+    id: 694
+    totalSize: 12336
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll
+    role: dll
+    id: 695
+    totalSize: 92672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb
+    role: pdb
+    id: 696
+    totalSize: 43932
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll
+    role: dll
+    id: 697
+    totalSize: 81920
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb
+    role: pdb
+    id: 698
+    totalSize: 26324
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AssetBundleModule.dll
+    role: dll
+    id: 699
+    totalSize: 16896
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AssetBundleModule.pdb
+    role: pdb
+    id: 700
+    totalSize: 11128
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll
+    role: dll
+    id: 701
+    totalSize: 40448
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb
+    role: pdb
+    id: 702
+    totalSize: 14412
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll
+    role: dll
+    id: 703
+    totalSize: 717824
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb
+    role: pdb
+    id: 704
+    totalSize: 227492
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.DirectorModule.dll
+    role: dll
+    id: 705
+    totalSize: 17920
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.DirectorModule.pdb
+    role: pdb
+    id: 706
+    totalSize: 11540
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll
+    role: dll
+    id: 707
+    totalSize: 83968
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GameCenterModule.dll
+    role: dll
+    id: 708
+    totalSize: 16384
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GameCenterModule.pdb
+    role: pdb
+    id: 709
+    totalSize: 10864
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll
+    role: dll
+    id: 710
+    totalSize: 11264
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb
+    role: pdb
+    id: 711
+    totalSize: 9504
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.HierarchyCoreModule.dll
+    role: dll
+    id: 712
+    totalSize: 37888
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.HierarchyCoreModule.pdb
+    role: pdb
+    id: 713
+    totalSize: 20792
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ImageConversionModule.dll
+    role: dll
+    id: 714
+    totalSize: 12288
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ImageConversionModule.pdb
+    role: pdb
+    id: 715
+    totalSize: 9720
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll
+    role: dll
+    id: 716
+    totalSize: 129024
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb
+    role: pdb
+    id: 717
+    totalSize: 57912
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputForUIModule.dll
+    role: dll
+    id: 718
+    totalSize: 39424
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputForUIModule.pdb
+    role: pdb
+    id: 719
+    totalSize: 23436
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll
+    role: dll
+    id: 720
+    totalSize: 24576
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb
+    role: pdb
+    id: 721
+    totalSize: 13552
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll
+    role: dll
+    id: 722
+    totalSize: 13312
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb
+    role: pdb
+    id: 723
+    totalSize: 9788
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.dll
+    role: dll
+    id: 724
+    totalSize: 64512
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.pdb
+    role: pdb
+    id: 725
+    totalSize: 21096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb
+    role: pdb
+    id: 726
+    totalSize: 11316
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll
+    role: dll
+    id: 727
+    totalSize: 31232
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb
+    role: pdb
+    id: 728
+    totalSize: 12992
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll
+    role: dll
+    id: 729
+    totalSize: 39936
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb
+    role: pdb
+    id: 730
+    totalSize: 16872
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll
+    role: dll
+    id: 731
+    totalSize: 114688
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb
+    role: pdb
+    id: 732
+    totalSize: 50380
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleCore.dll
+    role: dll
+    id: 733
+    totalSize: 4096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleCore.pdb
+    role: pdb
+    id: 734
+    totalSize: 15176
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleMacosStub.dll
+    role: dll
+    id: 735
+    totalSize: 4096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb
+    role: pdb
+    id: 736
+    totalSize: 15720
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleStub.dll
+    role: dll
+    id: 737
+    totalSize: 4096
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleStub.pdb
+    role: pdb
+    id: 738
+    totalSize: 15716
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.dll
+    role: dll
+    id: 739
+    totalSize: 37888
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.pdb
+    role: pdb
+    id: 740
+    totalSize: 28784
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Security.dll
+    role: dll
+    id: 741
+    totalSize: 28672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Security.pdb
+    role: pdb
+    id: 742
+    totalSize: 26560
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.SecurityCore.dll
+    role: dll
+    id: 743
+    totalSize: 6144
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.SecurityCore.pdb
+    role: pdb
+    id: 744
+    totalSize: 16176
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Stores.dll
+    role: dll
+    id: 745
+    totalSize: 138752
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Stores.pdb
+    role: pdb
+    id: 746
+    totalSize: 64140
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTCore.dll
+    role: dll
+    id: 747
+    totalSize: 5120
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTCore.pdb
+    role: pdb
+    id: 748
+    totalSize: 15692
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTStub.dll
+    role: dll
+    id: 749
+    totalSize: 3584
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTStub.pdb
+    role: pdb
+    id: 750
+    totalSize: 15424
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll
+    role: dll
+    id: 751
+    totalSize: 17920
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb
+    role: pdb
+    id: 752
+    totalSize: 12012
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteMaskModule.dll
+    role: dll
+    id: 753
+    totalSize: 12288
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteMaskModule.pdb
+    role: pdb
+    id: 754
+    totalSize: 9424
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll
+    role: dll
+    id: 755
+    totalSize: 11264
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb
+    role: pdb
+    id: 756
+    totalSize: 9236
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainModule.dll
+    role: dll
+    id: 757
+    totalSize: 19968
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainModule.pdb
+    role: pdb
+    id: 758
+    totalSize: 12824
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainPhysicsModule.dll
+    role: dll
+    id: 759
+    totalSize: 11264
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainPhysicsModule.pdb
+    role: pdb
+    id: 760
+    totalSize: 9360
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll
+    role: dll
+    id: 761
+    totalSize: 40448
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb
+    role: pdb
+    id: 762
+    totalSize: 18536
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll
+    role: dll
+    id: 763
+    totalSize: 271360
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb
+    role: pdb
+    id: 764
+    totalSize: 123300
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll
+    role: dll
+    id: 765
+    totalSize: 28672
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb
+    role: pdb
+    id: 766
+    totalSize: 12588
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll
+    role: dll
+    id: 767
+    totalSize: 20480
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb
+    role: pdb
+    id: 768
+    totalSize: 13536
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll
+    role: dll
+    id: 769
+    totalSize: 266752
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb
+    role: pdb
+    id: 770
+    totalSize: 137464
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll
+    role: dll
+    id: 771
+    totalSize: 1675264
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb
+    role: pdb
+    id: 772
+    totalSize: 777888
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll
+    role: dll
+    id: 773
+    totalSize: 32256
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb
+    role: pdb
+    id: 774
+    totalSize: 13236
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+    role: dll
+    id: 775
+    totalSize: 19968
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb
+    role: pdb
+    id: 776
+    totalSize: 13204
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.dll
+    role: dll
+    id: 777
+    totalSize: 20480
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.pdb
+    role: pdb
+    id: 778
+    totalSize: 12160
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+    role: dll
+    id: 779
+    totalSize: 14336
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb
+    role: pdb
+    id: 780
+    totalSize: 10400
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll
+    role: dll
+    id: 781
+    totalSize: 38912
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb
+    role: pdb
+    id: 782
+    totalSize: 20776
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+    role: dll
+    id: 783
+    totalSize: 13312
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.pdb
+    role: pdb
+    id: 784
+    totalSize: 10420
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+    role: dll
+    id: 785
+    totalSize: 14336
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestWWWModule.pdb
+    role: pdb
+    id: 786
+    totalSize: 10572
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json
+    role: json
+    id: 787
+    totalSize: 58362
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Resources/unity
+      default resources
+    role: unity default resources
+    id: 788
+    totalSize: 3743220
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/setupSymbols.gradle
+    role: gradle
+    id: 789
+    totalSize: 5000
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/shared/keepUnitySymbols.gradle
+    role: gradle
+    id: 790
+    totalSize: 1538
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt
+    role: txt
+    id: 791
+    totalSize: 38
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/CMakeLists.txt
+    role: txt
+    id: 792
+    totalSize: 715
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/UnitySwappyWrapper.cpp
+    role: cpp
+    id: 793
+    totalSize: 3819
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/UnitySwappyWrapper.h
+    role: h
+    id: 794
+    totalSize: 3474
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+    role: txt
+    id: 795
+    totalSize: 86
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties
+    role: properties
+    id: 796
+    totalSize: 78
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java
+    role: java
+    id: 797
+    totalSize: 6302
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar
+    role: jar
+    id: 798
+    totalSize: 202226
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml
+    role: xml
+    id: 799
+    totalSize: 111
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml
+    role: xml
+    id: 800
+    totalSize: 171
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml
+    role: xml
+    id: 801
+    totalSize: 629
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml
+    role: xml
+    id: 802
+    totalSize: 532
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml
+    role: xml
+    id: 803
+    totalSize: 132
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml
+    role: xml
+    id: 804
+    totalSize: 131
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/strings.xml
+    role: xml
+    id: 805
+    totalSize: 129
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml
+    role: xml
+    id: 806
+    totalSize: 395
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml
+    role: xml
+    id: 807
+    totalSize: 359
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png
+    role: png
+    id: 808
+    totalSize: 6724
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png
+    role: png
+    id: 809
+    totalSize: 3930
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png
+    role: png
+    id: 810
+    totalSize: 14015
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png
+    role: png
+    id: 811
+    totalSize: 23028
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png
+    role: png
+    id: 812
+    totalSize: 46444
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png
+    role: png
+    id: 813
+    totalSize: 74713
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png
+    role: png
+    id: 814
+    totalSize: 3930
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png
+    role: png
+    id: 815
+    totalSize: 6724
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png
+    role: png
+    id: 816
+    totalSize: 14015
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png
+    role: png
+    id: 817
+    totalSize: 23028
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png
+    role: png
+    id: 818
+    totalSize: 46444
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png
+    role: png
+    id: 819
+    totalSize: 74713
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so
+    role: so
+    id: 820
+    totalSize: 6696
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
+    role: so
+    id: 821
+    totalSize: 22627792
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+    role: unity_app_guid
+    id: 822
+    totalSize: 36
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint
+    role: build_fingerprint
+    id: 823
+    totalSize: 78
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+    role: xml
+    id: 824
+    totalSize: 458
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+    role: xml
+    id: 825
+    totalSize: 3254
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle
+    role: gradle
+    id: 826
+    totalSize: 2152
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle
+    role: gradle
+    id: 827
+    totalSize: 4967
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle
+    role: gradle
+    id: 828
+    totalSize: 815
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties
+    role: properties
+    id: 829
+    totalSize: 1311
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle
+    role: gradle
+    id: 830
+    totalSize: 1507
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt
+    role: txt
+    id: 831
+    totalSize: 1669
+  - path: D:/UnityProject/GOA_Client/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties
+    role: properties
+    id: 832
+    totalSize: 88
+  - path: D:/UnityBuild/2D_GPS/1.0.34/1.0.34.apk
+    role: APK
+    id: 833
+    totalSize: 162282159
+  m_BuildSteps:
+  - stepName: Build player
+    durationTicks: 1200845627
+    depth: 0
+    messages:
+    - type: 2
+      content: Please assign a Font Asset to this Text (TMP) gameobject.
+  - stepName: Preprocess Player
+    durationTicks: 15134595
+    depth: 1
+    messages:
+    - type: 4
+      content: 'AmbiguousMatchException: Ambiguous match found.'
+    - type: 2
+      content: '[ServicesCore]: To use Unity''s dashboard services, you need to link
+        your Unity project to a project ID. To do this, go to Project Settings to
+        select your organization, select your project and then link a project ID.
+        You also need to make sure your organization has access to the required products.
+        Visit https://dashboard.unity3d.com to sign up.'
+  - stepName: Prepare For Build
+    durationTicks: 48785012
+    depth: 1
+    messages: []
+  - stepName: ProducePlayerScriptAssemblies
+    durationTicks: 77737137
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 74822520
+    depth: 2
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 71895498
+    depth: 3
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 718401
+    depth: 3
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 13406553
+    depth: 1
+    messages: []
+  - stepName: GetUnityAssemblies
+    durationTicks: 11662
+    depth: 2
+    messages: []
+  - stepName: GetPlayerAssemblies
+    durationTicks: 161706
+    depth: 2
+    messages: []
+  - stepName: Check old data build
+    durationTicks: 11188905
+    depth: 2
+    messages:
+    - type: 0
+      content: 'The same field name is serialized multiple times in the class or
+        its parent class. This is not supported: Base(MonoBehaviour) Holding'
+  - stepName: Set up scripts only build
+    durationTicks: 109101
+    depth: 2
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 377195
+    depth: 1
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 213502
+    depth: 1
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+    - type: 3
+      content: Including Unity Splash Screen logo because it is included in the logo
+        list.
+  - stepName: Run script only build
+    durationTicks: 1378766
+    depth: 1
+    messages: []
+  - stepName: Build scripts DLLs
+    durationTicks: 242522
+    depth: 2
+    messages: []
+  - stepName: GetSystemAssemblies
+    durationTicks: 11084
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 1037882569
+    depth: 1
+    messages:
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 2
+      content: Compressed texture icon is used as icon. This might compromise visual
+        quality of the final image. Uncompressed format might be considered as better
+        import option.
+    - type: 0
+      content: "System.Exception: apkanalyzer failed to estimate the apk size. Output:\nException
+        in thread \"main\" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema\r\n\tat
+        com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)\r\n\tat
+        com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)\r\n\tat
+        com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)\r\n\tat
+        com.android.tools.apk.analyzer.ApkAnalyzerCli.getAaptInvokerFromSdk(ApkAnalyzerCli.java:277)\r\n\tat
+        com.android.tools.apk.analyzer.ApkAnalyzerCli.main(ApkAnalyzerCli.java:129)\r\nCaused
+        by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema\r\n\tat
+        java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\r\n\tat
+        java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\r\n\tat
+        java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)\r\n\t...
+        5 more\r\n\r\n\r\n\r\n  at Unity.BuildReportInspector.Mobile.AndroidUtilities.GetApkDownloadSize
+        (System.String applicationPath) [0x001b8] in .\\Library\\PackageCache\\com.unity.build-report-inspector@f170aec2b344\\Editor\\Mobile\\AndroidUtilities.cs:256
+        \r\n  at Unity.BuildReportInspector.Mobile.AndroidUtilities.GetArchitectureInfo
+        (System.String applicationPath) [0x000ca] in .\\Library\\PackageCache\\com.unity.build-report-inspector@f170aec2b344\\Editor\\Mobile\\AndroidUtilities.cs:128
+        \r\n  at Unity.BuildReportInspector.Mobile.MobileAppendix..ctor (System.String
+        applicationPath) [0x000ad] in .\\Library\\PackageCache\\com.unity.build-report-inspector@f170aec2b344\\Editor\\Mobile\\MobileAppendix.cs:90
+        \r\n  at Unity.BuildReportInspector.Mobile.MobileHelper.GenerateMobileAppendix
+        (System.String applicationPath, System.String guid) [0x00017] in .\\Library\\PackageCache\\com.unity.build-report-inspector@f170aec2b344\\Editor\\Mobile\\MobileHelper.cs:77 "
+  - stepName: Initializing
+    durationTicks: 7752
+    depth: 2
+    messages: []
+  - stepName: Check gradle project collisions
+    durationTicks: 2893
+    depth: 2
+    messages: []
+  - stepName: Preparing banner
+    durationTicks: 4626
+    depth: 2
+    messages: []
+  - stepName: Setup incremental player build
+    durationTicks: 850909
+    depth: 2
+    messages: []
+  - stepName: Incremental player build
+    durationTicks: 620652116
+    depth: 2
+    messages: []
+  - stepName: Report output files
+    durationTicks: 1689726
+    depth: 2
+    messages: []
+  - stepName: Calling IPostGenerateGradleAndroidProject callbacks
+    durationTicks: 505921
+    depth: 2
+    messages: []
+  - stepName: Validate Gradle Project
+    durationTicks: 112471
+    depth: 2
+    messages: []
+  - stepName: Cloud Diagnostics Symbol Upload
+    durationTicks: 3643
+    depth: 2
+    messages: []
+  - stepName: Building Gradle project
+    durationTicks: 403872576
+    depth: 2
+    messages: []
+  - stepName: Building Gradle Symbols
+    durationTicks: 2754
+    depth: 2
+    messages: []
+  - stepName: Processing Mapping File
+    durationTicks: 3173
+    depth: 2
+    messages: []
+  - stepName: Moving output package(s)
+    durationTicks: 675824
+    depth: 2
+    messages: []
+  - stepName: Checking Symbols size
+    durationTicks: 9165
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -6679241441468530545}
+  - {fileID: -5795460107135720952}
+  - {fileID: 1695182164337780229}
+  - {fileID: -1459487731050753153}
+  - {fileID: -4259970211936849604}
+--- !u!382020655 &1695182164337780229
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - BannerLevelPlayCallbacksWrapper
+  - LPMBannerAdView
+  - Sirenix.OdinInspector.Attributes
+  - LPMUtilities
+  - UnityLevelPlayBannerListener
+  - Sirenix.Serialization.Config
+  - DOTween
+  - LPMInterstitialAdCallbacksWrapper
+  - UnityLevelPlayRewardedVideoListener
+  - iOSBridge
+  - RewardedAd
+  - nunit.framework
+  - common
+  - IUnityBannerAdListener
+  - ProxyFinder
+  - UnitySegmentListener
+  - UnityImpressionDataListener
+  - InterstitialAd
+  - AppsFlyerAttribution
+  - Unity.Burst.Unsafe
+  - AndroidBridgeConstants
+  - LPMInterstitialAd
+  - Unity.VisualScripting.Antlr3.Runtime
+  - Sirenix.Utilities
+  - InControlNative
+  - IronSource
+  - BannerAd
+  - AudioClipMp3
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - IUnityRewardedAdListener
+  - LevelPlayRewardedVideoWrapper
+  - LPMRewardedAdCallbacksWrapper
+  - LPMInitializer
+  - GooglePlayGamesManifest
+  - IUnityLevelPlayInitListener
+  - AndroidBridge
+  - LPMRewardedAd
+  - UnityInitializationListener
+  - InterstitialLevelPlayCallbacksWrapper
+  - AppsFlyeriOSWrapper
+  - RewardedVideoLevelPlayCallbacksWrapper
+  - libsqlite3
+  - UnityLevelPlayInterstitialListener
+  - DOTweenPro
+  - DemiLib
+  - BannerUtils
+  - IUnityInterstitialAdListener
+  - LevelPlayUtils
+  - LucidSightTools
+  - AFUnityUtils
+  - Sirenix.Serialization
+  - LevelPlayBridge
+  - LPMBannerAdViewCallbacksWrapper
+  - LPMBannerPosition
+  - UnityLevelPlayRewardedVideoManualListener
+  - AndroidBridgeUtilities
+  - LevelPlayInterstitialWrapper
+  m_EditorPlugins:
+  - GIFWrapper
+  - OIIOBindings
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - log4netPlastic
+  - LoadingScreenTutorialWizard
+  - Sirenix.Utilities.Editor
+  - Unity.VisualScripting.sqlite3
+  - libOIIOBindings
+  - Unity.Plastic.Newtonsoft.Json
+  - libGIFWrapper
+  - gpgs-plugin-support-2.1.0
+  - Unity.Plastic.Antlr3.Runtime
+  - AppsFlyerBundle
+  - Unity.VisualScripting.TextureAssets
+  - zlib64Plastic
+  - Google.IOSResolver
+  - AppleEventIntegration
+  - Mono.Cecil
+  - Google.PackageManagerResolver
+  - Google.VersionHandler
+  - DemiEditor
+  - Google.VersionHandlerImpl
+  - Unity.VisualScripting.IonicZip
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - unityplastic
+  - sqlite3
+  - Mono.Cecil.Mdb
+  - Unity.VisualScripting.YamlDotNet
+  - Sirenix.OdinInspector.Editor
+  - DOTweenProEditor
+  - DOTweenEditor
+  - Unity.Burst.Cecil.Mdb
+  - ProResWrapper
+  - liblz4Plastic
+  - Google.JarResolver
+  - AVFoundationWrapper
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - lz4x64Plastic
+  - ProResToolbox

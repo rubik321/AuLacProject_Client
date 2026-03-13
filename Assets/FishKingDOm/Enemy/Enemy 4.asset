@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102b7991e3e35fc44976f682b875aefe, type: 3}
+  m_Name: Enemy 4
+  m_EditorClassIdentifier: 
+  skeAsset: {fileID: 11400000, guid: 64032d5185dbc454b81d3157a174d243, type: 2}
+  icon: {fileID: 21300000, guid: 1dc377caf23e547e6a4b88b4bc8d02a9, type: 3}
+  baseData:
+    CharacterType: 1
+    CardType: 0
+    Origin: 2
+    SkillType: 1
+    MoveAction:
+      type: 1
+      delay_time: 1
+    AttackAction:
+      type: 1
+      TargetType: 1
+      hitdame_delay_time: 1
+      completed_delay_time: 1.7
+      effectDelay: 0.1
+      attackCount: 4
+    SkillAction:
+      type: 1
+      TargetType: 1
+      hitdame_delay_time: 2
+      completed_delay_time: 1.7
+      effectDelay: 0.4
+      attackCount: 1
+    Index: 2004
+    Star: 0
+    Slot: 0
+    Class: 0
+    Name: Gongjian
+    ATK: 70
+    Def: 0
+    CritRate: 0
+    MaxHP: 100
+    CurHP: 5000
+    AP: 0
+    ScaleData: {x: -0.6, y: 0.6}
+  listEffect:
+  - effectID: 0
+    sketetonEffect: {fileID: 11400000, guid: ed20d573c59840941bc6eb20fe6995a9, type: 2}
+    particalEffect: {fileID: 1620636520166436, guid: bbf3ef14c7aa6b543ad116b899a6d380, type: 3}
+    hitDameEffect: {fileID: 1620636520166436, guid: bbf3ef14c7aa6b543ad116b899a6d380, type: 3}
+    delayEffect: 0.3
+  - effectID: 1
+    sketetonEffect: {fileID: 11400000, guid: 79cea5aea15320845bd81eca8c5b67ff, type: 2}
+    particalEffect: {fileID: 3700749977424351666, guid: cfe3e4a86ff1d784f8a96086aeab12ee, type: 3}
+    hitDameEffect: {fileID: 1620636520166436, guid: bbf3ef14c7aa6b543ad116b899a6d380, type: 3}
+    delayEffect: 0
+  delay: 0

@@ -1,0 +1,1760 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1091848433751594795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8228335415845958367}
+  m_Layer: 0
+  m_Name: Authen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8228335415845958367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091848433751594795}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.001953125, y: 43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4215712764887092459}
+  m_Father: {fileID: 4215712766611160593}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1162980741727256327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8878042897122277112}
+  - component: {fileID: 1364552144507286639}
+  m_Layer: 0
+  m_Name: CharacterClothManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8878042897122277112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162980741727256327}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1364552144507286639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162980741727256327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc907860951ddcc4db3e3207ff4c67f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  CharacterCloth:
+    Keys: []
+    Values: []
+  CharacterClothBase:
+    Keys: []
+    Values: []
+  CharacterClothData:
+    Keys: []
+    Values: []
+--- !u!1 &3928914346865604479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7397872748696767101}
+  - component: {fileID: 4281202820911357077}
+  m_Layer: 0
+  m_Name: CharacterPlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7397872748696767101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3928914346865604479}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4281202820911357077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3928914346865604479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf7ab6663e2b2d44b9201d7f618969e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  CharacterPlayer:
+    Keys: []
+    Values: []
+  CharacterSelected: 
+  CharacterPlayerData:
+    Keys: []
+    Values: []
+--- !u!1 &4215712764887092244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712764887092459}
+  - component: {fileID: 4215712764887092458}
+  m_Layer: 0
+  m_Name: AccountManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712764887092459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712764887092244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8228335415845958367}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712764887092458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712764887092244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4044781e1a69e44cabfd3bdb94de6e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  Account:
+    _id: 
+    AccountID: 0
+    Username: 
+    Password: 
+    Email: 
+    DeviceID: 
+    GoogleEmail: 
+    GoogleName: 
+--- !u!1 &4215712765745611306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712765745611305}
+  - component: {fileID: 4215712765745611304}
+  m_Layer: 0
+  m_Name: DataCenterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712765745611305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712765745611306}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712765745611304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712765745611306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c82a0551ba9f3c74e8407d7e5df9bf9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  DataVersion:
+    VersionGame: 0
+    AvatarData: 0
+    AvatarBorderData: 0
+    CostChangeName: 0
+    SkinData: 0
+    RestaurentShopData: 0
+    ClothShopData: 0
+    ItemDataInfo: 0
+    DailyRewardData: 0
+    CharacterClothData: 0
+    CharacterPlayerData: 0
+  DataVersionText: {fileID: 4900000, guid: 6b938859d15984640b4aabf5d6216c4d, type: 3}
+  CheckVersionDone: 0
+--- !u!1 &4215712765916802144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712765916802151}
+  - component: {fileID: 4215712765916802150}
+  m_Layer: 0
+  m_Name: LogSender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712765916802151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712765916802144}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712765916802150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712765916802144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a54ae6386cb5d49850151304846bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LogHis:
+    Keys: []
+    Values: []
+--- !u!1 &4215712765985726872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712765985726879}
+  - component: {fileID: 4215712765985726878}
+  m_Layer: 5
+  m_Name: UserStorageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4215712765985726879
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712765985726872}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.001953125, y: -43.25879}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4215712765985726878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712765985726872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad84efd8907a2b848871a1211f759055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  CustomAvatarPath: 
+--- !u!1 &4215712766031281706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712766031281705}
+  - component: {fileID: 4215712766031281704}
+  m_Layer: 0
+  m_Name: FriendManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712766031281705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766031281706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712766031281704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766031281706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f380aaa949870514c90e7fc5ce2c3a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  FriendDatas:
+    Keys: []
+    Values: []
+  Friends:
+    Keys: []
+    Values: []
+  FriendRequests:
+    Keys: []
+    Values: []
+  FriendRequestsSent:
+    Keys: []
+    Values: []
+--- !u!1 &4215712766323742496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712766323742503}
+  - component: {fileID: 4215712766323742502}
+  m_Layer: 0
+  m_Name: ItemDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712766323742503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766323742496}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712766323742502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766323742496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4299b4c3d74bcd94d8b0cf4f2e023fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  UserItems:
+    Keys: []
+    Values: []
+  ItemDataInfoDic:
+    Keys: []
+    Values: []
+  ItemIconList:
+  - {fileID: 21300000, guid: d0a5286f5d50674439ce38627b930332, type: 3}
+  - {fileID: 21300000, guid: fa0279979cfb6674ab76076a4473ee59, type: 3}
+  - {fileID: 21300000, guid: 39cb1443793e7e64ea66d11cc1ce9f80, type: 3}
+  - {fileID: 21300000, guid: ca137091f0eca8e45ac0a183ac35a2a7, type: 3}
+  - {fileID: 21300000, guid: f78275bb5bf55a64894e3eef85790ed7, type: 3}
+  - {fileID: 21300000, guid: 70746714bf0fe2e4aa5a27a6f4780bce, type: 3}
+  - {fileID: 21300000, guid: 78ca6c4e61a8c48449e4334ef6f8f5ae, type: 3}
+  - {fileID: 21300000, guid: 21b9540db70d10043881779ac4fc07cb, type: 3}
+  - {fileID: 21300000, guid: e8d13c92bb56c304992f163ab0756e20, type: 3}
+  - {fileID: 21300000, guid: cc790bb337eea794da00219cd699b7c3, type: 3}
+  - {fileID: 21300000, guid: 6df8c54ee445c04439f57ab216ed04c8, type: 3}
+  - {fileID: 21300000, guid: 8a34f9e2b07aa51459f8f9577fb64466, type: 3}
+  DefaultIcon: {fileID: 21300000, guid: 70746714bf0fe2e4aa5a27a6f4780bce, type: 3}
+--- !u!1 &4215712766419242334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712766419242333}
+  - component: {fileID: 4215712766419242332}
+  m_Layer: 0
+  m_Name: UserDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712766419242333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766419242334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712766419242332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766419242334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247b4ea02c5172249ac4420ea6eac047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  CostChangeName:
+    Type: 0
+    Amount: 0
+  UserData:
+    _id: 
+    PlayerID: 0
+    AccountID: 
+    DisplayName: 
+    FirstChangeName: 0
+    Server: 0
+    LastLogin: 0
+    Exp: 0
+--- !u!1 &4215712766422555310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712766422555309}
+  - component: {fileID: 4215712766422555308}
+  m_Layer: 0
+  m_Name: ShopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712766422555309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766422555310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712766422555308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766422555310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bea33a0a42f72024396422bacf2ffbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  RestaurentShopData:
+    ShopList: []
+  ClothShopData:
+    ShopList: []
+--- !u!1 &4215712766474304310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712766474304309}
+  - component: {fileID: 4215712766474304308}
+  m_Layer: 0
+  m_Name: DailyRewardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712766474304309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766474304310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712766474304308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766474304310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579987c765fd2ed45a409a8d1e616e14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  DailyReward:
+    Version: 0
+    Day: 0
+  DailyRewardDatas: []
+--- !u!1 &4215712766598800332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712766598800323}
+  - component: {fileID: 4215712766598800322}
+  m_Layer: 0
+  m_Name: GiftCodeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712766598800323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766598800332}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712766598800322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766598800332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4ef73496e89ea45a3439aa93fd2c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  UserGiftCode:
+    OldCode: []
+    OldType: []
+--- !u!1 &4215712766611160594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215712766611160593}
+  - component: {fileID: 4215712766611160592}
+  - component: {fileID: 4843711720175757387}
+  m_Layer: 0
+  m_Name: ServerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215712766611160593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766611160594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8228335415845958367}
+  - {fileID: 4464613158874098452}
+  - {fileID: 1266617270256439797}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4215712766611160592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766611160594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2ab4ff7cd376f42862b97b4b844df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  IsLoad: 0
+  LoadAddressableDone: 0
+  TimeServer: 0
+  LastAPIResponseData:
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+  - Url_API: 
+    Status: 0
+    Error: 
+    UserDataResponse:
+      _id: 
+      PlayerID: 0
+      AccountID: 
+      DisplayName: 
+      FirstChangeName: 0
+      Server: 0
+      LastLogin: 0
+    Update_Item: []
+    Update_DisplayName:
+      DisplayeName: 
+      FirstChange: 0
+    AvatarUpdate:
+      Own: 
+      Current: -2
+    AvatarBorderUpdate:
+      Own: 
+      Current: -1
+    AvatarCustomUpdates: []
+    AvatarCustomPath: 
+    SkinUpdate:
+      Own: 
+      Current: -1
+    Update_GiftCode:
+      OldCode: []
+      OldType: []
+    UserDataShorts: []
+    Update_Friend: []
+    Update_PlayerMail: []
+    DailyReward:
+      Version: 0
+      Day: 0
+    Update_CharacterCloth: []
+    Update_CharacterPlayer: []
+    CharacterSelected: 
+    RewardData:
+      Title: 
+      Items: []
+    TimeServer: 0
+--- !u!114 &4843711720175757387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4215712766611160594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d02c544f9f4a04bb4c4cf732be1538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+--- !u!1 &5371513317747244233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1266617270256439797}
+  - component: {fileID: 6705805800013319492}
+  m_Layer: 0
+  m_Name: SystemMamanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1266617270256439797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5371513317747244233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4215712766611160593}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6705805800013319492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5371513317747244233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080db6ae550354c4fa5822f83566329f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  SystemData:
+    Versions: []
+    API_Url: http://15.235.180.137:4080
+    Socket_Url: ws://15.235.180.137:4000
+    AppStore_Url: 
+    GooglePlay_Url: 
+--- !u!1 &5982310704005777755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6802986644187839915}
+  - component: {fileID: 6487704018029788325}
+  m_Layer: 0
+  m_Name: PlayerMailManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6802986644187839915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982310704005777755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.001953125, y: -43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4464613158874098452}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6487704018029788325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982310704005777755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69f3f3121511b84a8510c5684ba785b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+  PlayerMails:
+    Keys: []
+    Values: []
+  IsNoticMail: 0
+--- !u!1 &7034224657376083568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4464613158874098452}
+  - component: {fileID: 6479292685647889225}
+  m_Layer: 0
+  m_Name: GameLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4464613158874098452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034224657376083568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.001953125, y: 43.25879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8878042897122277112}
+  - {fileID: 7397872748696767101}
+  - {fileID: 4215712766474304309}
+  - {fileID: 4215712765745611305}
+  - {fileID: 4215712766031281705}
+  - {fileID: 4215712766598800323}
+  - {fileID: 4215712766323742503}
+  - {fileID: 4215712765916802151}
+  - {fileID: 6802986644187839915}
+  - {fileID: 4215712766422555309}
+  - {fileID: 4215712766419242333}
+  - {fileID: 8571836527449622431}
+  - {fileID: 4215712765985726879}
+  m_Father: {fileID: 4215712766611160593}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6479292685647889225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7034224657376083568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d02c544f9f4a04bb4c4cf732be1538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funnyCheck: 0
+--- !u!1001 &4215712765865315289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4464613158874098452}
+    m_Modifications:
+    - target: {fileID: 5509168480351489088, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_Name
+      value: UserProfileManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.001953125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -43.25879
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+--- !u!4 &8571836527449622431 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5509168480351489094, guid: eebc52abd8813bd46b8e2a425bb5efbd, type: 3}
+  m_PrefabInstance: {fileID: 4215712765865315289}
+  m_PrefabAsset: {fileID: 0}

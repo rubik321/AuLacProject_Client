@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using NTFunctions_old;
+
+namespace GOA.UIMenu{
+    public class NoticQuitGameUI : PopupUI
+    {
+        public override void LoadComponents()
+        {
+            base.LoadComponents();
+            this.lvUI = new PopupLv().GetValue(transform.name);
+        }
+        
+        public void OnUI(){
+            if(!this.CanShow()) return;
+            this.Show();
+        }
+
+        public void OnclickYes(){
+             Application.Quit();
+        }
+        public void OnclickNo(){
+            this.OffUI();
+        }
+    }
+}

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7decf71d60cb2fe438b4d9a0a160a517, type: 3}
+  m_Name: SceneLoaderManager
+  m_EditorClassIdentifier: 
+  loadingScreenMode: 1
+  sceneList:
+  - SceneName: Login_old
+    SceneAsset: {fileID: 102900000, guid: 0838fc90a88a84571ac119675c2a92b9, type: 3}
+    DisplayName: Scene Example Name
+    Description: Prompta noluisse verterem sed eu, mundi graece eum in. Vis ut alia
+      euismod tincidunt, per no ubique euismod. Indoctum qualisque vituperata an
+      his. Timeam feugait id mel, vis in iuvaret fabulas. Quis veri diceret vix in,
+      numquam praesent elaboraret eum ne.
+    SkipType: 0
+    LoadingType: 1
+    FakeLoadingTime: 7
+    Backgrounds:
+    - {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+  - SceneName: Login_old
+    SceneAsset: {fileID: 102900000, guid: 0838fc90a88a84571ac119675c2a92b9, type: 3}
+    DisplayName: Login
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds:
+    - {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+  - SceneName: WorldMapScenes
+    SceneAsset: {fileID: 102900000, guid: 10c204c971986784a881002c7d1a8f7d, type: 3}
+    DisplayName: WorldMapScenes
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds:
+    - {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+  - SceneName: Combat
+    SceneAsset: {fileID: 102900000, guid: 6cb2721292eb6004dbb3ac6c8e1680cd, type: 3}
+    DisplayName: Combat
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds:
+    - {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+  - SceneName: Adventure
+    SceneAsset: {fileID: 102900000, guid: 90c2f47f5d9fc4d138ae499d75e14eae, type: 3}
+    DisplayName: Adventure
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds:
+    - {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+  - SceneName: Campaign
+    SceneAsset: {fileID: 102900000, guid: f5a7a85b75d83644f91915abecddff3c, type: 3}
+    DisplayName: Campaign
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds:
+    - {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+  - SceneName: LevelMap
+    SceneAsset: {fileID: 102900000, guid: 6628b024db9b44ef29c976e0f7354577, type: 3}
+    DisplayName: LevelMap
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds:
+    - {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+  - SceneName: Splash
+    SceneAsset: {fileID: 102900000, guid: e16e3f8a917729146a49c10cd68f20ec, type: 3}
+    DisplayName: Splash
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds: []
+  - SceneName: Login
+    SceneAsset: {fileID: 102900000, guid: 6127281d89ff9d642850871c9314de46, type: 3}
+    DisplayName: Login
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds: []
+  tipsList:
+  - Create beautiful loading screens for improved your game
+  - Easy to use and implement
+  - 'Remember that have 3 diferent styles for select. '
+  - Create as many tips as you need
+  - Improved the look of your game with awasome backgrounds.
+  - Good backgrounds sounds increase the motivation of players.
+  buildSettingsAsFallback: 1
+  useSynchronousAsFallback: 1

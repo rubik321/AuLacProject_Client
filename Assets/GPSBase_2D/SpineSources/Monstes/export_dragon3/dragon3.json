@@ -1,0 +1,1775 @@
+{
+"skeleton": { "hash": "jEN5QMQ8BnE", "spine": "4.1.19", "x": -1887.19, "y": -53.36, "width": 4666.64, "height": 3257.55 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "x": 251.16, "y": 992.25 },
+	{ "name": "body2", "parent": "body", "x": -38.22, "y": -176.41 },
+	{ "name": "tail", "parent": "body2", "length": 335.37, "rotation": -0.43, "x": 284.72, "y": 281.68 },
+	{ "name": "tail2", "parent": "tail", "length": 445.85, "rotation": -16.67, "x": 337.85, "y": 5.06 },
+	{ "name": "tail3", "parent": "tail2", "length": 302.97, "rotation": -15.37, "x": 452.26, "y": -1.24 },
+	{ "name": "tail4", "parent": "tail3", "length": 407.92, "rotation": -2.25, "x": 312.14, "y": -2.04 },
+	{ "name": "tail5", "parent": "tail4", "length": 293.06, "rotation": 24.94, "x": 436.48, "y": -0.41 },
+	{ "name": "tail6", "parent": "tail5", "length": 277.93, "rotation": 17.33, "x": 287.65, "y": -7.67 },
+	{ "name": "tail7", "parent": "tail6", "length": 337.04, "rotation": 32.26, "x": 291.53, "y": 1.55 },
+	{ "name": "leg_b2-5", "parent": "body2", "length": 390.3, "rotation": -121.26, "x": 648.05, "y": -51.39 },
+	{ "name": "leg_b2-3", "parent": "leg_b2-5", "length": 478.43, "rotation": 126.26, "x": 396.4, "y": 7.18 },
+	{ "name": "leg_b2-2", "parent": "leg_b2-3", "length": 414.31, "rotation": -104.94, "x": 477.91, "y": -5.93 },
+	{ "name": "leg_b2-1", "parent": "leg_b2-2", "length": 402.32, "rotation": -178.69, "x": 414.31, "transform": "onlyTranslation" },
+	{ "name": "wing", "parent": "body2", "length": 1098.71, "rotation": 41.08, "x": -118.24, "y": 346.47 },
+	{ "name": "wing2", "parent": "wing", "length": 929.49, "rotation": 78.11, "x": 1110.28, "y": 4.76 },
+	{ "name": "wing3", "parent": "wing2", "length": 1014.47, "rotation": -116.03, "x": 928.92, "y": -12.5 },
+	{ "name": "wing4", "parent": "wing3", "length": 787.19, "rotation": -35.38, "x": 1014.78, "y": 5.59 },
+	{ "name": "wing5", "parent": "wing2", "length": 983.63, "rotation": -145.17, "x": 919.14, "y": -7.04 },
+	{ "name": "wing6", "parent": "wing5", "length": 808.52, "rotation": -36.39, "x": 1003.62, "y": -2.71 },
+	{ "name": "head_1", "parent": "body2", "length": 422.51, "rotation": 78.81, "x": -856.88, "y": -95.12 },
+	{ "name": "head_2", "parent": "head_1", "length": 369.04, "rotation": 12.6, "x": 422.51 },
+	{ "name": "head_3", "parent": "head_2", "length": 312.42, "rotation": 42.99, "x": 378.26, "y": 4.33 },
+	{ "name": "head_4", "parent": "head_3", "length": 272.25, "rotation": 28.07, "x": 312.35, "y": 6.44 },
+	{ "name": "head_5", "parent": "head_4", "length": 237.02, "rotation": 15.32, "x": 289.63, "y": 5.49 },
+	{ "name": "head_1-up2", "parent": "head_5", "rotation": -8.41, "x": 147.67, "y": 50.38 },
+	{ "name": "head_1-up", "parent": "head_1-up2", "length": 407.51, "rotation": 30.2, "x": 89.17, "y": -45.83 },
+	{ "name": "head_1-down", "parent": "head_1-up2", "length": 448.59, "rotation": 68.24, "x": 62.59, "y": 23.04 },
+	{ "name": "head_6", "parent": "body2", "length": 462.39, "rotation": 63.69, "x": -378.63, "y": -236.32 },
+	{ "name": "head_7", "parent": "head_6", "length": 386.53, "rotation": 4.89, "x": 454.26, "y": 6.15 },
+	{ "name": "head_8", "parent": "head_7", "length": 466.5, "rotation": 11.87, "x": 390.77, "y": 1.66 },
+	{ "name": "head_9", "parent": "head_8", "length": 287.67, "rotation": 32.87, "x": 475.48, "y": 1.51 },
+	{ "name": "head_10", "parent": "head_9", "length": 280.96, "rotation": 46.78, "x": 289.47, "y": 4.18 },
+	{ "name": "head2", "parent": "head_10", "x": 184.98, "y": 21.48 },
+	{ "name": "head_2-up", "parent": "head2", "length": 521.91, "rotation": 40.87, "x": 92.87, "y": -12.92 },
+	{ "name": "head_2-down", "parent": "head_2-up", "length": 499.21, "rotation": 24.4, "x": 28.7, "y": 62.17 },
+	{ "name": "head_11", "parent": "body2", "length": 538.86, "rotation": 67.12, "x": -797.67, "y": -67.79 },
+	{ "name": "head_12", "parent": "head_11", "length": 442.18, "rotation": 4.26, "x": 559.19, "y": -1.31 },
+	{ "name": "head_13", "parent": "head_12", "length": 479.63, "rotation": 14.26, "x": 452.27, "y": -1.41 },
+	{ "name": "head_14", "parent": "head_13", "length": 352.6, "rotation": 32.91, "x": 492.56, "y": 10.12 },
+	{ "name": "head_15", "parent": "head_14", "length": 381.97, "rotation": 30.6, "x": 367.13, "y": 7.65 },
+	{ "name": "head_16", "parent": "head_15", "length": 293.51, "rotation": 17.67, "x": 383.1, "y": 4.08 },
+	{ "name": "head_3-up2", "parent": "head_16", "x": 151.88, "y": 55.75 },
+	{ "name": "head_3-up", "parent": "head_3-up2", "length": 425.84, "rotation": 41.75, "x": 144.59, "y": -55.06 },
+	{ "name": "head_3-down", "parent": "head_3-up", "length": 448.62, "rotation": 27.19, "x": 19.22, "y": 58.96 },
+	{ "name": "leg_f2-3", "parent": "body2", "length": 479.64, "rotation": -28.76, "x": -499.25, "y": -46.17 },
+	{ "name": "leg_f2-2", "parent": "leg_f2-3", "length": 583.4, "rotation": -96.88, "x": 476.5, "y": -1.72 },
+	{
+		"name": "leg_f2-1",
+		"parent": "leg_f2-2",
+		"length": 349.05,
+		"rotation": -179,
+		"x": 585.49,
+		"y": -2.91,
+		"transform": "onlyTranslation"
+	},
+	{ "name": "leg_f1-3", "parent": "body2", "length": 459.27, "rotation": -35.28, "x": -958.26, "y": -2.13 },
+	{ "name": "leg_f1-2", "parent": "leg_f1-3", "length": 582.07, "rotation": -92.24, "x": 457.19, "y": -1.47 },
+	{ "name": "leg_f1-1", "parent": "leg_f1-2", "length": 367.71, "rotation": -177.16, "x": 582.07, "transform": "onlyTranslation" },
+	{ "name": "leg_b1-5", "parent": "body2", "length": 493.28, "rotation": -127.23, "x": 179.27, "y": 36.13 },
+	{ "name": "leg_b1-3", "parent": "leg_b1-5", "length": 506.52, "rotation": 136.5, "x": 496.85, "y": -0.49 },
+	{ "name": "leg_b1-2", "parent": "leg_b1-3", "length": 479.46, "rotation": -112.5, "x": 503.59, "y": -2.11 },
+	{
+		"name": "leg_b1-1",
+		"parent": "leg_b1-2",
+		"length": 380.34,
+		"rotation": -177.93,
+		"x": 480.04,
+		"y": -2.48,
+		"transform": "onlyTranslation"
+	},
+	{ "name": "IK_leg_f1", "parent": "root", "x": -727.62, "y": 85.54 },
+	{ "name": "IK_leg_f2", "parent": "root", "x": -217.04, "y": 66.92 },
+	{ "name": "IK_leg_b1", "parent": "root", "x": 477.01, "y": 69.2 },
+	{ "name": "IK_leg_b2", "parent": "root", "x": 1063.73, "y": 50.65 },
+	{ "name": "fire1", "parent": "head_1-up2", "rotation": -121.15, "x": 252.45, "y": 277.45, "scaleY": -1 },
+	{ "name": "fire3", "parent": "head_3-up2", "rotation": -128.21, "x": 446.5, "y": 458.81, "scaleY": -1 },
+	{ "name": "fire2", "parent": "head2", "rotation": -105.32, "x": 271.31, "y": 383.81, "scaleY": -1 }
+],
+"slots": [
+	{ "name": "tail", "bone": "tail7", "attachment": "tail" },
+	{ "name": "leg_b1-5", "bone": "leg_b1-5", "attachment": "leg_b1-5" },
+	{ "name": "leg_b1-2", "bone": "leg_b1-2", "attachment": "leg_b1-2" },
+	{ "name": "leg_b1-3", "bone": "leg_b1-3", "attachment": "leg_b1-3" },
+	{ "name": "leg_b1-4", "bone": "leg_b1-5", "attachment": "leg_b1-4" },
+	{ "name": "leg_b1-1", "bone": "leg_b1-1", "attachment": "leg_b1-1" },
+	{ "name": "wing", "bone": "wing6", "attachment": "wing" },
+	{ "name": "body", "bone": "body2", "attachment": "body" },
+	{ "name": "head_1", "bone": "head_5", "attachment": "head_1" },
+	{ "name": "head_1-down", "bone": "head_1-down", "attachment": "head_1-down" },
+	{ "name": "head_1-up", "bone": "head_1-up", "attachment": "head_1-up" },
+	{ "name": "head_3", "bone": "head_16", "attachment": "head_3" },
+	{ "name": "head_3-down", "bone": "head_3-down", "attachment": "head_3-down" },
+	{ "name": "head_3-up", "bone": "head_3-up", "attachment": "head_3-up" },
+	{ "name": "head_2", "bone": "head_10", "attachment": "head_2" },
+	{ "name": "head_2-down", "bone": "head_2-down", "attachment": "head_2-down" },
+	{ "name": "head_2-up", "bone": "head_2-up", "attachment": "head_2-up" },
+	{ "name": "leg_f1-2", "bone": "leg_f1-2", "attachment": "leg_f1-2" },
+	{ "name": "leg_f1-3", "bone": "leg_f1-3", "attachment": "leg_f1-3" },
+	{ "name": "leg_f1-1", "bone": "leg_f1-1", "attachment": "leg_f1-1" },
+	{ "name": "wire", "bone": "body2", "attachment": "wire" },
+	{ "name": "body2", "bone": "body2", "attachment": "body2" },
+	{ "name": "body_bone", "bone": "body2", "attachment": "body_bone" },
+	{ "name": "leg_b2-5", "bone": "leg_b2-5", "attachment": "leg_b2-5" },
+	{ "name": "leg_b2-2", "bone": "leg_b2-2", "attachment": "leg_b2-2" },
+	{ "name": "leg_b2-3", "bone": "leg_b2-3", "attachment": "leg_b2-3" },
+	{ "name": "leg_b2-4", "bone": "leg_b2-5", "attachment": "leg_b2-4" },
+	{ "name": "leg_b2-1", "bone": "leg_b2-1", "attachment": "leg_b2-1" },
+	{ "name": "leg_f2-2", "bone": "leg_f2-2", "attachment": "leg_f2-2" },
+	{ "name": "leg_f2-3", "bone": "leg_f2-3", "attachment": "leg_f2-3" },
+	{ "name": "leg_f2-1", "bone": "leg_f2-1", "attachment": "leg_f2-1" },
+	{ "name": "dragon breast", "bone": "body2", "attachment": "dragon breast" },
+	{ "name": "Elements - Fire 070", "bone": "fire1" },
+	{ "name": "Elements - Fire 071", "bone": "fire2" },
+	{ "name": "Elements - Fire 031", "bone": "fire3" }
+],
+"ik": [
+	{
+		"name": "IK_leg_b1",
+		"order": 2,
+		"bones": [ "leg_b1-3", "leg_b1-2" ],
+		"target": "IK_leg_b1",
+		"bendPositive": false
+	},
+	{
+		"name": "IK_leg_b2",
+		"order": 3,
+		"bones": [ "leg_b2-3", "leg_b2-2" ],
+		"target": "IK_leg_b2",
+		"bendPositive": false
+	},
+	{
+		"name": "IK_leg_f1",
+		"bones": [ "leg_f1-3", "leg_f1-2" ],
+		"target": "IK_leg_f1",
+		"bendPositive": false
+	},
+	{
+		"name": "IK_leg_f2",
+		"order": 1,
+		"bones": [ "leg_f2-3", "leg_f2-2" ],
+		"target": "IK_leg_f2",
+		"bendPositive": false
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"body": {
+				"body": { "x": -165.49, "y": -0.64, "width": 1182, "height": 798 }
+			},
+			"body2": {
+				"body2": { "x": -581.99, "y": -299.14, "width": 769, "height": 413 }
+			},
+			"body_bone": {
+				"body_bone": { "x": 693.01, "y": 62.86, "width": 843, "height": 637 }
+			},
+			"dragon breast": {
+				"dragon breast": { "x": -739.49, "y": 10.86, "width": 1268, "height": 705 }
+			},
+			"Elements - Fire 031": {
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00000": { "x": -405.45, "y": -88.05, "scaleY": -1, "rotation": -170.38, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00001": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00002": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00003": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00004": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00005": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00006": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00007": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00008": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00009": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00010": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00011": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00012": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00013": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00014": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00015": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00016": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00017": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00018": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00019": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00020": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00021": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00022": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00023": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00024": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 },
+				"Elements - Fire 031 Ray Shot Right noCT noRSZ_00025": { "x": -405.45, "y": -88.05, "rotation": -166.83, "width": 1000, "height": 1000 }
+			},
+			"Elements - Fire 070": {
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00001": { "x": -381.64, "y": -73.44, "rotation": -168.3, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00002": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00003": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00004": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00005": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00006": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00007": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00008": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00009": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00010": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00011": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00012": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00013": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00014": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00015": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00016": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00017": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00018": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00019": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00020": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00021": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00022": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00023": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00024": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00025": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00026": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00027": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00028": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00029": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00030": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00031": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00032": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00033": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00034": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00035": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00036": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00037": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00038": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00039": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00040": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00041": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 }
+			},
+			"Elements - Fire 071": {
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00001": { "x": -381.64, "y": -73.44, "rotation": -169.19, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00002": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00003": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00004": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00005": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00006": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00007": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00008": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00009": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00010": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00011": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00012": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00013": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00014": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00015": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00016": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00017": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00018": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00019": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00020": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00021": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00022": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00023": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00024": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00025": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00026": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00027": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00028": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00029": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00030": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00031": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00032": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00033": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00034": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00035": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00036": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00037": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00038": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00039": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00040": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 },
+				"Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00041": { "x": -381.64, "y": -73.44, "rotation": -169.39, "width": 1000, "height": 1000 }
+			},
+			"head_1": {
+				"head_1": {
+					"type": "mesh",
+					"uvs": [ 0.46072, 0, 0.54741, 0.01841, 0.59371, 0.1215, 0.63211, 0.094, 0.74936, 0.0932, 0.842, 0.16938, 0.80813, 0.29896, 0.83696, 0.29698, 0.95692, 0.34442, 0.99584, 0.44056, 0.94899, 0.51369, 0.90563, 0.53337, 0.99848, 0.61025, 0.99842, 0.7033, 0.9663, 0.73443, 0.94707, 0.74914, 1, 0.89172, 1, 0.90375, 0.8755, 0.99219, 0.78421, 1, 0.72194, 1, 0.51505, 0.97559, 0.49448, 0.907, 0.55785, 0.83484, 0.56351, 0.82212, 0.51496, 0.7393, 0.57544, 0.65015, 0.58042, 0.6302, 0.53222, 0.56863, 0.5615, 0.49185, 0.39364, 0.36947, 0.37844, 0.39857, 0.33175, 0.40425, 0.0921, 0.37544, 0.00142, 0.25377, 1.0E-4, 0.17984, 0.09511, 0.03082, 0.22067, 0.00412, 0.31222, 0.06505, 0.33377, 0.04012, 0.40683, 0 ],
+					"triangles": [ 38, 33, 34, 34, 35, 38, 36, 37, 38, 38, 35, 36, 32, 33, 38, 39, 0, 38, 0, 30, 38, 40, 0, 39, 0, 2, 30, 2, 0, 1, 38, 30, 32, 31, 32, 30, 5, 6, 4, 6, 29, 30, 2, 3, 4, 6, 2, 4, 6, 30, 2, 8, 11, 7, 9, 11, 8, 9, 10, 11, 11, 27, 29, 28, 29, 27, 12, 14, 11, 13, 14, 12, 6, 7, 11, 11, 29, 6, 15, 11, 14, 27, 11, 15, 26, 27, 15, 24, 25, 26, 24, 26, 15, 18, 15, 16, 21, 22, 23, 24, 19, 20, 17, 18, 16, 20, 23, 24, 20, 21, 23, 15, 19, 24, 18, 19, 15 ],
+					"vertices": [ 3, 22, 602.19, -141.16, 0.26579, 23, 186.31, -266.61, 0.73271, 24, -171.55, -235.12, 0.0015, 2, 22, 515.57, -194.18, 0.38503, 23, 84.93, -272.64, 0.61497, 2, 22, 379.64, -134.65, 0.82669, 23, -7.01, -156.16, 0.17331, 2, 22, 375.55, -191.71, 0.97931, 23, -37.46, -204.58, 0.02069, 1, 22, 283.12, -287.61, 1, 2, 21, 676.36, -115.65, 1.2E-4, 22, 136.22, -291.03, 0.99988, 2, 21, 502.96, -72.87, 0.30143, 22, 38.56, -141.5, 0.69857, 2, 21, 504.81, -105.68, 0.53963, 22, 17.54, -166.76, 0.46037, 2, 21, 437.6, -240.34, 0.96847, 22, -123.44, -219.42, 0.03153, 1, 21, 307.15, -281.35, 1, 2, 20, 676.76, -174.43, 0.00374, 21, 210.07, -225.71, 0.99626, 2, 20, 641.22, -131.25, 0.03172, 21, 184.8, -175.81, 0.96828, 2, 20, 560.17, -254.81, 0.28481, 21, 78.75, -278.7, 0.71519, 2, 20, 437.29, -279.05, 0.52675, 21, -46.47, -275.55, 0.47325, 2, 20, 389.11, -251.38, 0.65392, 21, -87.44, -238.04, 0.34608, 2, 20, 365.45, -233.79, 0.76877, 21, -106.7, -215.71, 0.23123, 2, 20, 188.84, -330.01, 0.99912, 21, -300.04, -271.08, 8.8E-4, 2, 20, 172.96, -333.16, 0.99959, 21, -316.23, -270.68, 4.1E-4, 1, 20, 28.74, -217.51, 1, 1, 20, -1.7, -117.81, 1, 1, 20, -15.42, -48.42, 1, 1, 20, -28.8, 188.51, 1, 1, 20, 57.24, 229.35, 1, 2, 20, 166.49, 177.58, 0.9974, 21, -211.1, 229.16, 0.0026, 2, 20, 184.53, 174.59, 0.9923, 21, -194.15, 222.31, 0.0077, 2, 20, 283.19, 250.32, 0.90566, 21, -81.34, 274.69, 0.09434, 4, 20, 414.24, 206.22, 0.51196, 21, 36.93, 203.05, 0.47435, 22, -114.14, 378.12, 0.01071, 23, -201.48, 528.63, 0.00299, 4, 20, 441.67, 205.88, 0.33822, 21, 63.62, 196.74, 0.63111, 22, -98.92, 355.29, 0.02371, 23, -198.79, 501.33, 0.00696, 5, 20, 512.35, 275.67, 0.08877, 21, 147.83, 249.42, 0.79317, 22, -1.41, 336.41, 0.08907, 23, -121.63, 438.78, 0.02898, 24, -282.13, 526.57, 0, 5, 20, 620.18, 263.09, 0.01158, 21, 250.31, 213.62, 0.5942, 22, 49.14, 240.33, 0.27494, 23, -122.22, 330.22, 0.11608, 24, -311.39, 422.03, 0.0032, 4, 21, 419.7, 400.18, 0.01407, 22, 300.26, 261.28, 0.06454, 23, 109.22, 230.56, 0.63539, 24, -114.52, 264.75, 0.286, 4, 21, 380.97, 418.42, 0.00466, 22, 284.36, 301.03, 0.02478, 23, 113.89, 273.12, 0.57024, 24, -98.76, 304.56, 0.40032, 4, 21, 374.63, 471.63, 0.00135, 22, 316.01, 344.26, 0.00921, 23, 162.16, 296.38, 0.50014, 24, -46.06, 314.24, 0.4893, 2, 23, 433.45, 341.38, 0.04057, 24, 227.47, 285.95, 0.95943, 1, 24, 336.7, 126.26, 1, 1, 24, 342.02, 26.87, 1, 2, 23, 569.87, -101.98, 2.8E-4, 24, 241.88, -177.7, 0.99972, 3, 22, 789.05, 57.51, 8.2E-4, 23, 444.67, -179.21, 0.06757, 24, 100.73, -219.1, 0.93162, 3, 22, 657.69, 40.62, 0.04746, 23, 320.81, -132.31, 0.5322, 24, -6.34, -141.14, 0.42034, 3, 22, 664.53, -0.35, 0.10021, 23, 307.57, -171.68, 0.72932, 24, -29.52, -175.61, 0.17047, 3, 22, 645.02, -97.44, 0.20232, 23, 244.68, -248.17, 0.78031, 24, -110.38, -232.76, 0.01737 ],
+					"hull": 41
+				}
+			},
+			"head_1-down": {
+				"head_1-down": { "x": 257.34, "y": 40.37, "rotation": 113.96, "width": 536, "height": 600 }
+			},
+			"head_1-up": {
+				"head_1-up": { "x": 179.01, "y": -66.06, "rotation": 152, "width": 674, "height": 789 }
+			},
+			"head_2": {
+				"head_2": {
+					"type": "mesh",
+					"uvs": [ 0.53865, 0.07944, 0.57299, 0.07247, 0.68056, 0.0722, 0.75071, 0.08894, 0.82285, 0.13152, 0.77766, 0.22352, 0.82405, 0.2233, 0.95936, 0.25627, 1, 0.30728, 1, 0.33961, 0.89314, 0.40679, 0.91087, 0.41058, 0.96628, 0.44593, 0.98917, 0.48812, 0.84707, 0.67784, 0.74724, 0.71582, 0.74151, 0.71525, 0.71714, 0.80889, 0.51298, 0.85167, 0.48575, 0.87475, 0.41172, 1, 0.30638, 0.99922, 0.00135, 0.92941, 0, 0.88471, 0.21747, 0.76589, 0.14911, 0.74927, 0.11423, 0.73722, 0.13143, 0.68993, 0.27462, 0.65011, 0.26069, 0.63856, 0.26248, 0.59736, 0.39706, 0.45353, 0.44038, 0.44531, 0.39111, 0.30686, 0.381, 0.29661, 0.10501, 0.22259, 0.07002, 0.13046, 0.09882, 0.07513, 0.28631, 0, 0.35561, 0, 0.46578, 0.00796 ],
+					"triangles": [ 37, 39, 36, 39, 35, 36, 38, 39, 37, 39, 0, 35, 0, 39, 40, 34, 35, 0, 5, 3, 4, 0, 1, 2, 2, 5, 0, 5, 34, 0, 3, 5, 2, 33, 34, 5, 6, 8, 5, 8, 6, 7, 9, 10, 8, 10, 32, 33, 8, 10, 5, 32, 10, 13, 12, 10, 11, 13, 10, 12, 5, 10, 33, 13, 14, 32, 16, 32, 14, 15, 16, 14, 32, 30, 31, 32, 28, 30, 29, 30, 28, 24, 25, 27, 26, 27, 25, 16, 28, 32, 28, 24, 27, 18, 24, 28, 28, 16, 18, 17, 18, 16, 19, 24, 18, 23, 21, 22, 19, 23, 24, 19, 21, 23, 20, 21, 19 ],
+					"vertices": [ 2, 31, 410.44, -101.43, 0.68666, 32, 5.88, -160.48, 0.31334, 2, 31, 410.3, -135.25, 0.85251, 32, -18.86, -183.54, 0.14749, 2, 31, 372.21, -224.95, 0.99605, 32, -110.31, -217.21, 0.00395, 1, 31, 317.8, -270.71, 1, 2, 30, 820.26, -131.27, 2.0E-4, 31, 217.51, -298.66, 0.9998, 2, 30, 640.81, -119.95, 0.18608, 31, 72.93, -191.75, 0.81392, 2, 30, 648.21, -161.33, 0.33863, 31, 56.68, -230.52, 0.66137, 2, 30, 606.67, -292.64, 0.61045, 31, -49.46, -318.26, 0.38955, 2, 30, 517.06, -345.06, 0.73445, 31, -153.18, -313.65, 0.26555, 2, 30, 456.39, -355.27, 0.7889, 31, -209.68, -289.3, 0.2111, 2, 30, 314.25, -281.02, 0.96573, 31, -288.76, -149.79, 0.03427, 2, 30, 309.8, -298.06, 0.97933, 31, -301.74, -161.68, 0.02067, 2, 30, 251.81, -358.72, 0.99852, 31, -383.38, -181.15, 0.00148, 1, 30, 176.07, -392.5, 1, 3, 28, 744.55, -328.6, 0.11121, 29, 260.71, -358.26, 0.25492, 30, -201.33, -325.47, 0.63387, 3, 28, 639.66, -279.56, 0.28932, 29, 160.38, -300.47, 0.36269, 30, -287.62, -248.27, 0.348, 3, 28, 638.33, -274.43, 0.30402, 29, 159.5, -295.24, 0.36376, 30, -287.41, -242.98, 0.33223, 3, 28, 468.82, -333.63, 0.73296, 29, -14.45, -339.78, 0.18651, 30, -466.79, -250.78, 0.08053, 3, 28, 313.85, -203.91, 0.97977, 29, -157.8, -197.33, 0.01198, 30, -577.78, -81.89, 0.00825, 3, 28, 263.55, -201.27, 0.99762, 29, -207.7, -190.41, 6.5E-4, 30, -625.18, -64.86, 0.00173, 1, 28, 20.16, -246.8, 1, 1, 28, -20.82, -160.59, 1, 1, 28, -24.24, 146.02, 1, 1, 28, 51.47, 184.82, 1, 2, 28, 341.5, 108.44, 0.48748, 29, -103.64, 111.53, 0.51252, 2, 28, 342.39, 177.98, 0.09456, 29, -96.83, 180.74, 0.90544, 2, 28, 348.94, 216.47, 0.04032, 29, -87.02, 218.53, 0.95968, 1, 29, 2.45, 236.9, 1, 1, 29, 120.38, 143.82, 1, 1, 29, 136.23, 163.6, 1, 2, 29, 209.8, 190.72, 0.99878, 30, -138.21, 222.24, 0.00122, 3, 29, 509.13, 177.2, 0.11644, 30, 151.94, 147.44, 0.88355, 31, -192.53, 298.17, 1.0E-5, 3, 29, 538.03, 146.38, 0.04375, 30, 173.88, 111.33, 0.9552, 31, -193.71, 255.93, 0.00104, 3, 30, 426.29, 199.08, 0.39044, 31, 65.92, 192.63, 0.39424, 32, -15.77, 291.95, 0.21532, 3, 30, 444, 211.34, 0.28052, 31, 87.45, 193.32, 0.41274, 32, -0.52, 276.74, 0.30673, 3, 30, 541.4, 481.31, 3.7E-4, 31, 315.78, 367.19, 0.00924, 32, 282.55, 229.42, 0.99039, 1, 32, 372.05, 75.36, 1, 1, 32, 383.35, -32.52, 1, 2, 31, 639.76, 48.68, 0.06303, 32, 272.31, -224.79, 0.93697, 2, 31, 614.91, -8.98, 0.10584, 32, 213.28, -246.17, 0.89416, 2, 31, 561.5, -94.65, 0.20454, 32, 114.27, -265.91, 0.79546 ],
+					"hull": 41
+				}
+			},
+			"head_2-down": {
+				"head_2-down": { "x": 138.99, "y": -85.07, "rotation": 134.63, "width": 658, "height": 992 }
+			},
+			"head_2-up": {
+				"head_2-up": { "x": 211.71, "y": -131.49, "rotation": 159.03, "width": 760, "height": 869 }
+			},
+			"head_3": {
+				"head_3": {
+					"type": "mesh",
+					"uvs": [ 0.30576, 0, 0.28444, 0.02267, 0.26963, 0.06209, 0.27173, 0.08981, 0.45997, 0.04893, 0.62756, 0.06218, 0.54024, 0.1267, 0.57447, 0.13795, 0.73765, 0.14652, 0.87266, 0.19397, 0.75107, 0.22709, 0.71264, 0.24931, 0.84878, 0.27745, 1, 0.35672, 1, 0.36392, 0.8664, 0.36825, 0.85797, 0.37131, 0.98061, 0.47605, 0.99953, 0.53452, 0.87143, 0.51476, 0.81234, 0.5164, 0.88407, 0.57875, 0.91116, 0.6599, 0.89942, 0.69354, 0.78009, 0.65656, 0.78871, 0.67636, 0.82399, 0.81767, 0.74497, 0.78981, 0.7117, 0.78999, 0.77723, 0.95065, 0.45896, 1, 0.40563, 1, 0.25077, 0.99595, 0.22965, 0.96333, 0.20182, 0.81679, 0.38048, 0.59113, 0.45401, 0.55939, 0.45144, 0.55563, 0.4586, 0.40415, 0.47057, 0.39765, 0.32141, 0.27676, 0.27381, 0.28838, 0.04347, 0.2433, 0, 0.16612, 0, 0.14863, 0.02559, 0.08374, 0.09354, 0.03608, 0.26617, 0 ],
+					"triangles": [ 42, 43, 3, 2, 3, 46, 46, 3, 45, 3, 44, 45, 3, 43, 44, 2, 46, 1, 1, 46, 47, 1, 47, 0, 11, 40, 7, 7, 40, 6, 41, 42, 40, 42, 3, 40, 6, 3, 4, 6, 40, 3, 6, 4, 5, 16, 11, 12, 11, 16, 39, 40, 11, 39, 10, 7, 8, 10, 11, 7, 10, 8, 9, 22, 23, 24, 24, 21, 22, 24, 36, 20, 38, 20, 37, 24, 20, 21, 20, 38, 39, 20, 36, 37, 19, 17, 18, 20, 39, 16, 20, 16, 19, 19, 16, 17, 16, 12, 15, 14, 15, 13, 15, 12, 13, 34, 35, 28, 27, 28, 25, 25, 28, 35, 26, 27, 25, 24, 35, 36, 35, 24, 25, 29, 30, 28, 31, 28, 30, 31, 32, 33, 28, 31, 34, 31, 33, 34 ],
+					"vertices": [ 1, 41, -16.91, -337.39, 1, 2, 40, 464.55, -264.63, 0.00629, 41, -3.97, -280.76, 0.99371, 2, 40, 433.21, -177.59, 0.1216, 41, -7.41, -188.31, 0.8784, 2, 40, 398.32, -124.08, 0.47108, 41, -24.4, -126.74, 0.52892, 1, 40, 253.29, -320.33, 1, 1, 40, 65.58, -396.92, 1, 2, 39, 545.02, -137.86, 0.09432, 40, 79.04, -215.8, 0.90568, 2, 39, 502.71, -161.44, 0.30146, 40, 30.62, -214.55, 0.69854, 2, 39, 392.1, -323.43, 0.88767, 40, -147.06, -297.67, 0.11233, 1, 39, 218.93, -413.03, 1, 3, 38, 813.64, -78.5, 0.00209, 39, 221.41, -248.84, 0.98236, 40, -255.99, -146.59, 0.01555, 3, 38, 759.13, -36.55, 0.02872, 39, 198.44, -184.01, 0.96907, 40, -242.77, -79.09, 0.00221, 2, 38, 706.89, -203.83, 0.37765, 39, 63.69, -296.06, 0.62235, 2, 38, 538.59, -398.03, 0.68319, 39, -183.11, -367.67, 0.31681, 2, 38, 522.05, -399.29, 0.68305, 39, -197.67, -359.74, 0.31695, 2, 38, 499.97, -240.72, 0.75889, 39, -130.06, -214.62, 0.24111, 2, 38, 492.19, -231.21, 0.8047, 39, -131.42, -202.4, 0.1953, 1, 38, 262.81, -395.78, 1, 1, 38, 130.26, -428.58, 1, 2, 37, 678.31, -224.96, 7.0E-5, 38, 163.99, -272.36, 0.99993, 2, 37, 652.17, -159.2, 0.01187, 38, 154.86, -202.18, 0.98813, 2, 37, 543.5, -286.34, 0.21486, 38, 18.21, -298.63, 0.78514, 2, 37, 376.74, -376.72, 0.406, 38, -165.67, -345.13, 0.594, 2, 37, 298.83, -388.15, 0.4151, 38, -244, -337.01, 0.5849, 2, 37, 333.97, -225.71, 0.63045, 38, -169.92, -188.24, 0.36955, 2, 37, 294.05, -250.04, 0.79575, 38, -214.61, -201.98, 0.20425, 2, 36, 587.56, -394.23, 0.04665, 37, -0.88, -393.94, 0.95335, 3, 36, 609.95, -282.21, 0.12598, 37, 29.76, -283.9, 0.87172, 38, -479.09, -169.67, 0.0023, 3, 36, 594.08, -245.71, 0.27824, 37, 16.64, -246.32, 0.72053, 38, -482.54, -130.02, 0.00123, 2, 36, 283.67, -461.78, 0.99646, 37, -308.96, -438.74, 0.00354, 1, 36, 30.95, -155.27, 1, 1, 36, 6.16, -96.51, 1, 1, 36, -57.27, 77.75, 1, 1, 36, 2.13, 130.23, 1, 2, 36, 300.12, 292.13, 0.94597, 37, -236.56, 311.87, 0.05403, 3, 36, 862, 297.33, 0.0045, 37, 324.16, 275.32, 0.97128, 38, -55.97, 299.77, 0.02422, 3, 37, 421.51, 215.33, 0.73699, 38, 23.6, 217.63, 0.26048, 39, -280.98, 429, 0.00253, 3, 37, 428.72, 221, 0.69452, 38, 31.98, 221.35, 0.30191, 39, -271.92, 427.56, 0.00357, 4, 37, 762.05, 324.28, 0.00811, 38, 380.48, 239.31, 0.54307, 39, 30.43, 253.31, 0.40417, 40, -164.75, 382.85, 0.04465, 4, 37, 780.82, 315.5, 0.0046, 38, 396.51, 226.18, 0.47003, 39, 36.74, 233.57, 0.46332, 40, -169.36, 362.65, 0.06205, 4, 38, 660.56, 425.2, 2.4E-4, 39, 366.56, 257.2, 0.0561, 40, 126.55, 215.09, 0.883, 41, -180.38, 278.94, 0.06066, 3, 39, 370.26, 320.01, 0.00808, 40, 161.71, 267.26, 0.85814, 41, -131.04, 317.98, 0.13378, 2, 40, 451.45, 319.39, 0.28101, 41, 160.86, 279.67, 0.71899, 2, 40, 587.22, 193.45, 0.0382, 41, 251.98, 118.46, 0.9618, 2, 40, 607.88, 158.86, 0.01497, 41, 261.16, 79.23, 0.98503, 2, 40, 658.23, 14.85, 9.0E-5, 41, 265.41, -73.26, 0.99991, 1, 41, 211.3, -198.66, 1, 1, 41, 29.2, -326.6, 1 ],
+					"hull": 48
+				}
+			},
+			"head_3-down": {
+				"head_3-down": { "x": 254.99, "y": 74.33, "rotation": 124.23, "width": 591, "height": 723 }
+			},
+			"head_3-up": {
+				"head_3-up": { "x": -63.62, "y": 13.84, "rotation": 151.42, "width": 1186, "height": 849 }
+			},
+			"leg_b1-1": {
+				"leg_b1-1": { "x": 173.27, "y": -44.74, "rotation": 177.69, "width": 604, "height": 229 }
+			},
+			"leg_b1-2": {
+				"leg_b1-2": { "x": 220.44, "y": 1.82, "rotation": 103.22, "width": 329, "height": 495 }
+			},
+			"leg_b1-3": {
+				"leg_b1-3": { "x": 308.95, "y": -26.58, "rotation": -9.27, "width": 502, "height": 252 }
+			},
+			"leg_b1-4": {
+				"leg_b1-4": { "x": 478.57, "y": 2.82, "rotation": 127.23, "width": 225, "height": 226 }
+			},
+			"leg_b1-5": {
+				"leg_b1-5": { "x": 201.8, "y": 14.21, "rotation": 127.23, "width": 440, "height": 419 }
+			},
+			"leg_b2-1": {
+				"leg_b2-1": { "x": 202.66, "y": -17.17, "rotation": 178.3, "width": 604, "height": 229 }
+			},
+			"leg_b2-2": {
+				"leg_b2-2": { "x": 186.42, "y": -3.96, "rotation": 99.94, "width": 329, "height": 495 }
+			},
+			"leg_b2-3": {
+				"leg_b2-3": { "x": 300.96, "y": -13.98, "rotation": -5, "width": 502, "height": 252 }
+			},
+			"leg_b2-4": {
+				"leg_b2-4": { "x": 392.41, "y": 11.24, "rotation": 121.26, "width": 225, "height": 226 }
+			},
+			"leg_b2-5": {
+				"leg_b2-5": { "x": 118.31, "y": 51.31, "rotation": 121.26, "width": 440, "height": 419 }
+			},
+			"leg_f1-1": {
+				"leg_f1-1": { "x": 181.76, "y": -31.74, "rotation": 177.22, "width": 604, "height": 229 }
+			},
+			"leg_f1-2": {
+				"leg_f1-2": { "x": 256.74, "y": -12.9, "rotation": 127.52, "width": 614, "height": 555 }
+			},
+			"leg_f1-3": {
+				"leg_f1-3": { "x": 254.02, "y": 3.29, "rotation": 35.28, "width": 605, "height": 375 }
+			},
+			"leg_f2-1": {
+				"leg_f2-1": { "x": 216.62, "y": -2.62, "rotation": 178.24, "width": 604, "height": 229 }
+			},
+			"leg_f2-2": {
+				"leg_f2-2": { "x": 307.82, "y": -12, "rotation": 125.64, "width": 614, "height": 519 }
+			},
+			"leg_f2-3": {
+				"leg_f2-3": { "x": 274.41, "y": -19.31, "rotation": 28.76, "width": 605, "height": 375 }
+			},
+			"tail": {
+				"tail": {
+					"type": "mesh",
+					"uvs": [ 0.17414, 0, 0.17792, 0.14962, 0.20823, 0.07289, 0.31223, 0.06197, 0.30469, 0.1993, 0.34617, 0.15538, 0.42933, 0.17449, 0.41066, 0.25085, 0.5159, 0.28945, 0.48723, 0.38184, 0.60031, 0.44288, 0.58907, 0.54286, 0.71844, 0.61572, 0.70691, 0.67705, 0.8416, 0.60846, 0.87101, 0.64066, 1, 0.47158, 0.99979, 0.4731, 0.99897, 0.63374, 0.95777, 0.79408, 0.91438, 0.8866, 0.82956, 0.98476, 0.78779, 0.93231, 0.72087, 1, 0.71928, 1, 0.68831, 0.93099, 0.62354, 0.96525, 0.60043, 0.87746, 0.52287, 0.87623, 0.50193, 0.77665, 0.43315, 0.75475, 0.31348, 0.63531, 0.21052, 0.53309, 0.18126, 0.59058, 0.1601, 0.53076, 0.11624, 0.50802, 0.08737, 0.58847, 0, 0.42483, 0.01595, 0.17019, 0.08144, 0.04429, 0.16299, 0 ],
+					"triangles": [ 16, 17, 15, 18, 15, 17, 19, 15, 18, 20, 15, 19, 22, 15, 20, 22, 13, 14, 22, 14, 15, 25, 13, 22, 21, 22, 20, 23, 24, 25, 22, 23, 25, 13, 11, 12, 13, 27, 11, 25, 27, 13, 26, 27, 25, 11, 9, 10, 29, 30, 9, 11, 29, 9, 27, 28, 29, 11, 27, 29, 9, 7, 8, 31, 7, 9, 30, 31, 9, 4, 2, 3, 7, 5, 6, 40, 0, 1, 39, 40, 1, 38, 39, 1, 1, 2, 4, 32, 34, 1, 4, 32, 1, 7, 31, 4, 7, 4, 5, 32, 4, 31, 35, 38, 1, 37, 38, 35, 34, 35, 1, 36, 37, 35, 33, 34, 32 ],
+					"vertices": [ 2, 3, 338.58, 327.23, 0.05644, 4, -91.74, 308.83, 0.94356, 2, 3, 348.71, 159.43, 0.01828, 4, -33.89, 150.99, 0.98172, 1, 4, 8.87, 254.22, 1, 1, 4, 238.86, 337.81, 1, 1, 4, 267.24, 185.33, 1, 1, 4, 345.92, 261.1, 1, 2, 4, 539.02, 298.07, 0.92527, 5, 4.34, 311.6, 0.07473, 2, 4, 522.27, 203.27, 0.7599, 5, 13.31, 215.75, 0.2401, 3, 4, 771.38, 234.61, 0.2144, 5, 245.21, 311.99, 0.78546, 6, -79.23, 311.15, 1.4E-4, 3, 4, 737.47, 115.73, 0.12549, 5, 244.02, 188.37, 0.75036, 6, -75.55, 187.58, 0.12415, 2, 5, 504.98, 273.26, 0.08212, 6, 181.87, 282.67, 0.91788, 3, 5, 542.93, 164.44, 0.02498, 6, 224.07, 175.42, 0.95956, 7, -118.45, 249, 0.01547, 2, 6, 520.51, 281.41, 0.28429, 7, 195.04, 220.09, 0.71571, 3, 6, 537.44, 209.42, 0.16826, 7, 180.03, 147.68, 0.82574, 8, -56.45, 180.36, 0.00601, 3, 7, 478.88, 277.3, 0.13151, 8, 267.45, 215.06, 0.54699, 9, 93.59, 193.41, 0.3215, 3, 7, 553.12, 253.44, 0.04336, 8, 331.21, 170.16, 0.27059, 9, 123.55, 121.42, 0.68605, 1, 9, 477.87, 73.11, 1, 1, 9, 476.4, 72.11, 1, 1, 9, 359.52, -65.12, 1, 1, 9, 169.98, -141.34, 1, 2, 8, 395.99, -116.77, 0.1418, 9, 25.19, -155.81, 0.8582, 2, 8, 183.92, -199.77, 0.99495, 9, -198.44, -112.81, 0.00505, 1, 8, 94.33, -128.52, 1, 2, 7, 273.93, -203.82, 0.03307, 8, -71.53, -183.16, 0.96693, 2, 7, 270.24, -204.46, 0.03383, 8, -75.24, -182.67, 0.96617, 2, 7, 185.36, -140.52, 0.47329, 8, -137.22, -96.35, 0.52671, 3, 6, 560.61, -167.94, 0.0029, 7, 41.9, -204.26, 0.90819, 8, -293.15, -114.45, 0.08891, 3, 6, 459.87, -117.93, 0.30603, 7, -28.35, -116.43, 0.67442, 8, -334.05, -9.68, 0.01955, 2, 6, 309.27, -220.62, 0.99149, 7, -208.21, -146.03, 0.00851, 2, 5, 511, -166.8, 0.00111, 6, 205.18, -156.82, 0.99889, 2, 5, 361.45, -232.85, 0.26091, 6, 58.35, -228.69, 0.73909, 4, 3, 671.36, -383.11, 0.02334, 4, 430.85, -276.18, 0.29567, 5, 52.23, -270.78, 0.66297, 6, -249.14, -278.75, 0.01802, 3, 3, 428.55, -270.24, 0.51489, 4, 165.87, -237.71, 0.45632, 5, -213.48, -303.92, 0.02879, 3, 3, 360.28, -335.26, 0.71929, 4, 119.12, -319.58, 0.27774, 5, -236.86, -395.25, 0.00297, 3, 3, 310.05, -268.51, 0.81899, 4, 51.85, -270.05, 0.18038, 5, -314.85, -365.32, 6.3E-4, 2, 3, 206.79, -243.77, 0.98575, 4, -54.16, -275.98, 0.01425, 1, 3, 139.62, -334.55, 1, 1, 3, -67.06, -152.49, 1, 2, 3, -31.73, 133.48, 0.90949, 4, -390.89, 16.99, 0.09051, 2, 3, 121.1, 275.9, 0.44651, 4, -285.35, 197.27, 0.55349, 2, 3, 312.38, 327.03, 0.06257, 4, -116.78, 301.12, 0.93743 ],
+					"hull": 41
+				}
+			},
+			"wing": {
+				"wing": {
+					"type": "mesh",
+					"uvs": [ 0.20434, 0, 0.18254, 0.06538, 0.18958, 0.0823, 0.26635, 0.07974, 0.30824, 0.10067, 0.31183, 0.09794, 0.61504, 0.06329, 0.66444, 0.04993, 0.81813, 0.13626, 0.9699, 0.26687, 1, 0.35021, 1, 0.36241, 0.73761, 0.19515, 0.71006, 0.18458, 0.38449, 0.17226, 0.37689, 0.18927, 0.66688, 0.34064, 0.75964, 0.51145, 0.81642, 0.68799, 0.81575, 0.79398, 0.79926, 0.77778, 0.67033, 0.52263, 0.65303, 0.49512, 0.52711, 0.38374, 0.56352, 0.40102, 0.33831, 0.26235, 0.30995, 0.25318, 0.4755, 0.54139, 0.46538, 0.64881, 0.38673, 0.69047, 0.32364, 0.75118, 0.10181, 1, 0.07131, 1, 0.00705, 0.99009, 0, 0.94918, 0, 0.91653, 0.02346, 0.85779, 0.24802, 0.67268, 0.3056, 0.61528, 0.3394, 0.55004, 0.30039, 0.46038, 0.17252, 0.22509, 0.15943, 0.17836, 0.11735, 0.18505, 0.09135, 0.15849, 0.07414, 0.06216, 0.12297, 0.00858, 0.17475, 0 ],
+					"triangles": [ 19, 20, 18, 20, 21, 18, 18, 21, 17, 21, 22, 17, 22, 16, 17, 22, 24, 16, 11, 12, 9, 12, 8, 9, 9, 10, 11, 12, 13, 8, 13, 7, 8, 26, 3, 4, 2, 3, 42, 14, 15, 4, 15, 26, 4, 14, 4, 5, 14, 6, 13, 6, 7, 13, 14, 5, 6, 1, 45, 46, 46, 47, 1, 1, 47, 0, 23, 24, 22, 16, 24, 15, 15, 24, 25, 25, 26, 15, 28, 39, 27, 39, 40, 27, 40, 41, 26, 42, 3, 26, 27, 40, 26, 26, 41, 42, 43, 44, 42, 42, 44, 2, 44, 1, 2, 1, 44, 45, 37, 30, 31, 36, 32, 35, 37, 31, 36, 36, 31, 32, 32, 33, 34, 32, 34, 35, 37, 38, 30, 30, 38, 29, 28, 29, 39, 29, 38, 39 ],
+					"vertices": [ 2, 15, 1170.83, -140.69, 0.34658, 16, 9.04, 273.63, 0.65342, 2, 15, 1086.76, -40.09, 0.35007, 16, -44.47, 153.94, 0.64993, 2, 15, 1051.72, -37.84, 0.29403, 16, -31.12, 121.47, 0.70597, 1, 16, 133.8, 117.16, 1, 1, 16, 221.48, 73.05, 1, 1, 16, 229.45, 77.73, 1, 1, 16, 883.33, 106.61, 1, 2, 16, 990.67, 125.74, 0.82842, 17, -89.23, 84, 0.17158, 1, 17, 276.27, 123.21, 1, 1, 17, 682.5, 90.07, 1, 1, 17, 820.43, -7.5, 1, 1, 17, 832.62, -26.84, 1, 1, 17, 188.76, -62.31, 1, 2, 16, 1074.59, -131.49, 0.03488, 17, 128.14, -77.12, 0.96512, 2, 18, 358.93, 132.94, 0.23642, 16, 377.61, -69.87, 0.76358, 2, 18, 358.21, 97.14, 0.59979, 16, 359.55, -100.79, 0.40021, 2, 18, 1042.36, 115.16, 0.34513, 19, -38.74, 117.87, 0.65487, 1, 19, 337.1, 146.04, 1, 1, 19, 686.61, 100.75, 1, 1, 19, 861.83, 7.4, 1, 1, 19, 818.52, -9.91, 1, 1, 19, 266.69, -33.63, 1, 1, 19, 203.81, -42.66, 1, 1, 18, 807.85, -88.93, 1, 2, 18, 892.34, -83.76, 0.9189, 19, -41.5, -131.27, 0.0811, 2, 15, 601.5, -152.27, 0.06508, 18, 343.68, -62.2, 0.93492, 2, 15, 646.21, -107.48, 0.39687, 18, 281.4, -73.44, 0.60313, 1, 15, 1.52, -154.64, 1, 2, 14, 1113.34, -163.01, 0.72296, 15, -163.54, -37.55, 0.27704, 1, 14, 934.72, -110.82, 1, 1, 14, 757.86, -107.49, 1, 1, 14, 92.43, -145.73, 1, 1, 14, 43.05, -102.68, 1, 1, 14, -48.8, 2, 1, 1, 14, -9.87, 69.72, 1, 1, 14, 30.3, 115.81, 1, 1, 14, 140.58, 165.65, 1, 1, 14, 732.01, 110.08, 1, 2, 14, 895.89, 109.85, 0.96173, 15, 58.67, 231.45, 0.03827, 2, 14, 1030.91, 154.25, 0.36809, 15, 129.93, 108.47, 0.63191, 1, 15, 317.41, 99.73, 1, 1, 15, 836.1, 124.6, 1, 1, 15, 926.22, 106.46, 1, 2, 15, 959.38, 191.47, 0.93189, 16, -196.66, -62.13, 0.06811, 2, 15, 1030.04, 215.96, 0.8575, 16, -249.66, -9.38, 0.1425, 2, 15, 1205.57, 160.24, 0.58002, 16, -276.62, 172.81, 0.41998, 2, 15, 1242.04, 19.74, 0.43132, 16, -166.37, 267.23, 0.56868, 2, 15, 1201.83, -85.2, 0.3583, 16, -54.42, 277.13, 0.6417 ],
+					"hull": 48
+				}
+			},
+			"wire": {
+				"wire": { "x": -908.49, "y": -221.14, "width": 592, "height": 549 }
+			}
+		}
+	}
+],
+"animations": {
+	"attack": {
+		"slots": {
+			"Elements - Fire 031": {
+				"attachment": [
+					{ "time": 0.5 },
+					{ "time": 0.5333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00000" },
+					{ "time": 0.6, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00001" },
+					{ "time": 0.6667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00002" },
+					{ "time": 0.7333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00003" },
+					{ "time": 0.8, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00004" },
+					{ "time": 0.8667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00005" },
+					{ "time": 0.9333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00006" },
+					{ "time": 1, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00007" },
+					{ "time": 1.0333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00008" },
+					{ "time": 1.0667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00009" },
+					{ "time": 1.1, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00010" },
+					{ "time": 1.1333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00011" },
+					{ "time": 1.1667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00012" },
+					{ "time": 1.2, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00010" },
+					{ "time": 1.2333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00011" },
+					{ "time": 1.2667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00012" },
+					{ "time": 1.3, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00010" },
+					{ "time": 1.3333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00011" },
+					{ "time": 1.3667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00012" },
+					{ "time": 1.4, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00010" },
+					{ "time": 1.4333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00011" },
+					{ "time": 1.4667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00012" },
+					{ "time": 1.5, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00013" },
+					{ "time": 1.5333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00014" },
+					{ "time": 1.5667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00015" },
+					{ "time": 1.6, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00016" },
+					{ "time": 1.6333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00017" },
+					{ "time": 1.6667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00018" },
+					{ "time": 1.7, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00019" },
+					{ "time": 1.7333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00020" },
+					{ "time": 1.7667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00021" },
+					{ "time": 1.8, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00022" },
+					{ "time": 1.8333, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00023" },
+					{ "time": 1.8667, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00024" },
+					{ "time": 1.9, "name": "Elements - Fire 031 Ray Shot Right noCT noRSZ_00025" },
+					{ "time": 1.9333 }
+				]
+			},
+			"Elements - Fire 070": {
+				"attachment": [
+					{ "time": 0.5 },
+					{ "time": 0.5333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00001" },
+					{ "time": 0.5667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00002" },
+					{ "time": 0.6, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00003" },
+					{ "time": 0.6333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00004" },
+					{ "time": 0.6667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00005" },
+					{ "time": 0.7, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00006" },
+					{ "time": 0.7333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00007" },
+					{ "time": 0.7667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00008" },
+					{ "time": 0.8, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00009" },
+					{ "time": 0.8333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00010" },
+					{ "time": 0.8667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00011" },
+					{ "time": 0.9, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00012" },
+					{ "time": 0.9333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00013" },
+					{ "time": 0.9667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00014" },
+					{ "time": 1, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00015" },
+					{ "time": 1.0333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00016" },
+					{ "time": 1.0667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00017" },
+					{ "time": 1.1, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00018" },
+					{ "time": 1.1333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00019" },
+					{ "time": 1.1667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00020" },
+					{ "time": 1.2, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00021" },
+					{ "time": 1.2333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00022" },
+					{ "time": 1.2667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00023" },
+					{ "time": 1.3, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00024" },
+					{ "time": 1.3333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00025" },
+					{ "time": 1.3667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00026" },
+					{ "time": 1.4, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00027" },
+					{ "time": 1.4333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00028" },
+					{ "time": 1.4667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00029" },
+					{ "time": 1.5, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00030" },
+					{ "time": 1.5333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00031" },
+					{ "time": 1.5667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00032" },
+					{ "time": 1.6, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00033" },
+					{ "time": 1.6333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00034" },
+					{ "time": 1.6667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00035" },
+					{ "time": 1.7, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00036" },
+					{ "time": 1.7333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00037" },
+					{ "time": 1.7667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00038" },
+					{ "time": 1.8, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00039" },
+					{ "time": 1.8333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00040" },
+					{ "time": 1.8667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00041" },
+					{ "time": 1.9 }
+				]
+			},
+			"Elements - Fire 071": {
+				"attachment": [
+					{ "time": 0.5 },
+					{ "time": 0.5333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00001" },
+					{ "time": 0.5667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00002" },
+					{ "time": 0.6, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00003" },
+					{ "time": 0.6333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00004" },
+					{ "time": 0.6667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00005" },
+					{ "time": 0.7, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00006" },
+					{ "time": 0.7333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00007" },
+					{ "time": 0.7667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00008" },
+					{ "time": 0.8, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00009" },
+					{ "time": 0.8333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00010" },
+					{ "time": 0.8667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00011" },
+					{ "time": 0.9, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00012" },
+					{ "time": 0.9333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00013" },
+					{ "time": 0.9667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00014" },
+					{ "time": 1, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00015" },
+					{ "time": 1.0333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00016" },
+					{ "time": 1.0667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00017" },
+					{ "time": 1.1, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00018" },
+					{ "time": 1.1333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00019" },
+					{ "time": 1.1667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00020" },
+					{ "time": 1.2, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00021" },
+					{ "time": 1.2333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00022" },
+					{ "time": 1.2667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00023" },
+					{ "time": 1.3, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00024" },
+					{ "time": 1.3333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00025" },
+					{ "time": 1.3667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00026" },
+					{ "time": 1.4, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00027" },
+					{ "time": 1.4333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00028" },
+					{ "time": 1.4667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00029" },
+					{ "time": 1.5, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00030" },
+					{ "time": 1.5333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00031" },
+					{ "time": 1.5667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00032" },
+					{ "time": 1.6, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00033" },
+					{ "time": 1.6333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00034" },
+					{ "time": 1.6667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00035" },
+					{ "time": 1.7, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00036" },
+					{ "time": 1.7333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00037" },
+					{ "time": 1.7667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00038" },
+					{ "time": 1.8, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00039" },
+					{ "time": 1.8333, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00040" },
+					{ "time": 1.8667, "name": "Elements - Fire 070 Flamethrower Right MIX noCT noRSZ_00041" },
+					{ "time": 1.9 }
+				]
+			}
+		},
+		"bones": {
+			"fire3": {
+				"scale": [
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.8 },
+					{ "time": 1.3333, "x": 4.289, "y": 4.205, "curve": "stepped" },
+					{ "time": 1.5, "x": 4.289, "y": 4.205 },
+					{ "time": 1.9333 }
+				]
+			},
+			"fire1": {
+				"scale": [
+					{ "time": 0.5 },
+					{ "time": 1.1667, "x": 1.986, "y": 1.986 },
+					{ "time": 1.9 }
+				]
+			},
+			"fire2": {
+				"scale": [
+					{ "time": 0.5 },
+					{ "time": 1.1667, "x": 1.952, "y": 1.952 },
+					{ "time": 1.9 }
+				]
+			},
+			"body2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -13.58 },
+					{ "time": 0.6, "value": 8.02, "curve": "stepped" },
+					{ "time": 1.1667, "value": 8.02 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.5, "x": 217.39 },
+					{ "time": 0.8, "x": -179.54, "y": 8.47, "curve": "stepped" },
+					{ "time": 1.1667, "x": -179.54, "y": 8.47 },
+					{ "time": 2 }
+				]
+			},
+			"head_1": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -4.28 },
+					{ "time": 0.6, "value": 13.75, "curve": "stepped" },
+					{ "time": 1.1667, "value": 13.75 },
+					{ "time": 2 }
+				]
+			},
+			"head_2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -4.28 },
+					{ "time": 0.6, "value": 1.03, "curve": "stepped" },
+					{ "time": 1.1667, "value": 1.03 },
+					{ "time": 2 }
+				]
+			},
+			"head_3": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -4.28 },
+					{ "time": 0.6, "value": 1.03, "curve": "stepped" },
+					{ "time": 1.1667, "value": 1.03 },
+					{ "time": 2 }
+				]
+			},
+			"head_4": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -4.28 },
+					{ "time": 0.6, "value": 1.03, "curve": "stepped" },
+					{ "time": 1.1667, "value": 1.03 },
+					{ "time": 2 }
+				]
+			},
+			"head_5": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 29.43 },
+					{ "time": 0.6, "value": -24.06, "curve": "stepped" },
+					{ "time": 1.1667, "value": -24.06 },
+					{ "time": 2 }
+				]
+			},
+			"head_1-up2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 11.2 },
+					{ "time": 0.6, "value": -7.22, "curve": "stepped" },
+					{ "time": 1.3333, "value": -7.22 },
+					{ "time": 2 }
+				]
+			},
+			"head_6": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.68 },
+					{ "time": 0.6, "value": 9.81, "curve": "stepped" },
+					{ "time": 1.1667, "value": 9.81 },
+					{ "time": 2 }
+				]
+			},
+			"head_7": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.68 },
+					{ "time": 0.6, "value": 24.43, "curve": "stepped" },
+					{ "time": 1.1667, "value": 24.43 },
+					{ "time": 2 }
+				]
+			},
+			"head_8": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.68 },
+					{ "time": 0.6, "value": 9.3, "curve": "stepped" },
+					{ "time": 1.1667, "value": 9.3 },
+					{ "time": 2 }
+				]
+			},
+			"head_9": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 4.13 },
+					{ "time": 0.6, "value": -12.97, "curve": "stepped" },
+					{ "time": 1.1667, "value": -12.97 },
+					{ "time": 2 }
+				]
+			},
+			"head_10": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 29.06 },
+					{ "time": 0.6, "value": -27.09, "curve": "stepped" },
+					{ "time": 1.1667, "value": -27.09 },
+					{ "time": 2 }
+				]
+			},
+			"head2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 4.07 },
+					{ "time": 0.6, "value": -28.31, "curve": "stepped" },
+					{ "time": 1.1667, "value": -28.31 },
+					{ "time": 2 }
+				]
+			},
+			"head_11": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.21 },
+					{ "time": 0.6, "value": 14.87, "curve": "stepped" },
+					{ "time": 1.1667, "value": 14.87 },
+					{ "time": 2 }
+				]
+			},
+			"head_12": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.21 },
+					{ "time": 0.6, "value": 6.64, "curve": "stepped" },
+					{ "time": 1.1667, "value": 6.64 },
+					{ "time": 2 }
+				]
+			},
+			"head_13": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.21 },
+					{ "time": 0.6, "value": 5.35, "curve": "stepped" },
+					{ "time": 1.1667, "value": 5.35 },
+					{ "time": 2 }
+				]
+			},
+			"head_14": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.21 },
+					{ "time": 0.6, "value": -6.58, "curve": "stepped" },
+					{ "time": 1.1667, "value": -6.58 },
+					{ "time": 2 }
+				]
+			},
+			"head_15": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 7.49 },
+					{ "time": 0.6, "value": -15.77, "curve": "stepped" },
+					{ "time": 1.1667, "value": -15.77 },
+					{ "time": 2 }
+				]
+			},
+			"head_16": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 33.65 },
+					{ "time": 0.6, "value": -9.74, "curve": "stepped" },
+					{ "time": 1.1667, "value": -9.74 },
+					{ "time": 2 }
+				]
+			},
+			"head_3-up2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 3.73 },
+					{ "time": 0.6, "value": -10.08, "curve": "stepped" },
+					{ "time": 1.1667, "value": -10.08 },
+					{ "time": 2 }
+				]
+			},
+			"tail2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 17.68 },
+					{ "time": 0.6, "value": -9.15, "curve": "stepped" },
+					{ "time": 1.1667, "value": -9.15 },
+					{ "time": 2 }
+				]
+			},
+			"tail3": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 17.68 },
+					{ "time": 0.6, "value": -9.15, "curve": "stepped" },
+					{ "time": 1.1667, "value": -9.15 },
+					{ "time": 2 }
+				]
+			},
+			"tail4": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 17.68 },
+					{ "time": 0.6, "value": -9.15, "curve": "stepped" },
+					{ "time": 1.1667, "value": -9.15 },
+					{ "time": 2 }
+				]
+			},
+			"tail5": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 17.68 },
+					{ "time": 0.6, "value": -9.15, "curve": "stepped" },
+					{ "time": 1.1667, "value": -9.15 },
+					{ "time": 2 }
+				]
+			},
+			"tail6": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 17.68 },
+					{ "time": 0.6, "value": -9.15, "curve": "stepped" },
+					{ "time": 1.1667, "value": -9.15 },
+					{ "time": 2 }
+				]
+			},
+			"tail7": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 17.68 },
+					{ "time": 0.6, "value": -9.15, "curve": "stepped" },
+					{ "time": 1.1667, "value": -9.15 },
+					{ "time": 2 }
+				]
+			},
+			"wing": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 19.57 },
+					{ "time": 0.6, "value": -0.37, "curve": "stepped" },
+					{ "time": 1.1667, "value": -0.37 },
+					{ "time": 2 }
+				]
+			},
+			"wing2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -43.36 },
+					{ "time": 0.6, "value": 25.15, "curve": "stepped" },
+					{ "time": 1.1667, "value": 25.15 },
+					{ "time": 2 }
+				]
+			},
+			"wing3": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 42.49 },
+					{ "time": 0.6, "value": -18.02, "curve": "stepped" },
+					{ "time": 1.1667, "value": -18.02 },
+					{ "time": 2 }
+				]
+			},
+			"wing5": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 42.49 },
+					{ "time": 0.6, "value": -18.02, "curve": "stepped" },
+					{ "time": 1.1667, "value": -18.02 },
+					{ "time": 2 }
+				]
+			},
+			"wing4": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 14.29 },
+					{ "time": 0.6, "value": -14.89, "curve": "stepped" },
+					{ "time": 1.1667, "value": -14.89 },
+					{ "time": 2 }
+				]
+			},
+			"wing6": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 14.29 },
+					{ "time": 0.6, "value": -14.89, "curve": "stepped" },
+					{ "time": 1.1667, "value": -14.89 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"get_hit": {
+		"bones": {
+			"body": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -7.07 },
+					{ "time": 0.5 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1, "x": 131.05, "y": -78.15 },
+					{ "time": 0.5 }
+				]
+			},
+			"wing": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": 13.26 },
+					{ "time": 0.5 }
+				]
+			},
+			"wing3": {
+				"rotate": [
+					{ "value": 0.82 },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": 9.86 },
+					{ "time": 0.5, "value": 0.82 }
+				]
+			},
+			"wing5": {
+				"rotate": [
+					{ "value": 0.82 },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": 9.86 },
+					{ "time": 0.5, "value": 0.82 }
+				]
+			},
+			"wing4": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -21.9 },
+					{ "time": 0.5 }
+				]
+			},
+			"wing6": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -21.9 },
+					{ "time": 0.5 }
+				]
+			},
+			"head_7": {
+				"rotate": [
+					{ "value": -0.36 },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": -4.28 },
+					{ "time": 0.5, "value": -0.36 }
+				]
+			},
+			"head_8": {
+				"rotate": [
+					{ "value": -0.71 },
+					{ "time": 0.0333, "value": -0.36 },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "value": -4.28 },
+					{ "time": 0.5, "value": -0.71 }
+				]
+			},
+			"head_9": {
+				"rotate": [
+					{ "value": -1.07 },
+					{ "time": 0.0667, "value": -0.36 },
+					{ "time": 0.1 },
+					{ "time": 0.2, "value": -4.28 },
+					{ "time": 0.5, "value": -1.07 }
+				]
+			},
+			"head_10": {
+				"rotate": [
+					{ "value": -1.43 },
+					{ "time": 0.0333, "value": -1.07 },
+					{ "time": 0.1, "value": -0.36 },
+					{ "time": 0.1333 },
+					{ "time": 0.2333, "value": -4.28 },
+					{ "time": 0.5, "value": -1.43 }
+				]
+			},
+			"head2": {
+				"rotate": [
+					{ "value": -1.78 },
+					{ "time": 0.0667, "value": -1.07 },
+					{ "time": 0.1333, "value": -0.36 },
+					{ "time": 0.1667 },
+					{ "time": 0.2667, "value": -4.28 },
+					{ "time": 0.5, "value": -1.78 }
+				]
+			},
+			"head_12": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -2.79 },
+					{ "time": 0.5 }
+				]
+			},
+			"head_13": {
+				"rotate": [
+					{ "value": -0.23 },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": -2.79 },
+					{ "time": 0.5, "value": -0.23 }
+				]
+			},
+			"head_14": {
+				"rotate": [
+					{ "value": -0.47 },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "value": -2.79 },
+					{ "time": 0.5, "value": -0.47 }
+				]
+			},
+			"head_15": {
+				"rotate": [
+					{ "value": -0.7 },
+					{ "time": 0.0333, "value": -0.47 },
+					{ "time": 0.1 },
+					{ "time": 0.2, "value": -2.79 },
+					{ "time": 0.5, "value": -0.7 }
+				]
+			},
+			"head_16": {
+				"rotate": [
+					{ "value": -0.93 },
+					{ "time": 0.0667, "value": -0.47 },
+					{ "time": 0.1333 },
+					{ "time": 0.2333, "value": -2.79 },
+					{ "time": 0.5, "value": -0.93 }
+				]
+			},
+			"head_3-up2": {
+				"rotate": [
+					{ "value": -1.16 },
+					{ "time": 0.1, "value": -0.47 },
+					{ "time": 0.1667 },
+					{ "time": 0.2667, "value": -2.79 },
+					{ "time": 0.5, "value": -1.16 }
+				]
+			},
+			"head_1": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -3.55 },
+					{ "time": 0.5 }
+				]
+			},
+			"head_2": {
+				"rotate": [
+					{ "value": -0.3 },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": -3.55 },
+					{ "time": 0.5, "value": -0.3 }
+				]
+			},
+			"head_3": {
+				"rotate": [
+					{ "value": -0.59 },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "value": -3.55 },
+					{ "time": 0.5, "value": -0.59 }
+				]
+			},
+			"head_4": {
+				"rotate": [
+					{ "value": -0.89 },
+					{ "time": 0.0333, "value": -0.59 },
+					{ "time": 0.1 },
+					{ "time": 0.2, "value": -3.55 },
+					{ "time": 0.5, "value": -0.89 }
+				]
+			},
+			"head_5": {
+				"rotate": [
+					{ "value": -1.18 },
+					{ "time": 0.0667, "value": -0.59 },
+					{ "time": 0.1333 },
+					{ "time": 0.2333, "value": -3.55 },
+					{ "time": 0.5, "value": -1.18 }
+				]
+			},
+			"head_1-up2": {
+				"rotate": [
+					{ "value": -1.48 },
+					{ "time": 0.1, "value": -0.59 },
+					{ "time": 0.1667 },
+					{ "time": 0.2667, "value": -3.55 },
+					{ "time": 0.5, "value": -1.48 }
+				]
+			},
+			"head_1-down": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -18.34 },
+					{ "time": 0.5 }
+				]
+			},
+			"head_2-down": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -8.47 },
+					{ "time": 0.5 }
+				]
+			},
+			"head_3-down": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": 13.65 },
+					{ "time": 0.3, "value": -3.96 },
+					{ "time": 0.5 }
+				]
+			},
+			"wing2": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": 8.52 },
+					{ "time": 0.5 }
+				]
+			},
+			"tail2": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "value": -4.58 },
+					{ "time": 0.3, "value": 6.54 },
+					{ "time": 0.5 }
+				]
+			},
+			"tail3": {
+				"rotate": [
+					{ "value": 1.09 },
+					{ "time": 0.0333 },
+					{ "time": 0.1333, "value": -4.58 },
+					{ "time": 0.3333, "value": 6.54 },
+					{ "time": 0.5, "value": 1.09 }
+				]
+			},
+			"tail4": {
+				"rotate": [
+					{ "value": 2.18 },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "value": -4.58 },
+					{ "time": 0.3667, "value": 6.54 },
+					{ "time": 0.5, "value": 2.18 }
+				]
+			},
+			"tail5": {
+				"rotate": [
+					{ "value": 3.27 },
+					{ "time": 0.0333, "value": 2.18 },
+					{ "time": 0.1 },
+					{ "time": 0.2, "value": -4.58 },
+					{ "time": 0.4, "value": 6.54 },
+					{ "time": 0.5, "value": 3.27 }
+				]
+			},
+			"tail6": {
+				"rotate": [
+					{ "value": 4.36 },
+					{ "time": 0.0667, "value": 2.18 },
+					{ "time": 0.1333 },
+					{ "time": 0.2333, "value": -4.58 },
+					{ "time": 0.4333, "value": 6.54 },
+					{ "time": 0.5, "value": 4.36 }
+				]
+			},
+			"tail7": {
+				"rotate": [
+					{ "value": 5.45 },
+					{ "time": 0.1, "value": 2.18 },
+					{ "time": 0.1667 },
+					{ "time": 0.2667, "value": -4.58 },
+					{ "time": 0.4667, "value": 6.54 },
+					{ "time": 0.5, "value": 5.45 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"bones": {
+			"body2": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, -3.67 ]
+					},
+					{
+						"time": 1,
+						"value": -3.67,
+						"curve": [ 1.333, -3.67, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.5, "y": -59.87 },
+					{ "time": 1.5, "y": 49.51 },
+					{ "time": 2 }
+				]
+			},
+			"head_13": {
+				"rotate": [
+					{ "value": -0.28 },
+					{ "time": 0.0667 },
+					{ "time": 0.5667, "value": 3.08 },
+					{ "time": 1.5667, "value": -2.09 },
+					{ "time": 2, "value": -0.28 }
+				]
+			},
+			"head_14": {
+				"rotate": [
+					{ "value": -0.56 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": 3.08 },
+					{ "time": 1.6333, "value": -2.09 },
+					{ "time": 2, "value": -0.56 }
+				]
+			},
+			"head_15": {
+				"rotate": [
+					{ "value": -0.84 },
+					{ "time": 0.0667, "value": -0.56 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": 3.08 },
+					{ "time": 1.7, "value": -2.09 },
+					{ "time": 2, "value": -0.84 }
+				]
+			},
+			"head_16": {
+				"rotate": [
+					{ "value": -1.12 },
+					{ "time": 0.1333, "value": -0.56 },
+					{ "time": 0.2667 },
+					{ "time": 0.7667, "value": 3.08 },
+					{ "time": 1.7667, "value": -2.09 },
+					{ "time": 2, "value": -1.12 }
+				]
+			},
+			"head_7": {
+				"rotate": [
+					{ "value": -0.33 },
+					{ "time": 0.0667 },
+					{ "time": 0.5667, "value": 2.31 },
+					{ "time": 1.5667, "value": -2.45 },
+					{ "time": 2, "value": -0.33 }
+				]
+			},
+			"head_8": {
+				"rotate": [
+					{ "value": -0.65 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": 2.31 },
+					{ "time": 1.6333, "value": -2.45 },
+					{ "time": 2, "value": -0.65 }
+				]
+			},
+			"head_9": {
+				"rotate": [
+					{ "value": -0.98 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": 2.31 },
+					{ "time": 1.7, "value": -2.45 },
+					{ "time": 2, "value": -0.98 }
+				]
+			},
+			"head_10": {
+				"rotate": [
+					{ "value": -1.31 },
+					{ "time": 0.2667 },
+					{ "time": 0.7667, "value": 2.31 },
+					{ "time": 1.7667, "value": -2.45 },
+					{ "time": 2, "value": -1.31 }
+				]
+			},
+			"head_2": {
+				"rotate": [
+					{ "value": -0.54 },
+					{ "time": 0.0667 },
+					{ "time": 0.5667, "value": 1.78 },
+					{ "time": 1.5667, "value": -4.08 },
+					{ "time": 2, "value": -0.54 }
+				]
+			},
+			"head_3": {
+				"rotate": [
+					{ "value": -1.09 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": 1.78 },
+					{ "time": 1.6333, "value": -4.08 },
+					{ "time": 2, "value": -1.09 }
+				]
+			},
+			"head_4": {
+				"rotate": [
+					{ "value": -1.63 },
+					{ "time": 0.0667, "value": -1.09 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": 1.78 },
+					{ "time": 1.7, "value": -4.08 },
+					{ "time": 2, "value": -1.63 }
+				]
+			},
+			"head_5": {
+				"rotate": [
+					{ "value": -2.17 },
+					{ "time": 0.1333, "value": -1.09 },
+					{ "time": 0.2667 },
+					{ "time": 0.7667, "value": 1.78 },
+					{ "time": 1.7667, "value": -4.08 },
+					{ "time": 2, "value": -2.17 }
+				]
+			},
+			"head_1-up2": {
+				"rotate": [
+					{ "value": 28.7 },
+					{ "time": 0.3333, "value": 22.67 },
+					{ "time": 0.8333, "value": 6.44 },
+					{ "time": 1.8333, "value": 31.71 },
+					{ "time": 2, "value": 28.7 }
+				]
+			},
+			"wing5": {
+				"rotate": [
+					{ "value": 1.13 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": -7.92 },
+					{ "time": 1.6333, "value": 4.23 },
+					{ "time": 2, "value": 1.13 }
+				]
+			},
+			"wing6": {
+				"rotate": [
+					{ "value": 1.69 },
+					{ "time": 0.0667, "value": 1.13 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": -7.92 },
+					{ "time": 1.7, "value": 4.23 },
+					{ "time": 2, "value": 1.69 }
+				]
+			},
+			"wing3": {
+				"rotate": [
+					{ "value": 1.13 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": -7.92 },
+					{ "time": 1.6333, "value": 4.23 },
+					{ "time": 2, "value": 1.13 }
+				]
+			},
+			"wing4": {
+				"rotate": [
+					{ "value": 1.69 },
+					{ "time": 0.0667, "value": 1.13 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": -7.92 },
+					{ "time": 1.7, "value": 4.23 },
+					{ "time": 2, "value": 1.69 }
+				]
+			},
+			"tail2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 4.88 },
+					{ "time": 1.5, "value": -5.01 },
+					{ "time": 2 }
+				]
+			},
+			"tail3": {
+				"rotate": [
+					{ "value": -0.67 },
+					{ "time": 0.0667 },
+					{ "time": 0.5667, "value": 4.88 },
+					{ "time": 1.5667, "value": -5.01 },
+					{ "time": 2, "value": -0.67 }
+				]
+			},
+			"tail4": {
+				"rotate": [
+					{ "value": -1.34 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": 4.88 },
+					{ "time": 1.6333, "value": -5.01 },
+					{ "time": 2, "value": -1.34 }
+				]
+			},
+			"tail5": {
+				"rotate": [
+					{ "value": -2 },
+					{ "time": 0.0667, "value": -1.34 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": 4.88 },
+					{ "time": 1.7, "value": -5.01 },
+					{ "time": 2, "value": -2 }
+				]
+			},
+			"tail6": {
+				"rotate": [
+					{ "value": -2.67 },
+					{ "time": 0.1333, "value": -1.34 },
+					{ "time": 0.2667 },
+					{ "time": 0.7667, "value": 4.88 },
+					{ "time": 1.7667, "value": -5.01 },
+					{ "time": 2, "value": -2.67 }
+				]
+			},
+			"tail7": {
+				"rotate": [
+					{ "value": -3.34 },
+					{ "time": 0.2, "value": -1.34 },
+					{ "time": 0.3333 },
+					{ "time": 0.8333, "value": 4.88 },
+					{ "time": 1.8333, "value": -5.01 },
+					{ "time": 2, "value": -3.34 }
+				]
+			},
+			"head2": {
+				"rotate": [
+					{ "value": 6.15 },
+					{ "time": 0.3333 },
+					{ "time": 0.8333, "value": -10.91 },
+					{ "time": 1.8333, "value": 9.23 },
+					{ "time": 2, "value": 6.15 }
+				]
+			},
+			"head_3-up2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -5.05 },
+					{ "time": 1.5, "value": 3.04 },
+					{ "time": 2 }
+				]
+			},
+			"head_2-down": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "value": 9.06 },
+					{ "time": 1.3333, "value": -5.35 },
+					{ "time": 2 }
+				]
+			},
+			"head_3-down": {
+				"rotate": [
+					{},
+					{ "time": 0.6, "value": 5.55 },
+					{ "time": 1.2667, "value": -9.39 },
+					{ "time": 2 }
+				]
+			},
+			"head_1": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -6.29 },
+					{ "time": 1.5, "value": 2.45 },
+					{ "time": 2 }
+				]
+			},
+			"head_6": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -3.54 },
+					{ "time": 1.5, "value": 3.46 },
+					{ "time": 2 }
+				]
+			},
+			"head_12": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -1.45 },
+					{ "time": 1.5, "value": 2.66 },
+					{ "time": 2 }
+				]
+			},
+			"wing": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 10.38 },
+					{ "time": 1.5, "value": -3.36 },
+					{ "time": 2 }
+				]
+			},
+			"head_1-down": {
+				"rotate": [
+					{},
+					{ "time": 1, "value": -8.33 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"test": {
+		"bones": {
+			"body": {
+				"translate": [
+					{},
+					{ "time": 0.5, "y": -49.18 },
+					{ "time": 1 },
+					{ "time": 1.5, "y": 73.48 },
+					{ "time": 2 },
+					{ "time": 2.5, "y": -49.18 },
+					{ "time": 3 },
+					{ "time": 3.5, "y": 73.48 },
+					{ "time": 4 }
+				]
+			},
+			"IK_leg_f2": {
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 },
+					{ "time": 1.1667, "y": 109.92 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2.1667 }
+				]
+			},
+			"leg_f2-1": {
+				"rotate": [
+					{ "time": 1 },
+					{ "time": 1.1667, "value": -24.92 },
+					{ "time": 1.3333 }
+				]
+			},
+			"head_8": {
+				"rotate": [
+					{ "value": -0.31 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": 1.15 },
+					{ "time": 1.6333, "value": -1.15 },
+					{ "time": 2.6333, "value": 1.15 },
+					{ "time": 3.6333, "value": -1.15 },
+					{ "time": 4, "value": -0.31 }
+				]
+			},
+			"head_9": {
+				"rotate": [
+					{ "value": -0.38 },
+					{ "time": 0.1667 },
+					{ "time": 0.6667, "value": 1.15 },
+					{ "time": 1.6667, "value": -1.15 },
+					{ "time": 2.6667, "value": 1.15 },
+					{ "time": 3.6667, "value": -1.15 },
+					{ "time": 4, "value": -0.38 }
+				]
+			},
+			"head_10": {
+				"rotate": [
+					{ "value": -0.46 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": 1.15 },
+					{ "time": 1.7, "value": -1.15 },
+					{ "time": 2.7, "value": 1.15 },
+					{ "time": 3.7, "value": -1.15 },
+					{ "time": 4, "value": -0.46 }
+				]
+			},
+			"head_3": {
+				"rotate": [
+					{ "value": -0.06 },
+					{ "time": 0.0333 },
+					{ "time": 0.5333, "value": 1.38 },
+					{ "time": 1.5333, "value": -0.95 },
+					{ "time": 2.5333, "value": 1.38 },
+					{ "time": 3.5333, "value": -0.95 },
+					{ "time": 4, "value": -0.06 }
+				]
+			},
+			"head_4": {
+				"rotate": [
+					{ "value": -0.13 },
+					{ "time": 0.0667 },
+					{ "time": 0.5667, "value": 1.38 },
+					{ "time": 1.5667, "value": -0.95 },
+					{ "time": 2.5667, "value": 1.38 },
+					{ "time": 3.5667, "value": -0.95 },
+					{ "time": 4, "value": -0.13 }
+				]
+			},
+			"head_5": {
+				"rotate": [
+					{ "value": -0.19 },
+					{ "time": 0.1 },
+					{ "time": 0.6, "value": 1.38 },
+					{ "time": 1.6, "value": -0.95 },
+					{ "time": 2.6, "value": 1.38 },
+					{ "time": 3.6, "value": -0.95 },
+					{ "time": 4, "value": -0.19 }
+				]
+			},
+			"head_6": {
+				"rotate": [
+					{ "value": -0.25 },
+					{ "time": 0.0333, "value": -0.19 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": 1.38 },
+					{ "time": 1.6333, "value": -0.95 },
+					{ "time": 2.6333, "value": 1.38 },
+					{ "time": 3.6333, "value": -0.95 },
+					{ "time": 4, "value": -0.25 }
+				]
+			},
+			"head_7": {
+				"rotate": [
+					{ "value": -0.32 },
+					{ "time": 0.0667, "value": -0.19 },
+					{ "time": 0.1667 },
+					{ "time": 0.6667, "value": 1.38 },
+					{ "time": 1.6667, "value": -0.95 },
+					{ "time": 2.6667, "value": 1.38 },
+					{ "time": 3.6667, "value": -0.95 },
+					{ "time": 4, "value": -0.32 }
+				]
+			},
+			"head_2-down": {
+				"rotate": [
+					{ "time": 2.5 },
+					{ "time": 3, "value": -6.4 },
+					{ "time": 3.5, "value": 4.72 },
+					{ "time": 4 }
+				]
+			},
+			"head_1-down": {
+				"rotate": [
+					{},
+					{ "time": 1, "value": -12.06, "curve": "stepped" },
+					{ "time": 3, "value": -12.06 },
+					{ "time": 4 }
+				]
+			},
+			"head_12": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 2.21 },
+					{ "time": 1.5, "value": -2.08 },
+					{ "time": 2.5, "value": 2.21 },
+					{ "time": 3.5, "value": -2.08 },
+					{ "time": 4 }
+				]
+			},
+			"head_13": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 2.21 },
+					{ "time": 1.5, "value": -2.08 },
+					{ "time": 2.5, "value": 2.21 },
+					{ "time": 3.5, "value": -2.08 },
+					{ "time": 4 }
+				]
+			},
+			"head_14": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 2.21 },
+					{ "time": 1.5, "value": -2.08 },
+					{ "time": 2.5, "value": 2.21 },
+					{ "time": 3.5, "value": -2.08 },
+					{ "time": 4 }
+				]
+			},
+			"head_15": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 2.21 },
+					{ "time": 1.5, "value": -2.08 },
+					{ "time": 2.5, "value": 2.21 },
+					{ "time": 3.5, "value": -2.08 },
+					{ "time": 4 }
+				]
+			},
+			"head_16": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 2.21 },
+					{ "time": 1.5, "value": -2.08 },
+					{ "time": 2.5, "value": 2.21 },
+					{ "time": 3.5, "value": -2.08 },
+					{ "time": 4 }
+				]
+			},
+			"head_3-up": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -16.36 },
+					{ "time": 1.5, "value": 1.53 },
+					{ "time": 2.5, "value": -16.36 },
+					{ "time": 3.5, "value": 1.53 },
+					{ "time": 4, "value": 2.36 }
+				]
+			},
+			"head_3-down": {
+				"rotate": [
+					{ "time": 2.6667 },
+					{ "time": 3, "value": -12.97 },
+					{ "time": 3.3333 }
+				]
+			},
+			"wing": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 5.16 },
+					{ "time": 1.5, "value": -5.88 },
+					{ "time": 2.5, "value": 5.16 },
+					{ "time": 3.5, "value": -5.88 },
+					{ "time": 4 }
+				]
+			},
+			"wing2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 11.14 },
+					{ "time": 1.5, "value": -4.93 },
+					{ "time": 2.5, "value": 11.14 },
+					{ "time": 3.5, "value": -4.93 },
+					{ "time": 4 }
+				]
+			},
+			"wing3": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -6.77 },
+					{ "time": 1.5, "value": 8.37 },
+					{ "time": 2.5, "value": -6.77 },
+					{ "time": 3.5, "value": 8.37 },
+					{ "time": 4 }
+				]
+			},
+			"wing5": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -6.77 },
+					{ "time": 1.5, "value": 8.37 },
+					{ "time": 2.5, "value": -6.77 },
+					{ "time": 3.5, "value": 8.37 },
+					{ "time": 4 }
+				]
+			},
+			"wing4": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 8.94 },
+					{ "time": 1.5, "value": -9.54 },
+					{ "time": 2.5, "value": 8.94 },
+					{ "time": 3.5, "value": -9.54 },
+					{ "time": 4 }
+				]
+			},
+			"wing6": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": 8.94 },
+					{ "time": 1.5, "value": -9.54 },
+					{ "time": 2.5, "value": 8.94 },
+					{ "time": 3.5, "value": -9.54 },
+					{ "time": 4 }
+				]
+			},
+			"tail3": {
+				"rotate": [
+					{ "value": 0.51 },
+					{ "time": 0.0667 },
+					{ "time": 0.5667, "value": -4.77 },
+					{ "time": 1.5667, "value": 3.82 },
+					{ "time": 2.5667, "value": -4.77 },
+					{ "time": 3.5667, "value": 3.82 },
+					{ "time": 4, "value": 0.51 }
+				]
+			},
+			"tail4": {
+				"rotate": [
+					{ "value": 1.02 },
+					{ "time": 0.1333 },
+					{ "time": 0.6333, "value": -4.77 },
+					{ "time": 1.6333, "value": 3.82 },
+					{ "time": 2.6333, "value": -4.77 },
+					{ "time": 3.6333, "value": 3.82 },
+					{ "time": 4, "value": 1.02 }
+				]
+			},
+			"tail5": {
+				"rotate": [
+					{ "value": 1.53 },
+					{ "time": 0.0667, "value": 1.02 },
+					{ "time": 0.2 },
+					{ "time": 0.7, "value": -4.77 },
+					{ "time": 1.7, "value": 3.82 },
+					{ "time": 2.7, "value": -4.77 },
+					{ "time": 3.7, "value": 3.82 },
+					{ "time": 4, "value": 1.53 }
+				]
+			},
+			"tail6": {
+				"rotate": [
+					{ "value": 2.04 },
+					{ "time": 0.1333, "value": 1.02 },
+					{ "time": 0.2667 },
+					{ "time": 0.7667, "value": -4.77 },
+					{ "time": 1.7667, "value": 3.82 },
+					{ "time": 2.7667, "value": -4.77 },
+					{ "time": 3.7667, "value": 3.82 },
+					{ "time": 4, "value": 2.04 }
+				]
+			},
+			"tail7": {
+				"rotate": [
+					{ "value": 2.55 },
+					{ "time": 0.2, "value": 1.02 },
+					{ "time": 0.3333 },
+					{ "time": 0.8333, "value": -4.77 },
+					{ "time": 1.8333, "value": 3.82 },
+					{ "time": 2.8333, "value": -4.77 },
+					{ "time": 3.8333, "value": 3.82 },
+					{ "time": 4, "value": 2.55 }
+				]
+			}
+		}
+	}
+}
+}

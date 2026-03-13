@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102b7991e3e35fc44976f682b875aefe, type: 3}
+  m_Name: BossPortal1
+  m_EditorClassIdentifier: 
+  skeAsset: {fileID: 11400000, guid: d420c6ce987dee14eb43449fc2847932, type: 2}
+  baseData:
+    CharacterType: 2
+    CardType: 1
+    Origin: 4
+    SkillType: 2
+    isMultiTarget: 0
+    MoveAction:
+      type: 1
+      delay_time: 0
+    AttackAction:
+      type: 1
+      TargetType: 0
+      hitdame_delay_time: 0.2
+      completed_delay_time: 0.5
+      effectDelay: 0.1
+      attackCount: 4
+    SkillAction:
+      type: 1
+      TargetType: 1
+      hitdame_delay_time: 2
+      completed_delay_time: 4
+      effectDelay: 0.1
+      attackCount: 1
+    Index: 1100
+    skinIndex: -1
+    Star: 0
+    Slot: 0
+    Class: 0
+    Name: Weiyan
+    ATK: 150
+    Def: 0
+    CritRate: 0
+    MaxHP: 3000
+    CurHP: 3000
+    AP: 0
+    ScaleData: {x: 0.15, y: 0.15}
+  listEffect:
+  - effectID: 0
+    sketetonEffect: {fileID: 0}
+    particalEffect: {fileID: 7403424312137200332, guid: 61db1e22476fd65428e4c892fed5b62a, type: 3}
+    hitDameEffect: {fileID: 1620636520166436, guid: bbf3ef14c7aa6b543ad116b899a6d380, type: 3}
+    delayEffect: 0
+    Scale: {x: 1, y: 1}
+    isStartPos: 0
+    isSpwanOnTarget: 0
+  - effectID: 1
+    sketetonEffect: {fileID: 11400000, guid: 245ec3180d449174e9cce1a84dbbcf2c, type: 2}
+    particalEffect: {fileID: 0}
+    hitDameEffect: {fileID: 0}
+    delayEffect: 0
+    Scale: {x: 1, y: 1}
+    isStartPos: 0
+    isSpwanOnTarget: 1
+  - effectID: 1
+    sketetonEffect: {fileID: 0}
+    particalEffect: {fileID: 1620636520166436, guid: 07757cf211bd45044a1f1917658b9e66, type: 3}
+    hitDameEffect: {fileID: 0}
+    delayEffect: 0
+    Scale: {x: 1, y: 1}
+    isStartPos: 0
+    isSpwanOnTarget: 0
+  delay: 0

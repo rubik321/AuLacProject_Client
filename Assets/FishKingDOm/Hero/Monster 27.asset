@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102b7991e3e35fc44976f682b875aefe, type: 3}
+  m_Name: Monster 27
+  m_EditorClassIdentifier: 
+  skeAsset: {fileID: 11400000, guid: f13990cd28e1ddd4a8e8c44425bfd345, type: 2}
+  baseData:
+    CharacterType: 1
+    CardType: 1
+    isMoveToEnemyPosition: 0
+    Origin: 3
+    SkillType: 2
+    isMultiTarget: 0
+    MoveAction:
+      type: 1
+      delay_time: 1
+    AttackAction:
+      type: 1
+      TargetType: 0
+      hitdame_delay_time: 0.7
+      completed_delay_time: 2
+      effectDelay: 0.1
+      attackCount: 4
+    SkillAction:
+      type: 1
+      TargetType: 1
+      hitdame_delay_time: 1.2
+      completed_delay_time: 2.6
+      effectDelay: 0.4
+      attackCount: 1
+    Index: 27
+    skinIndex: 1
+    Star: 0
+    Slot: 0
+    Class: 0
+    Name: Huangjijun
+    ATK: 90
+    Def: 0
+    CritRate: 0
+    MaxHP: 100
+    CurHP: 100
+    AP: 0
+    ScaleData: {x: 0.14, y: 0.14}
+  listEffect:
+  - effectID: 0
+    sketetonEffect: {fileID: 0}
+    particalEffect: {fileID: 1531814124222292, guid: bc1c406e8debe27419da2b3a80a1ef99, type: 3}
+    hitDameEffect: {fileID: 8418300680069535068, guid: f916339b8951a7c49a9edf8ba7dba6f0, type: 3}
+    delayEffect: 0.2
+    startEffect: 0
+    Scale: {x: 1, y: 1}
+    isStartPos: 0
+    isSpwanOnTarget: 0
+  - effectID: 1
+    sketetonEffect: {fileID: 11400000, guid: be91c05c0f48624428e94d8032968a3b, type: 2}
+    particalEffect: {fileID: 0}
+    hitDameEffect: {fileID: 0}
+    delayEffect: 0
+    startEffect: 0
+    Scale: {x: 0.5, y: 0.5}
+    isStartPos: 0
+    isSpwanOnTarget: 1
+  delay: 0
