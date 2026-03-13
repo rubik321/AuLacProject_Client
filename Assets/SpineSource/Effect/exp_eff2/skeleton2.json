@@ -1,0 +1,47 @@
+{
+"skeleton": { "hash": "yVLHeI/X9lg", "spine": "4.2.40", "images": "./effect_zhouyu_pugong_zidan/images/", "audio": "./effect_gau/../effect_zhouyu_pugong_zidan/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "eff_atkdandao", "parent": "effect" },
+	{ "name": "yue", "parent": "eff_atkdandao" }
+],
+"slots": [
+	{ "name": "yue", "bone": "yue", "color": "ffffff80" },
+	{ "name": "yue2", "bone": "yue", "color": "ffffff80", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yue": {
+				"pic/yue_00002": { "width": 206, "height": 138 }
+			},
+			"yue2": {
+				"pic/yue_00002": { "width": 206, "height": 138 }
+			}
+		}
+	}
+],
+"events": {
+	"attack": {},
+	"end": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"yue": {
+				"attachment": [
+					{ "name": "pic/yue_00002" }
+				]
+			},
+			"yue2": {
+				"attachment": [
+					{ "name": "pic/yue_00002" },
+					{ "time": 0.3333, "name": "pic/yue_00002" }
+				]
+			}
+		}
+	}
+}
+}
