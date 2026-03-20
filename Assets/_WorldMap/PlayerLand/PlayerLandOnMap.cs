@@ -20,7 +20,7 @@ namespace Rubik.PlayerLand
         {
             base.Start();
             // this.SR_Land.sprite = PlayerLandManager.Instance.GetPlayerSprite();
-            
+            this.LoadSkin();
         }
 
         [NTButton]
