@@ -9,6 +9,7 @@ using Spine;
 using Rubik._2DGPS.UserData;
 using Rubik.CharacterGear;
 using System.Linq;
+using NTPackage.Functions;
 
 namespace Rubik.Combat
 {
@@ -122,7 +123,8 @@ namespace Rubik.Combat
                // Rubik.CharacterGear.CharacterGear characterGear = CharacterGearManager.Instance.
                 string cloth = Rubik.SpineManager.SpineController.Instance.GetCharacterGearSpineName(idGear);
                 var temp = CharacterGearManager.Instance.GetGearDataByIndex((CharacterGearIndex)idGear);
-                Debug.Log("Cloth id : " + cloth + "id gear : "+idGear);
+                NTLog.LogMessage("Cloth id : " + cloth + "id gear : "+idGear);
+                if(temp == null) continue;
                 switch (temp.Type)
                 {
                     case CharacterGearType.Hair:
