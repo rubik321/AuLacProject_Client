@@ -29,6 +29,7 @@ namespace Rubik.SystemData
     public class SystemConfig
     {
         public const string URL_HOST = "http://15.235.180.137:7040";
+        public const string Hung_URL_HOST = "http://103.167.89.114:7040";
         public const string API_GET_SYSTEM = "/api/system/get_system_data";
     }
     public class SystemManager : NTBehaviour
@@ -85,7 +86,7 @@ namespace Rubik.SystemData
             JSONNode jdata = new JSONObject();
             jdata["version"] = Application.version;
             jdata["platform"] = (int)Application.platform;
-            yield return Rubik.Server.APIManager.Instance.PostDataUrl(jdata.ToString(), SystemConfig.URL_HOST + SystemConfig.API_GET_SYSTEM, (data) =>
+            yield return Rubik.Server.APIManager.Instance.PostDataUrl(jdata.ToString(), SystemConfig.Hung_URL_HOST + SystemConfig.API_GET_SYSTEM, (data) =>
             {
                 jdata = JSONNode.Parse(data.downloadHandler.text);
                 this.SystemData = JsonUtility.FromJson<SystemData>(jdata["Data"].ToString());

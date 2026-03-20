@@ -24,7 +24,7 @@ namespace GOA.Config
     public class SeverConfigs
     {
         public const string GOA_Sever = "http://15.235.180.137:8080";
-        public const string Test_Sever = "http://15.235.180.137:7008";
+        public const string Test_Sever = "http://103.167.89.114:7008";
         public const string LocalHost_Sever = "http://localhost:7008";
         public const string Hung_Sever = "http://103.167.89.114:8080";
 

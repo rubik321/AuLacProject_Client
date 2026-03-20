@@ -52,7 +52,7 @@ namespace Rubik._2DGPS.DataCenter
             this.LoadDataVersionData();
             JSONNode jdata = new JSONObject();
             jdata["dataVersion"] = JSONNode.Parse(JsonUtility.ToJson(this.DataVersion));
-            yield return APIManager.Instance.PostDataUrl(jdata.ToString(), SeverConfigs.GPS2D_Server + SeverConfigs._2DGPS_DataCenter_CheckVersion, (data) =>
+            yield return APIManager.Instance.PostDataUrl(jdata.ToString(), Rubik.Config.URL_Config.BASE_API_URL + SeverConfigs._2DGPS_DataCenter_CheckVersion, (data) =>
             {
                 jdata = JSONNode.Parse(data.downloadHandler.text);
                 DataVersion dataVersion = JsonUtility.FromJson<DataVersion>(jdata["Data"]["DataVersion"].ToString());
