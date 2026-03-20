@@ -34,7 +34,6 @@ RectTransform:
   m_Children:
   - {fileID: 105349041}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -58,7 +57,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 1
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 100
   m_TargetDisplay: 0
@@ -119,6 +120,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 7772239381880555139}
     m_Modifications:
     - target: {fileID: 130948, guid: 360280c94953edd4985a7bca917a841d, type: 3}
@@ -136,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 11433726, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 45d091491e445c04dbf99bdd932a754b, type: 3}
+      objectReference: {fileID: -650223844206767432, guid: fbdd64439ac2449f4a374e43407d8aac, type: 3}
     - target: {fileID: 11433726, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -315,31 +317,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22481582, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22481582, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22481582, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -0.019775
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22481582, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.010009766
-      objectReference: {fileID: 0}
-    - target: {fileID: 798365720, guid: 360280c94953edd4985a7bca917a841d, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 798365720, guid: 360280c94953edd4985a7bca917a841d, type: 3}
-      propertyPath: m_AspectMode
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 798365720, guid: 360280c94953edd4985a7bca917a841d, type: 3}
+      propertyPath: m_AspectMode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 798365720, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_AspectRatio
-      value: 0.5625
+      value: 1.7778103
       objectReference: {fileID: 0}
     - target: {fileID: 8509394959785328175, guid: 360280c94953edd4985a7bca917a841d, type: 3}
       propertyPath: m_Type
@@ -350,6 +352,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e1be584fe1024442bb932eb807991872, type: 3}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 360280c94953edd4985a7bca917a841d, type: 3}
 --- !u!224 &105349041 stripped
 RectTransform:
