@@ -317,7 +317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5660486573414717661
 RectTransform:
   m_ObjectHideFlags: 0
@@ -327,7 +327,7 @@ RectTransform:
   m_GameObject: {fileID: 450347674874322941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1954834495831934523}
@@ -919,7 +919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 90fd17b064d0a994c90502a8174ea283, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 801041dfe68eb4d47814c518f0f654c3, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1849,8 +1849,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: x2 Reward
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  m_sharedMaterial: {fileID: 21539420542967178, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
+  m_sharedMaterial: {fileID: 7014634828717512661, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1874,13 +1874,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
+  m_fontSize: 28.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 36
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3330,8 +3330,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Message
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  m_sharedMaterial: {fileID: 21539420542967178, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
+  m_sharedMaterial: {fileID: 7014634828717512661, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4681,8 +4681,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Do you want to claim double reward ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  m_sharedMaterial: {fileID: 21539420542967178, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
+  m_sharedMaterial: {fileID: 7014634828717512661, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4706,12 +4706,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 45
   m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 50
+  m_fontSizeMax: 45
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -4919,12 +4919,6 @@ MonoBehaviour:
   ItemData:
     Type: 0
     Amount: 0
-  CharacterCloth:
-    _id: 
-    UserID: 
-    Index: 0
-    Rarity: 0
-    CharacterID: 
   CharacterGear:
     _id: 
     UserID: 
@@ -4934,30 +4928,27 @@ MonoBehaviour:
     Rarity: 0
     Origin: 0
     Class: 0
-    CharacterID: 
     Delete: 0
+    Teams: 
     GearData:
       Index: 0
       Type: 0
       Slot: 0
+      Origin: 0
+      SkillActive: 0
+      SkillPassive: 0
       GearStats:
         HeroAtk: 0
-        Atk: 0
-        Def: 0
-        Hp: 0
-        Speed: 0
+        TeamHp: 0
+        TeamSpeed: 0
     GearStats:
       HeroAtk: 0
-      Atk: 0
-      Def: 0
-      Hp: 0
-      Speed: 0
+      TeamHp: 0
+      TeamSpeed: 0
     GearStatsNextLevel:
       HeroAtk: 0
-      Atk: 0
-      Def: 0
-      Hp: 0
-      Speed: 0
+      TeamHp: 0
+      TeamSpeed: 0
   CardPlayer:
     _id: 
     UserID: 
@@ -5083,13 +5074,10 @@ MonoBehaviour:
       StunRes: 0
       PetrifyRes: 0
       SilenceRes: 0
-    Power: 0
   Item: {fileID: 483441713676468767}
   IconItem: {fileID: 2753646803422624924}
   AmountItem: {fileID: 6474824505649830599}
-  Gear: {fileID: 987245717802795282}
-  IconGear: {fileID: 6474824505994447298}
-  LevelGear: {fileID: 6354268328005271305}
+  CharacterGearItemUI: {fileID: 0}
   Card: {fileID: 3871104151424231464}
   CardAvaHolder: {fileID: 2181637041819923997}
   TextNameCard: {fileID: 7815159992850836371}
@@ -6247,7 +6235,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 618344074bb479f4d89455f29e7c7f75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 60a36fabb229b7b4a94a62d8e5f364a7, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6466,7 +6454,7 @@ RectTransform:
   m_GameObject: {fileID: 7509242060054457708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8734824309483162545}
@@ -7263,8 +7251,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Claim
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  m_sharedMaterial: {fileID: 21539420542967178, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
+  m_sharedMaterial: {fileID: 7014634828717512661, guid: 1ad401891b3d96c42b4d00a02b43cd43, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7459,6 +7447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 3661334885301761372}
   bgIcon: {fileID: 8983385034230737502}
+  borderIcon: {fileID: 0}
   Number: {fileID: 4335325112700557566}
   Index: 0
   press: {fileID: 7192359483478320834}
@@ -7466,12 +7455,13 @@ MonoBehaviour:
     Index: 0
     Type: 0
     Slot: 0
+    Origin: 0
+    SkillActive: 0
+    SkillPassive: 0
     GearStats:
       HeroAtk: 0
-      Atk: 0
-      Def: 0
-      Hp: 0
-      Speed: 0
+      TeamHp: 0
+      TeamSpeed: 0
   tick: {fileID: 4632897519185535784}
   light1: {fileID: 3267615363170998232}
   light2: {fileID: 1463167473268782012}
