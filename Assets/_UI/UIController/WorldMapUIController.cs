@@ -61,7 +61,7 @@ namespace Rubik.UIController
             {
                 int temp = i;
 
-                if (!UserProfileManager.Instance.TutorialDone.Contains((TutorialType)i))
+                if (!UserProfileManager.Instance.IsTutorialDone((TutorialType)i))
                 {
                     var popup = PopupManager.Instance.GetPopupUI(PopupCode.TutorialUI).GetComponent<TutorialUI>();
                     Debug.Log("Lock type : "+UserProfileManager.Instance.IsFunctionLocked(popup.Tuts[temp].tuts[0].locktype));

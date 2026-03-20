@@ -103,7 +103,7 @@ public class TutorialUI : PopupUI
         isCanNextTut = false;
         while (index < 10)
         {
-            if(UserProfileManager.Instance.IsFunctionLocked(Tuts[index].tuts[0].locktype)||UserProfileManager.Instance.TutorialDone.Contains((TutorialType)index))
+            if(UserProfileManager.Instance.IsFunctionLocked(Tuts[index].tuts[0].locktype)||UserProfileManager.Instance.IsTutorialDone((TutorialType)index))
             {
                 index++;
             }

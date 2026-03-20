@@ -481,6 +481,7 @@ namespace Rubik.UserProfile
             }
         }
         public bool IsTutorialDone(TutorialType tutorialType){
+            return true;
             if(this.TutorialDone == null || this.TutorialDone.Count == 0) return false;
             return this.TutorialDone.Contains(tutorialType);
         }
