@@ -71,6 +71,7 @@ namespace Rubik.Myrk.Monster
         {
             if (battleStatus == null || battleStatus.LastTime < 1000) return;
             this.BattleStatus = battleStatus;
+            return;
 
             // Shard
             if (this.ShardOnMapData.Count < this.BattleMonsterWorldMapData.MonsterLimit - this.BattleStatus.MonsterLimit)
