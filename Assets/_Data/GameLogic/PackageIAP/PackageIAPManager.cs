@@ -76,6 +76,7 @@ namespace Rubik.Myrk.PackageIAP
 
         public void UpdatePackageIAP(PackageIAP[] packageIAP)
         {
+            return;
             foreach (PackageIAP item in packageIAP)
             {
                 if (item == null || item._id == null || item._id == "") continue;

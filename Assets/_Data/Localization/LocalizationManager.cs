@@ -72,6 +72,7 @@ namespace Rubik.Localization
                         break;
                 }
             }
+            this.Language = LocalizationConfig.Vietnamese;
             LeanLocalization.SetCurrentLanguageAll(this.Language);
             LocalizationFont.LocalizationFontManager.Instance.ChangeLanguage(this.Language);
         }
@@ -130,6 +131,7 @@ namespace Rubik.Localization
         public void ChangeLanguage(string language)
         {
             this.Language = language;
+            this.Language = LocalizationConfig.Vietnamese;
             PlayerPrefs.SetString(LocalizationConfig.KeyLanguage, this.Language);
             string language_utd = this.Language + "_utd";
             LeanLanguageCSV leanLanguageCSV = this.LeanLanguageCSVList.Find(x => x.Language == language_utd);
