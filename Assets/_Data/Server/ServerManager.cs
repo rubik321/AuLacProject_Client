@@ -209,28 +209,28 @@ namespace Rubik.Manager
         // Start is called before the first frame update
         protected override void Start()
         {
-            StartCoroutine(NTFunction.WaitSecond(1f, () =>
-            {
-                PopupManager.Instance.OnUI(PopupCode.LongMessageUI, null, (PopupUI popupUI) =>
-                {
-                    LongMessageUI longMessageUI = popupUI as LongMessageUI;
-                    longMessageUI.SetData(
-                        Lean.Localization.LeanLocalization.GetTranslationText("location_service_title", "Unleash the Adventure!"),
-                        Lean.Localization.LeanLocalization.GetTranslationText("location_service_detail", "Embark on an epic quest filled with thrilling battles and hidden treasures! To enhance your gameplay experience, we request you give permission to access your location. This will allow us to unleash nearby monsters and unveil mysterious Astrals. \nSo prepare yourself for action-packed battles against monsters lurking in your vicinity! Use the Astrals to travel to exciting new realms and challenges! Enabling capitalized allows you to embark on this unforgettable adventure. You can always adjust your location settings later."),
-                        Lean.Localization.LeanLocalization.GetTranslationText("btn_allow", "Allow"),
-                        () =>
-                        {
-                            Input.location.Start();
-                            GeoPointManager.Instance.Init();
-                        },
-                        () =>
-                        {
-                            GeoPointManager.Instance.Init();
-                        },
-                        null
-                    );
-                });
-            }));
+            // StartCoroutine(NTFunction.WaitSecond(1f, () =>
+            // {
+            //     PopupManager.Instance.OnUI(PopupCode.LongMessageUI, null, (PopupUI popupUI) =>
+            //     {
+            //         LongMessageUI longMessageUI = popupUI as LongMessageUI;
+            //         longMessageUI.SetData(
+            //             Lean.Localization.LeanLocalization.GetTranslationText("location_service_title", "Unleash the Adventure!"),
+            //             Lean.Localization.LeanLocalization.GetTranslationText("location_service_detail", "Embark on an epic quest filled with thrilling battles and hidden treasures! To enhance your gameplay experience, we request you give permission to access your location. This will allow us to unleash nearby monsters and unveil mysterious Astrals. \nSo prepare yourself for action-packed battles against monsters lurking in your vicinity! Use the Astrals to travel to exciting new realms and challenges! Enabling capitalized allows you to embark on this unforgettable adventure. You can always adjust your location settings later."),
+            //             Lean.Localization.LeanLocalization.GetTranslationText("btn_allow", "Allow"),
+            //             () =>
+            //             {
+            //                 Input.location.Start();
+            //                 GeoPointManager.Instance.Init();
+            //             },
+            //             () =>
+            //             {
+            //                 GeoPointManager.Instance.Init();
+            //             },
+            //             null
+            //         );
+            //     });
+            // }));
 
             if (IsLoad) return;
             StartCoroutine(LoadData());
