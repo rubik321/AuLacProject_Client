@@ -51,7 +51,9 @@ namespace GOA.WorldMap.PortalGlobal
 
         public void UpdateData()
         {
-            PanelMainToolUI.instance.BtnGlobalPortal.gameObject.SetActive(true);
+            PanelMainToolUI.instance.BtnGlobalPortal.gameObject.SetActive(false);
+            return;
+            // PanelMainToolUI.instance.BtnGlobalPortal.gameObject.SetActive(true);
             // if (GeoPointManager.Instance.GlobalPortalData == null || GeoPointManager.Instance.GlobalPortalData.PointID == 0)
             // {
             //     PanelMainToolUI.instance.BtnGlobalPortal.gameObject.SetActive(false);
