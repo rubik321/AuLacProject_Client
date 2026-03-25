@@ -131,7 +131,7 @@ namespace MNP.MNPopup
 
         #region Show and Hide
         [NTButton]
-        public void Show()
+        public virtual void Show()
         {
             if (isShowing) return;
 
@@ -199,7 +199,7 @@ namespace MNP.MNPopup
         }
 
         [NTButton]
-        public void Hide()
+        public virtual void Hide()
         {
             if (!isShowing) return;
 
