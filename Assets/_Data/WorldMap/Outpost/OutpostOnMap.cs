@@ -47,6 +47,7 @@ namespace Rubik.Myrk.Portal
         }
 
         public override void OnClick(){
+            return;
             if(OutpostWorldMapManager.Instance.IsOccupied(this.TileX, this.TileY)){
                 return;
             }
