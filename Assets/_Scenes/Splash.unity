@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1320478018193158645, guid: eaff51f4e536a17419a8167a5170e648, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1618626236385355355, guid: eaff51f4e536a17419a8167a5170e648, type: 3}
       propertyPath: m_Name
       value: CharacterClothResource
@@ -322,7 +326,7 @@ Transform:
   m_GameObject: {fileID: 94687877}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 792.5123, y: 518.70123, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13715,8 +13719,8 @@ MonoBehaviour:
   - Name: skill_passive_detail_41
     Text: 'HP +{0}%, DEF+{1}%
 
-      Upon death, unleashes a searing curse that
-      Burns all enemies, dealing {2}% ATK damage per round for {3} rounds.'
+      Upon death, unleashes a searing curse that Burns
+      all enemies, dealing {2}% ATK damage per round for {3} rounds.'
   - Name: skill_passive_name_42
     Text: Ember Vengeance
   - Name: skill_passive_detail_42
@@ -16038,10 +16042,10 @@ MonoBehaviour:
       name="icon_spd_flat"> Speed:</b> Improves the team''s speed, allowing them
       to act first in combat.
 
-      
 
-      <b><size=80%>**Health and Speed are
-      shared with all monsters in the lineup, empowering the entire team.**</size></b>'
+
+      <b><size=80%>**Health and Speed are shared
+      with all monsters in the lineup, empowering the entire team.**</size></b>'
   - Name: summon
     Text: Summon
   - Name: clan_total_fight
