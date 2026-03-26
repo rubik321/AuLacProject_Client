@@ -78,12 +78,20 @@ namespace Rubik.Combat
             var skeletonData = skeleton.Data;
 
             var mixAndMatchSkin = new Skin("Skin 1");
-            Debug.Log("Cloth : " + skinData.Weapon);
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
+            Skin skin = skeletonData.FindSkin("Full skin hungvuong");
+            if(skin != null)
+            {
+                mixAndMatchSkin.AddSkin(skin);
+            }
+            else
+            {
+                mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            }
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
             skeleton.SetSkin(mixAndMatchSkin);
             skeleton.SetSlotsToSetupPose();
             skeletonAnimation.AnimationState.Apply(skeleton);
@@ -97,11 +105,20 @@ namespace Rubik.Combat
             var skeletonData = skeleton.Data;
 
             var mixAndMatchSkin = new Skin("Skin 1");
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
+            Skin skin = skeletonData.FindSkin("Full skin hungvuong");
+            if(skin != null)
+            {
+                mixAndMatchSkin.AddSkin(skin);
+            }
+            else
+            {
+                mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            }
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
             skeleton.SetSkin(mixAndMatchSkin);
             skeleton.SetSlotsToSetupPose();
             skeletonAnimation.AnimationState.Apply(skeleton);

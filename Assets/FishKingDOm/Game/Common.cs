@@ -15,7 +15,7 @@ namespace Rubik.Common
     {
         public static void ResetContent(Transform content)
         {
-           
+            if(content == null || content.GetComponentInParent<ScrollRect>() == null) return;
             content.GetComponentInParent<ScrollRect>().vertical = false;
 
             DOVirtual.DelayedCall(1, () =>
