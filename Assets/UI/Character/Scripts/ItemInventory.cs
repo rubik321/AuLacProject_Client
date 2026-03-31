@@ -23,7 +23,6 @@ public class ItemInventory : MonoBehaviour
         this.Border.gameObject.SetActive(true);
         // Bg.sprite = HightLightBg;
         // Border.sprite = HightLight;
-        Border.gameObject.SetActive(true);
     }
 
     public void UnChose()
