@@ -58,7 +58,8 @@ namespace Rubik.SettingUI
                 this.BtnRestoreIAP.gameObject.SetActive(false);
             }
 
-            if(Application.platform == RuntimePlatform.Android){
+            if (Application.platform == RuntimePlatform.Android)
+            {
                 this.BtnLinkGooglePlay.gameObject.SetActive(true);
             }
             else
@@ -258,7 +259,7 @@ namespace Rubik.SettingUI
         }
         public void OnNoticDiscord()
         {
-            Application.OpenURL(SystemManager.Instance.SystemData.Discord_Url);
+            //Application.OpenURL(SystemManager.Instance.SystemData.Discord_Url);
         }
 
 
@@ -357,7 +358,9 @@ namespace Rubik.SettingUI
                         messageOptionPanel.OffUI();
                     }, Lean.Localization.LeanLocalization.GetTranslationText("btn_cancel", "Cancel"));
                 });
-            }else{
+            }
+            else
+            {
                 // PopupManager.Instance.OnUI(PopupCode.MessageOptionPanel, null, (PopupUI popupUI) =>
                 // {
                 //     MessageOptionPanel messageOptionPanel = popupUI as MessageOptionPanel;
@@ -433,7 +436,8 @@ namespace Rubik.SettingUI
                     }, Lean.Localization.LeanLocalization.GetTranslationText("btn_cancel", "Cancel"));
                 });
             }
-            else{
+            else
+            {
                 PopupManager.Instance.OnUI(PopupCode.MessagePanel, null, (popup) =>
                 {
                     MessagePanel messagePanel = popup as MessagePanel;
