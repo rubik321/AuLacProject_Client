@@ -29,7 +29,7 @@ namespace Rubik.SystemData
     public class SystemConfig
     {
         public const string URL_HOST = "http://15.235.180.137:7040";
-        public const string Hung_URL_HOST = "http://103.167.89.114:7040";
+        public const string Hung_URL_HOST = "http://167.71.202.159:7040";
         public const string API_GET_SYSTEM = "/api/system/get_system_data";
     }
     public class SystemManager : NTBehaviour

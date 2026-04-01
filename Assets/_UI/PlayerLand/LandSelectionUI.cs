@@ -11,7 +11,7 @@ namespace Rubik.PlayerLand
 {
     public class LandSelectionUI : PopupUI
     {
-        public static List<RaceType> LsRace = new List<RaceType> { RaceType.Gaia, RaceType.Mechtronic, RaceType.Nepharian, RaceType.Emberfolk, RaceType.Arcanian, RaceType.Shifterian };
+        public static List<RaceType> LsRace = new List<RaceType> { RaceType.Gaia, RaceType.Mechtronic, RaceType.Nepharian, RaceType.Emberfolk, RaceType.Arcanian };
         public List<LandSelectionItem> LsLandSelectionItem;
 
         public RaceType RaceSelected = RaceType.Gaia;

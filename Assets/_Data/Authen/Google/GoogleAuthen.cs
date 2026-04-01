@@ -1,4 +1,5 @@
-#if UNITY_ANDROID
+// #if UNITY_ANDROID
+#if FALSE
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 #endif
@@ -69,7 +70,7 @@ namespace Rubik.GoogleAuthen
 
         public void LoginGooglePlayGames(Action<string, string, string, bool> done = null)
         {
-#if UNITY_ANDROID
+#if FALSE
             NTLog.LogMessage("LoginGooglePlayGames");
             HUDCanvas.Instance.ShowLoadingPanel();
             try
@@ -126,7 +127,7 @@ namespace Rubik.GoogleAuthen
 
         private void GetEmail(Action<string> done = null)
         {
-#if UNITY_ANDROID
+#if FALSE
             PlayGamesPlatform.Instance.RequestServerSideAccess(true, new List<AuthScope> { AuthScope.EMAIL, AuthScope.PROFILE, AuthScope.OPEN_ID }, authResponse =>
             {
                 StartCoroutine(ExchangeCodeForToken(authResponse.GetAuthCode(), done));

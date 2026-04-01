@@ -211,8 +211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
-  m_SizeDelta: {x: 1115, y: 600}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1111063950089474339
 CanvasRenderer:
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab01fea19e9c4b54cab23f7fae7689ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  funnyCheck: 0
+  funnyCheck: 1
   popupCode: 2
   transPanel: {fileID: 3170751766870667465}
   show: 2
@@ -667,7 +667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.3283e-10, y: 147}
+  m_AnchoredPosition: {x: -2.3283e-10, y: 265}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1111063950867985869
@@ -1259,9 +1259,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6f8133e704902f4a8414ee8118f7966, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: 30d62d2f3f94741a0b2cdaa375b48abc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1471,7 +1471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 200, y: 100}
+  m_AnchoredPosition: {x: 200, y: 324}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7067480902392296742
@@ -1564,7 +1564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -204, y: 100}
+  m_AnchoredPosition: {x: -204, y: 324}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2914821032156404429
@@ -1718,9 +1718,13 @@ PrefabInstance:
       value: Agree
       objectReference: {fileID: 0}
     - target: {fileID: 3430590797204200153, guid: 7276789c8b1480241b358e350b6305a8, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430590797204200153, guid: 7276789c8b1480241b358e350b6305a8, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 618344074bb479f4d89455f29e7c7f75, type: 3}
+      objectReference: {fileID: 21300000, guid: 60a36fabb229b7b4a94a62d8e5f364a7, type: 3}
     - target: {fileID: 8167962150378718823, guid: 7276789c8b1480241b358e350b6305a8, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -2276,7 +2280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7352154131340201143, guid: 579651762c0ad064c8f0d5a79937991c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 111.52
       objectReference: {fileID: 0}
     - target: {fileID: 7352154131340201143, guid: 579651762c0ad064c8f0d5a79937991c, type: 3}
       propertyPath: m_SizeDelta.y

@@ -1,5 +1,6 @@
 using UnityEngine;
-#if UNITY_IOS
+// #if UNITY_IOS
+#if FALSE
 using Apple.GameKit;
 #endif
 using System;
@@ -24,7 +25,8 @@ namespace Rubik.AppleAuthen
 
         public void LoginGameCenter(Action<string, string, bool> done = null)
         {
-#if UNITY_IOS
+// #if UNITY_IOS
+#if FALSE
             try
             {
                 GKLocalPlayer.Authenticate().ContinueWith((task) =>

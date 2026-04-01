@@ -9,6 +9,7 @@ using Spine;
 using Rubik._2DGPS.UserData;
 using Rubik.CharacterGear;
 using System.Linq;
+using NTPackage.Functions;
 
 namespace Rubik.Combat
 {
@@ -77,12 +78,20 @@ namespace Rubik.Combat
             var skeletonData = skeleton.Data;
 
             var mixAndMatchSkin = new Skin("Skin 1");
-            Debug.Log("Cloth : " + skinData.Weapon);
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
+            Skin skin = skeletonData.FindSkin("Full skin hungvuong");
+            if(skin != null)
+            {
+                mixAndMatchSkin.AddSkin(skin);
+            }
+            else
+            {
+                mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            }
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
             skeleton.SetSkin(mixAndMatchSkin);
             skeleton.SetSlotsToSetupPose();
             skeletonAnimation.AnimationState.Apply(skeleton);
@@ -96,11 +105,20 @@ namespace Rubik.Combat
             var skeletonData = skeleton.Data;
 
             var mixAndMatchSkin = new Skin("Skin 1");
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
+            Skin skin = skeletonData.FindSkin("Full skin hungvuong");
+            if(skin != null)
+            {
+                mixAndMatchSkin.AddSkin(skin);
+            }
+            else
+            {
+                mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            }
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Weapon));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Eye));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Hair));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Scar));
+            // mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinData.Suit));
             skeleton.SetSkin(mixAndMatchSkin);
             skeleton.SetSlotsToSetupPose();
             skeletonAnimation.AnimationState.Apply(skeleton);
@@ -122,7 +140,8 @@ namespace Rubik.Combat
                // Rubik.CharacterGear.CharacterGear characterGear = CharacterGearManager.Instance.
                 string cloth = Rubik.SpineManager.SpineController.Instance.GetCharacterGearSpineName(idGear);
                 var temp = CharacterGearManager.Instance.GetGearDataByIndex((CharacterGearIndex)idGear);
-                Debug.Log("Cloth id : " + cloth + "id gear : "+idGear);
+                NTLog.LogMessage("Cloth id : " + cloth + "id gear : "+idGear);
+                if(temp == null) continue;
                 switch (temp.Type)
                 {
                     case CharacterGearType.Hair:

@@ -12,23 +12,25 @@ public class ItemInventory : MonoBehaviour
 
     public Image Bg;
     public Image Border;
+    // public Sprite HightLight;
+    // public Sprite HightLightBg;
 
-    public Sprite HightLight;
-    public Sprite HightLightBg;
+    // public Sprite Normal;
+    // public Sprite NormalBg;
 
-    public Sprite Normal;
-    public Sprite NormalBg;
-
-    public void Chose(){
+    public void Chose()
+    {
         this.Border.gameObject.SetActive(true);
-        Bg.sprite = HightLightBg;
-        Border.sprite = HightLight;
+        // Bg.sprite = HightLightBg;
+        // Border.sprite = HightLight;
+        Border.gameObject.SetActive(true);
     }
 
-    public void UnChose(){
+    public void UnChose()
+    {
         this.Border.gameObject.SetActive(false);
-        Bg.sprite = NormalBg;
-        Border.sprite = Normal;
+        // Bg.sprite = NormalBg;
+        // Border.sprite = Normal;
     }
-   
+
 }
