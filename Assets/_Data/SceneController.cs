@@ -16,6 +16,7 @@ namespace Rubik.Config
         public const string Login_Screen = "Login";
         public const string WorldMap_Screen = "WorldMapScenes";
         public const string Battle_Screen = "Campaign";
+        public const string AR_Screen = "ARScene";
     }
 
     public class SceneController : NTBehaviour

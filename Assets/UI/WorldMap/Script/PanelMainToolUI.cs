@@ -5,10 +5,12 @@ using GOA.WorldMap;
 using GoShared;
 using NTPackage.Functions;
 using NTPackage.UI;
+using Rubik.Config;
 using Rubik.UI;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace GOA.UIWorldMap
 {
@@ -103,6 +105,10 @@ namespace GOA.UIWorldMap
                     messageOptionPanel.OffUI();
                 }, Lean.Localization.LeanLocalization.GetTranslationText("cancel", "Cancel"));
             });
+        }
+
+        public void GotoAR(){
+            SceneController.Instance.LoadScene(SceneConfig.AR_Screen);
         }
 
         public void TeleportBackLocal(){
